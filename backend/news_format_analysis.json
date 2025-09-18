@@ -1,0 +1,40 @@
+{
+  "articles_found": 10,
+  "common_classes": {
+    "menu-item": 30,
+    "fusion-clearfix": 23,
+    "menu-item-type-post_type": 21,
+    "menu-item-object-page": 21,
+    "fusion-textcolor-highlight": 21,
+    "menu-text": 21,
+    "fusion-inline-sep": 20,
+    "fusion-post-medium-alternate": 10,
+    "post": 10,
+    "type-post": 10
+  },
+  "format_suggestions": {
+    "title_format": "使用H1标签作为文章标题",
+    "content_structure": "使用段落标签<p>包装正文内容",
+    "heading_hierarchy": "使用H2、H3标签创建小标题",
+    "list_format": "使用<ul>和<li>标签创建列表",
+    "emphasis_format": "使用<strong>和<em>标签强调重要内容",
+    "paragraph_spacing": "段落之间保持适当间距",
+    "class_suggestions": [
+      "使用post-content类包装文章内容"
+    ]
+  },
+  "sample_articles": [
+    {
+      "index": 1,
+      "title": "不锈钢手工镜面抛光",
+      "content_preview": "\n不锈钢手工镜面抛光\n静钧研磨|2020-12-21T15:48:32+08:002020年9 月27日|\n\n 手工打磨抛光，目前还处于主要打磨阶段，虽然机器人的打磨抛光已经慢慢走上正规，但是不得不说的是，机器人打磨首先一个是占地面积，需要大量的面积来安 \n",
+      "html_structure": "<article class=\"fusion-post-medium-alternate post fusion-clearfix post-2289 type-post status-publish format-standard has-post-thumbnail sticky hentry category-bxgquhanfeng category-xw tag-152\" id=\"post-2289\">\n<div class=\"fusion-date-and-formats\">\n<div class=\"fusion-date-box\">\n<span class=\"fusion-date\">\n\t\t27\t</span>\n<span class=\"fusion-month-year\">\n\t\t09, 2020\t</span>\n</div>\n<div class=\"fusion-format-box\">\n<i aria-hidden=\"true\" class=\"awb-icon-pen\"></i>\n</div>\n</div>\n<div class=\"fusion-flexslider flexslider fusion-flexslider-loading fusion-post-slideshow\">\n<ul class=\"slides\">\n<li><div aria-haspopup=\"true\" class=\"fusion-image-wrapper fusion-image-size-fixed\">\n<a aria-label=\"不锈钢手工镜面抛光\" href=\"https://www.shjingjun.com/xw/bxgsgrhjmpg.html\">\n<img alt=\"\" class=\"attachment-blog-medium size-blog-medium lazyload wp-post-image\" data-orig-src=\"https://www.shjingjun.com/wp-content/uploads/2020/09/2020092709032944-320x202.jpg\" data-sizes=\"auto\" data-srcset=\"https://www.shjingjun.com/wp-content/upload"
+    },
+    {
+      "index": 2,
+      "title": "抛光风布轮厂家 – 上海静钧研磨专业供应商",
+      "content_preview": "\n抛光风布轮厂家 – 上海静钧研磨专业供应商\n静钧研磨|2025-09-15T17:58:42+08:002025年9 月15日|\n\n# 20年专业抛光风布轮厂家：从技术参数到应用场景的一站式解决方案 在精密制造领域中，抛光工艺是提升产品表面质量与附加值的关键环节，而抛光风布轮 \n",
+      "html_structure": "<article class=\"fusion-post-medium-alternate post fusion-clearfix post-3895 type-post status-publish format-standard hentry category-xw\" id=\"post-3895\">\n<div class=\"fusion-date-and-formats\">\n<div class=\"fusion-date-box\">\n<span class=\"fusion-date\">\n\t\t15\t</span>\n<span class=\"fusion-month-year\">\n\t\t09, 2025\t</span>\n</div>\n<div class=\"fusion-format-box\">\n<i aria-hidden=\"true\" class=\"awb-icon-pen\"></i>\n</div>\n</div>\n<div class=\"fusion-post-content post-content\">\n<h2 class=\"entry-title fusion-post-title\"><a href=\"https://www.shjingjun.com/xw/%e6%8a%9b%e5%85%89%e9%a3%8e%e5%b8%83%e8%bd%ae%e5%8e%82%e5%ae%b6-%e4%b8%8a%e6%b5%b7%e9%9d%99%e9%92%a7%e7%a0%94%e7%a3%a8%e4%b8%93%e4%b8%9a%e4%be%9b%e5%ba%94%e5%95%86.html\">抛光风布轮厂家 – 上海静钧研磨专业供应商</a></h2>\n<p class=\"fusion-single-line-meta\"><span><a href=\"https://www.shjingjun.com/author/jingjun2020\" rel=\"author\" title=\"由 静钧研磨 发布\">静钧研磨</a></span><span class=\"fusion-inline-sep\">|</span><span class=\"updated rich-snippet-hidden\">2025-09-15T17:58:42+08:00</span><s"
+    }
+  ]
+}

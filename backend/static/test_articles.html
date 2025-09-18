@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章显示测试</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: #f5f6fa;
+            color: #333;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        /* 文章容器样式 - 确保每篇文章完全分开 */
+        .article-container {
+            display: block !important;
+            clear: both !important;
+            margin: 20px 0 !important;
+            padding: 20px !important;
+            border-radius: 12px !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+            overflow: hidden !important;
+            position: relative !important;
+        }
+        
+        .article-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+        }
+        
+        .article-container:not(:last-child) {
+            margin-bottom: 30px !important;
+        }
+        
+        .enhanced {
+            background: #fdf2f2;
+            border: 2px solid #e74c3c;
+        }
+        
+        .basic {
+            background: #e8f5e8;
+            border: 2px solid #27ae60;
+        }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .badge-enhanced {
+            background: #e74c3c;
+        }
+        
+        .badge-basic {
+            background: #27ae60;
+        }
+        
+        .stats {
+            font-size: 12px;
+            color: #7f8c8d;
+            background: rgba(255,255,255,0.7);
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+        
+        .section {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 8px;
+        }
+        
+        .section-title {
+            color: #2c3e50;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .section-content {
+            font-size: 14px;
+            color: #34495e;
+            line-height: 1.5;
+        }
+        
+        .buttons {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-right: 10px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .btn-copy {
+            background: #3498db;
+            color: white;
+        }
+        
+        .btn-copy:hover {
+            background: #2980b9;
+        }
+        
+        .btn-view {
+            background: #f39c12;
+            color: white;
+        }
+        
+        .btn-view:hover {
+            background: #e67e22;
+        }
+        
+        .content-hidden {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 8px;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid rgba(0,0,0,0.1);
+            font-size: 14px;
+            line-height: 1.6;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 文章显示效果测试</h1>
+        
+        <!-- 第一篇文章 - 增强版 -->
+        <div class="article-container enhanced">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="badge badge-enhanced">增强版</div>
+                    <strong style="color: #2c3e50; font-size: 18px;">1. 抛光轮</strong>
+                </div>
+                <div class="stats">
+                    得分: 100.66 | 点击: 17 | 转化率: 85.2%
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📝 标题:</div>
+                <div class="section-content" style="font-size: 16px; line-height: 1.4;">
+                    专业抛光轮厂家推荐：上海静钧研磨20年经验，品质保证
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📋 摘要:</div>
+                <div class="section-content">
+                    上海静钧研磨作为专业抛光轮厂家，拥有20年行业经验，提供高品质抛光轮产品。我们的抛光轮采用优质材料制作，适用于各种金属、塑料等材料的表面处理...
+                </div>
+            </div>
+            
+            <div class="section" style="background: #f0f8ff; border-left: 4px solid #3498db;">
+                <div class="section-title">🔍 搜索来源:</div>
+                <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">
+                    百度百科: 抛光轮 | 知乎: 抛光轮选择指南
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-copy" onclick="copyContent(1)">📋 复制内容</button>
+                <button class="btn btn-view" onclick="toggleContent(1)">👁️ 查看全文</button>
+            </div>
+            
+            <div id="content-1" class="content-hidden">
+                <h3>专业抛光轮厂家推荐：上海静钧研磨20年经验，品质保证</h3>
+                <p>在机械制造、汽车工业、精密仪器等领域，抛光工序直接决定产品表面质量。选择一家可靠的抛光轮厂家，不仅关系到生产效率，更影响最终产品的品质。</p>
+                
+                <h4>为什么选择上海静钧研磨？</h4>
+                <ul>
+                    <li><strong>20年专业经验</strong>：自2003年成立以来，专注抛光轮研发生产</li>
+                    <li><strong>品质保证</strong>：通过ISO9001质量管理体系认证</li>
+                    <li><strong>技术领先</strong>：拥有多项抛光轮制造专利技术</li>
+                    <li><strong>服务完善</strong>：提供从选型到售后的全程技术支持</li>
+                </ul>
+                
+                <h4>产品优势</h4>
+                <p>我们的抛光轮采用优质磨料和先进工艺制作，具有以下特点：</p>
+                <ul>
+                    <li>磨削效率高，表面光洁度好</li>
+                    <li>使用寿命长，性价比高</li>
+                    <li>规格齐全，满足不同需求</li>
+                    <li>质量稳定，批次一致性好</li>
+                </ul>
+                
+                <p><strong>选择上海静钧研磨，选择专业品质！让数据说话，让效果证明！</strong></p>
+            </div>
+        </div>
+        
+        <!-- 第二篇文章 - 基础版 -->
+        <div class="article-container basic">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="badge badge-basic">基础版</div>
+                    <strong style="color: #2c3e50; font-size: 18px;">2. 抛光布轮</strong>
+                </div>
+                <div class="stats">
+                    得分: 85.32 | 点击: 12 | 转化率: 72.1%
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📝 标题:</div>
+                <div class="section-content" style="font-size: 16px; line-height: 1.4;">
+                    抛光布轮选择指南：如何选择适合的抛光布轮
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📋 摘要:</div>
+                <div class="section-content">
+                    抛光布轮是表面处理的重要工具，选择合适的抛光布轮对提高抛光效果至关重要。本文介绍抛光布轮的种类、特点及选择方法...
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-copy" onclick="copyContent(2)">📋 复制内容</button>
+                <button class="btn btn-view" onclick="toggleContent(2)">👁️ 查看全文</button>
+            </div>
+            
+            <div id="content-2" class="content-hidden">
+                <h3>抛光布轮选择指南：如何选择适合的抛光布轮</h3>
+                <p>抛光布轮作为表面处理的重要工具，其选择直接影响抛光效果和效率。了解抛光布轮的特点和选择方法，能够帮助您获得更好的抛光效果。</p>
+                
+                <h4>抛光布轮的种类</h4>
+                <ul>
+                    <li><strong>棉布轮</strong>：适用于精细抛光，表面光洁度高</li>
+                    <li><strong>麻布轮</strong>：磨削力强，适合粗抛光</li>
+                    <li><strong>混合布轮</strong>：结合棉麻优点，适用范围广</li>
+                </ul>
+                
+                <h4>选择要点</h4>
+                <p>选择抛光布轮时需要考虑以下因素：</p>
+                <ul>
+                    <li>材料类型和硬度</li>
+                    <li>表面粗糙度要求</li>
+                    <li>抛光效率要求</li>
+                    <li>成本预算</li>
+                </ul>
+                
+                <p>正确选择抛光布轮，能够提高抛光效率，降低生产成本。</p>
+            </div>
+        </div>
+        
+        <!-- 第三篇文章 - 增强版 -->
+        <div class="article-container enhanced">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="badge badge-enhanced">增强版</div>
+                    <strong style="color: #2c3e50; font-size: 18px;">3. 抛光麻轮</strong>
+                </div>
+                <div class="stats">
+                    得分: 92.45 | 点击: 15 | 转化率: 78.5%
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📝 标题:</div>
+                <div class="section-content" style="font-size: 16px; line-height: 1.4;">
+                    抛光麻轮技术参数详解：从实验室到生产线的应用
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📋 摘要:</div>
+                <div class="section-content">
+                    抛光麻轮作为重要的表面处理工具，其技术参数直接影响抛光效果。本文详细介绍抛光麻轮的技术参数、选型指南及实际应用案例...
+                </div>
+            </div>
+            
+            <div class="section" style="background: #f0f8ff; border-left: 4px solid #3498db;">
+                <div class="section-title">🔍 搜索来源:</div>
+                <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">
+                    技术论坛: 抛光麻轮参数 | 行业报告: 抛光工具市场分析
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-copy" onclick="copyContent(3)">📋 复制内容</button>
+                <button class="btn btn-view" onclick="toggleContent(3)">👁️ 查看全文</button>
+            </div>
+            
+            <div id="content-3" class="content-hidden">
+                <h3>抛光麻轮技术参数详解：从实验室到生产线的应用</h3>
+                <p>选择靠谱的抛光麻轮厂家前，需关注以下核心参数，避免因"参数不匹配"导致抛光效果差或设备损耗：</p>
+                
+                <h4>核心技术参数</h4>
+                <ul>
+                    <li><strong>磨料粒度</strong>：影响表面粗糙度，常用60#-320#</li>
+                    <li><strong>硬度等级</strong>：决定磨削力，软硬适中最佳</li>
+                    <li><strong>转速范围</strong>：根据材料特性选择合适转速</li>
+                    <li><strong>使用寿命</strong>：影响生产成本和效率</li>
+                </ul>
+                
+                <h4>应用案例</h4>
+                <p><strong>案例1：汽车轮毂镜面级抛光</strong></p>
+                <p>使用120#抛光麻轮，转速2800rpm，获得镜面效果，表面粗糙度Ra≤0.1μm。</p>
+                
+                <p><strong>案例2：不锈钢管件批量抛光</strong></p>
+                <p>采用80#抛光麻轮，转速3200rpm，单件抛光时间缩短30%，效率显著提升。</p>
+                
+                <p>正确选择抛光麻轮参数，能够实现高效、高质量的抛光效果。</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function copyContent(index) {
+            const content = document.getElementById(`content-${index}`).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('文章内容已复制到剪贴板！');
+            }).catch(err => {
+                alert('复制失败，请手动复制');
+            });
+        }
+        
+        function toggleContent(index) {
+            const contentDiv = document.getElementById(`content-${index}`);
+            if (contentDiv.style.display === 'none') {
+                contentDiv.style.display = 'block';
+            } else {
+                contentDiv.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+
+

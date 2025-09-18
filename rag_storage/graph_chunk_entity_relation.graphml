@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Alex">
+  <data key="d0">Alex</data>
+  <data key="d1">person</data>
+  <data key="d2">Alex experiences frustration and is observant of the dynamics among other characters.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063372</data>
+</node>
+<node id="Taylor">
+  <data key="d0">Taylor</data>
+  <data key="d1">person</data>
+  <data key="d2">Taylor has authoritarian certainty, shows reverence towards a device, and has a change in perspective.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063372</data>
+</node>
+<node id="Jordan">
+  <data key="d0">Jordan</data>
+  <data key="d1">person</data>
+  <data key="d2">Jordan shares a commitment to discovery and has an interaction with Taylor regarding a device.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063372</data>
+</node>
+<node id="Cruz">
+  <data key="d0">Cruz</data>
+  <data key="d1">person</data>
+  <data key="d2">Cruz has a narrowing vision of control and order.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063372</data>
+</node>
+<node id="tech">
+  <data key="d0">tech</data>
+  <data key="d1">technology</data>
+  <data key="d2">A device that Taylor believes could change the game if understood.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063373</data>
+</node>
+<node id="HU YIFAN">
+  <data key="d0">HU YIFAN</data>
+  <data key="d1">person</data>
+  <data key="d2">HU YIFAN is a 25 - year - old female majoring in computer science with a minor in Mathematics. She has extensive experience in AI start - ups, various technical roles, and educational background from the University of Sydney. She is proficient in multiple languages and has skills in coding and multidisciplinary knowledge.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063373</data>
+</node>
+<node id="Yovole Network SHANGHAI">
+  <data key="d0">Yovole Network SHANGHAI</data>
+  <data key="d1">organization</data>
+  <data key="d2">An organization where HU YIFAN was involved in cloud computing and internet data center tasks such as cloud platform monitoring and microservices platform maintenance.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063373</data>
+</node>
+<node id="SUZHOU start - up">
+  <data key="d0">SUZHOU start - up</data>
+  <data key="d1">organization</data>
+  <data key="d2">A start - up where HU YIFAN collected EEG, EMG to develop products based on designed chips and algorithms.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063373</data>
+</node>
+<node id="University of Sydney">
+  <data key="d0">University of Sydney</data>
+  <data key="d1">organization</data>
+  <data key="d2">The educational institution where HU YIFAN obtained a Bachelor of science in computer science with a minor in Math from 2020.8 - 2024.6.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063373</data>
+</node>
+<node id="SHANGHAI">
+  <data key="d0">SHANGHAI</data>
+  <data key="d1">geo</data>
+  <data key="d2">A geographical location where Yovole Network is based.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063373</data>
+</node>
+<node id="SUZHOU">
+  <data key="d0">SUZHOU</data>
+  <data key="d1">geo</data>
+  <data key="d2">A geographical location where a start - up is located where HU YIFAN gained experience.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063374</data>
+</node>
+<node id="AI start - up">
+  <data key="d0">AI start - up</data>
+  <data key="d1">category</data>
+  <data key="d2">A category representing start - up companies in the field of artificial intelligence, where HU YIFAN has gained experience.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063374</data>
+</node>
+<node id="VV4G Technologies Ltd.&quot;|&gt;&quot;HU YIFAN had an internship as a deep learning engineer at VV4G Technologies Ltd.">
+  <data key="d0">VV4G Technologies Ltd."|&gt;"HU YIFAN had an internship as a deep learning engineer at VV4G Technologies Ltd.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d2">employment - internship</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063374</data>
+</node>
+<node id="cloud computing, internet data center (IDC)&quot;|&gt;&quot;HU YIFAN has worked in the cloud computing and IDC area at Yovole Network SHANGHAI.">
+  <data key="d0">cloud computing, internet data center (IDC)"|&gt;"HU YIFAN has worked in the cloud computing and IDC area at Yovole Network SHANGHAI.</data>
+  <data key="d3">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d2">work - category</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">resume-aigc.pdf</data>
+  <data key="d5">1757063375</data>
+</node>
+<edge source="HU YIFAN" target="VV4G Technologies Ltd.&quot;|&gt;&quot;HU YIFAN had an internship as a deep learning engineer at VV4G Technologies Ltd.">
+  <data key="d6">8.0</data>
+  <data key="d7">employment - internship</data>
+  <data key="d8">8</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063374</data>
+</edge>
+<edge source="HU YIFAN" target="Yovole Network SHANGHAI">
+  <data key="d6">8.0</data>
+  <data key="d7">HU YIFAN worked on cloud computing and IDC tasks at Yovole Network SHANGHAI.</data>
+  <data key="d8">employment - work</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063374</data>
+</edge>
+<edge source="HU YIFAN" target="SUZHOU start - up">
+  <data key="d6">8.0</data>
+  <data key="d7">HU YIFAN collected EEG, EMG and developed products at the SUZHOU start - up.</data>
+  <data key="d8">employment - work</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063375</data>
+</edge>
+<edge source="HU YIFAN" target="University of Sydney">
+  <data key="d6">9.0</data>
+  <data key="d7">HU YIFAN studied at the University of Sydney from 2020.8 - 2024.6.</data>
+  <data key="d8">education - student</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063375</data>
+</edge>
+<edge source="HU YIFAN" target="AI start - up">
+  <data key="d6">7.0</data>
+  <data key="d7">HU YIFAN has experience in AI start - ups.</data>
+  <data key="d8">experience - category</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063375</data>
+</edge>
+<edge source="HU YIFAN" target="cloud computing, internet data center (IDC)&quot;|&gt;&quot;HU YIFAN has worked in the cloud computing and IDC area at Yovole Network SHANGHAI.">
+  <data key="d6">7.0</data>
+  <data key="d7">work - category</data>
+  <data key="d8">7</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063375</data>
+</edge>
+<edge source="Yovole Network SHANGHAI" target="SHANGHAI">
+  <data key="d6">9.0</data>
+  <data key="d7">Yovole Network SHANGHAI is located in SHANGHAI.</data>
+  <data key="d8">organization - location</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063375</data>
+</edge>
+<edge source="SUZHOU start - up" target="SUZHOU">
+  <data key="d6">9.0</data>
+  <data key="d7">The SUZHOU start - up is located in SUZHOU.</data>
+  <data key="d8">organization - location</data>
+  <data key="d9">chunk-2a68ad4f4603d67f8e74061ab6ca73f9</data>
+  <data key="d10">resume-aigc.pdf</data>
+  <data key="d11">1757063375</data>
+</edge>
+</graph></graphml>

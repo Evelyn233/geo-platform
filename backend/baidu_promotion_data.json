@@ -1,0 +1,119 @@
+{
+  "promotion_data": {
+    "summary": {
+      "total_cost": 958.77,
+      "total_clicks": 720,
+      "total_pv": 346,
+      "avg_bounce_rate": 41.18,
+      "avg_visit_duration": "00:03:02"
+    },
+    "top_keywords": [
+      {
+        "keyword": "抛光白膏",
+        "cost": 154.24,
+        "clicks": 108,
+        "pv": 23,
+        "bounce_rate": 37.5,
+        "visit_duration": "00:03:49",
+        "plan": "A级计划-抛光类",
+        "category": "膏-产品词"
+      },
+      {
+        "keyword": "抛光布轮",
+        "cost": 143.2,
+        "clicks": 156,
+        "pv": 12,
+        "bounce_rate": 40.0,
+        "visit_duration": "00:05:16",
+        "plan": "A级计划-抛光类",
+        "category": "材料"
+      },
+      {
+        "keyword": "尼龙打磨片",
+        "cost": 103.29,
+        "clicks": 66,
+        "pv": 33,
+        "bounce_rate": 50.0,
+        "visit_duration": "00:01:06",
+        "plan": "A级计划-研磨类",
+        "category": "打磨片-产品词"
+      }
+    ],
+    "all_keywords": [
+      {
+        "rank": 1,
+        "keyword": "抛光轮布轮,麻轮",
+        "cost": 31.55,
+        "clicks": 17,
+        "pv": 48,
+        "bounce_rate": 54.55,
+        "visit_duration": "00:02:35",
+        "plan": "A级计划-抛光类",
+        "category": "布轮-产品词"
+      },
+      {
+        "rank": 2,
+        "keyword": "抛光风布轮厂家",
+        "cost": 22.81,
+        "clicks": 12,
+        "pv": 48,
+        "bounce_rate": 0.0,
+        "visit_duration": "00:15:50",
+        "plan": "A级计划-抛光类",
+        "category": "布轮-厂家词"
+      },
+      {
+        "rank": 3,
+        "keyword": "生产尼龙打磨片",
+        "cost": 103.29,
+        "clicks": 66,
+        "pv": 33,
+        "bounce_rate": 50.0,
+        "visit_duration": "00:01:06",
+        "plan": "A级计划-研磨类",
+        "category": "打磨片-产品词"
+      },
+      {
+        "rank": 4,
+        "keyword": "抛光白膏",
+        "cost": 154.24,
+        "clicks": 108,
+        "pv": 23,
+        "bounce_rate": 37.5,
+        "visit_duration": "00:03:49",
+        "plan": "A级计划-抛光类",
+        "category": "膏-产品词"
+      },
+      {
+        "rank": 5,
+        "keyword": "海绵抛光轮",
+        "cost": 26.04,
+        "clicks": 11,
+        "pv": 23,
+        "bounce_rate": 28.57,
+        "visit_duration": "00:00:41",
+        "plan": "A级计划-抛光类",
+        "category": "抛光盘-产品词"
+      }
+    ],
+    "analysis": {
+      "high_performance_keywords": [
+        "抛光白膏",
+        "抛光布轮", 
+        "尼龙打磨片"
+      ],
+      "optimization_opportunities": [
+        "降低跳出率",
+        "提高点击转化率",
+        "优化落地页内容"
+      ],
+      "recommendations": [
+        "重点关注高消费低转化关键词",
+        "优化落地页用户体验",
+        "增加产品详情页内容"
+      ]
+    },
+    "fetch_time": "2025-09-14T21:45:00"
+  }
+}
+

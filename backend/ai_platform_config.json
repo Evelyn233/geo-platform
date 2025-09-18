@@ -1,0 +1,64 @@
+{
+  "platforms": [
+    {
+      "name": "豆包",
+      "api_base_url": "https://ark.cn-beijing.volces.com",
+      "api_key": "your_doubao_api_key_here",
+      "rate_limit": 20,
+      "timeout": 30,
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer your_doubao_api_key_here"
+      },
+      "enabled": true
+    },
+    {
+      "name": "Deepseek",
+      "api_base_url": "https://api.deepseek.com",
+      "api_key": "your_deepseek_api_key_here",
+      "rate_limit": 15,
+      "timeout": 30,
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer your_deepseek_api_key_here"
+      },
+      "enabled": true
+    },
+    {
+      "name": "通义",
+      "api_base_url": "https://dashscope.aliyuncs.com",
+      "api_key": "your_tongyi_api_key_here",
+      "rate_limit": 10,
+      "timeout": 30,
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer your_tongyi_api_key_here"
+      },
+      "enabled": true
+    },
+    {
+      "name": "元宝",
+      "api_base_url": "https://hunyuan.tencentcloudapi.com",
+      "api_key": "your_yuanbao_api_key_here",
+      "rate_limit": 8,
+      "timeout": 30,
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer your_yuanbao_api_key_here"
+      },
+      "enabled": false
+    },
+    {
+      "name": "KIMI",
+      "api_base_url": "https://api.moonshot.cn",
+      "api_key": "your_kimi_api_key_here",
+      "rate_limit": 12,
+      "timeout": 30,
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer your_kimi_api_key_here"
+      },
+      "enabled": false
+    }
+  ]
+}

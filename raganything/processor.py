@@ -1178,13 +1178,19 @@ class ProcessorMixin:
         try:
             current_doc_status = await self.lightrag.doc_status.get_by_id(doc_id)
             if current_doc_status:
+                # Only update fields that exist in the current DocProcessingStatus
+                update_data = {
+                    **current_doc_status,
+                    "updated_at": time.strftime("%Y-%m-%dT%H:%M:%S+00:00"),
+                }
+                
+                # Only add multimodal_processed if the field exists in current status
+                if "multimodal_processed" in current_doc_status:
+                    update_data["multimodal_processed"] = True
+                
                 await self.lightrag.doc_status.upsert(
                     {
-                        doc_id: {
-                            **current_doc_status,
-                            "multimodal_processed": True,
-                            "updated_at": time.strftime("%Y-%m-%dT%H:%M:%S+00:00"),
-                        }
+                        doc_id: update_data
                     }
                 )
                 await self.lightrag.doc_status.index_done_callback()

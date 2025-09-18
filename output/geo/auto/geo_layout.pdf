@@ -1,0 +1,7156 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 21
+/Kids [ 4 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R 35 0 R 38 0 R 41 0 R 44 0 R 47 0 R 50 0 R 53 0 R 56 0 R 59 0 R 62 0 R 65 0 R 68 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6084
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 741.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (GEO: Generative Engine Optimization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 709.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pranjal Aggarwal) Tj /F3 10 Tf 12 TL (*) Tj /F1 10 Tf 12 TL ( Indian Institute of Technology Delhi New Delhi, India pranjal2041@gmail.com) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 703.8898 cm
+Q
+q
+1 0 0 1 78 691.8898 cm
+Q
+q
+1 0 0 1 78 679.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vishvak Murahari) Tj /F3 10 Tf 12 TL (*) Tj /F1 10 Tf 12 TL T* ET
+Q
+Q
+q
+1 0 0 1 78 673.8898 cm
+Q
+q
+1 0 0 1 78 661.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Princeton University) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 655.8898 cm
+Q
+q
+1 0 0 1 78 643.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Princeton, USA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 637.8898 cm
+Q
+q
+1 0 0 1 78 625.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (murahari@cs.princeton.edu) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 619.8898 cm
+Q
+q
+1 0 0 1 78 607.8898 cm
+Q
+q
+1 0 0 1 78 595.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Tanmay Rajpurohit Independent Seattle, USA tanmay.rajpurohit@gmail.com) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.8898 cm
+Q
+q
+1 0 0 1 78 577.8898 cm
+Q
+q
+1 0 0 1 78 565.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ashwin Kalyan) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 559.8898 cm
+Q
+q
+1 0 0 1 78 547.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Independent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 541.8898 cm
+Q
+q
+1 0 0 1 78 529.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Seattle, USA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.8898 cm
+Q
+q
+1 0 0 1 78 511.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (asaavashwin@gmail.com) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 505.8898 cm
+Q
+q
+1 0 0 1 78 493.8898 cm
+Q
+q
+1 0 0 1 78 481.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Karthik Narasimhan Princeton University Princeton, USA karthikn@princeton.edu) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 475.8898 cm
+Q
+q
+1 0 0 1 78 463.8898 cm
+Q
+q
+1 0 0 1 78 451.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ameet Deshpande Princeton University Princeton, USA asd@princeton.edu) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 445.8898 cm
+Q
+q
+1 0 0 1 78 433.8898 cm
+Q
+q
+1 0 0 1 78 395.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (ABSTRACT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 375.8898 cm
+Q
+q
+1 0 0 1 78 135.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 230 Tm /F1 10 Tf 12 TL (The advent of large language models \(LLMs\) has ushered in a new paradigm of search engines) Tj T* (that use generative models to gather and summarize information to answer user queries. This) Tj T* -0.028701 Tw (emerging technology, which we formalize under the unified framework of generative engines \(GEs\),) Tj T* 0 Tw -0.084037 Tw (can generate accurate and personalized responses, rapidly replacing traditional search engines like) Tj T* 0 Tw (Google and Bing. Generative Engines typically satisfy queries by synthesizing information from) Tj T* (multiple sources and summarizing them using LLMs. While this shift significantly improves user) Tj T* (utility and generative search engine traffic, it poses a huge challenge for the third stakeholder \226) Tj T* (website and content creators. Given the black-box and fast-moving nature of generative engines,) Tj T* (content creators have little to no control over when and how their content is displayed. With) Tj T* (generative engines here to stay, we must ensure the creator economy is not disadvantaged. To) Tj T* (address this, we introduce Generative Engine Optimization \(GEO\), the first novel paradigm to aid) Tj T* (content creators in improving their content visibility in generative engine responses through a) Tj T* (flexible black-box optimization framework for optimizing and defining visibility metrics. We facilitate) Tj T* (systematic evaluation by introducing GEO-bench, a large-scale benchmark of diverse user queries) Tj T* (across multiple domains, along with relevant web sources to answer these queries. Through) Tj T* (rigorous evaluation, we demonstrate that GEO can boost visibility by up to $4 0 \\%$ in generative) Tj T* (engine responses. Moreover, we show the efficacy of these strategies varies across domains,) Tj T* (underscoring the need for domain-specific optimization methods. Our work opens a new frontier in) Tj T* (information discovery systems, with profound implications for both developers of generative) Tj T* (engines and content creators.1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 129.8898 cm
+Q
+q
+1 0 0 1 78 117.8898 cm
+Q
+q
+1 0 0 1 78 79.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (CCS CONCEPTS) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+76 745.89 272 18 re
+f*
+0.4 0.4 1 rg
+n
+77 399.89 83 18 re
+f*
+0.4 0.4 1 rg
+n
+77 83.89 120 18 re
+f*
+0.6 0 0.298039 rg
+n
+79 709.89 425 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 624.89 126 67 re
+f*
+0.6 0 0.298039 rg
+n
+77 595.89 340 12 re
+f*
+0.6 0 0.298039 rg
+n
+76 481.89 362 12 re
+f*
+0.6 0 0.298039 rg
+n
+76 451.89 338 12 re
+f*
+0.6 0 0.298039 rg
+n
+76 135.89 441 240 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+76 510.89 117 68 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 350 753.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 506 712.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 205 681.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 419 597.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 195 568.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 440 483.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 416 453.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 162 407.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 365.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 199 91.89 cm
+BT
+1 0 0 1 0 0 Tm
+(10) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5951
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 751.8898 cm
+Q
+q
+1 0 0 1 78 727.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (\177 Computing methodologies Natural language processing; Machine learning; $\\bullet$ Information) Tj T* (systems Web searching and information discovery.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 709.8898 cm
+Q
+q
+1 0 0 1 78 671.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (KEYWORDS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 651.8898 cm
+Q
+q
+1 0 0 1 78 639.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (generative models, search engines, datasets and benchmarks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.8898 cm
+Q
+q
+1 0 0 1 78 621.8898 cm
+Q
+q
+1 0 0 1 78 583.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (ACM Reference Format:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 563.8898 cm
+Q
+q
+1 0 0 1 78 515.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL (Pranjal Aggarwal, Vishvak Murahari, Tanmay Rajpurohit, Ashwin Kalyan, Karthik Narasimhan, and) Tj T* (Ameet Deshpande. 2024. GEO: Generative Engine Optimization. In Proceedings of the 30th ACM) Tj T* (SIGKDD Conference on Knowledge Discovery and Data Mining \(KDD \22224\), August 25\22629, 2024,) Tj T* (Barcelona, Spain. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3637528. 3671900) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 509.8898 cm
+Q
+q
+1 0 0 1 78 497.8898 cm
+Q
+q
+1 0 0 1 78 459.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (1 INTRODUCTION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.8898 cm
+Q
+q
+1 0 0 1 78 319.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL (The invention of traditional search engines three decades ago revolutionized information access) Tj T* (and dissemination globally [4]. While they were powerful and ushered in a host of applications like) Tj T* (academic research and e-commerce, they were limited to providing a list of relevant websites for) Tj T* (user queries. However, the recent success of large language models [5, 21] has paved the way for) Tj T* (better systems like BingChat, Google\222s SGE, and perplexity.ai that combine conventional search) Tj T* (engines with generative models. We dub these systems generative engines \(GE\) because they) Tj T* (search for information and generate multi-modal responses by using multiple sources. Technically,) Tj T* (generative engines \(Figure 2\) retrieve relevant documents from a database \(like the internet\) and) Tj T* (use large neural models to generate a response grounded on the sources, ensuring attribution and) Tj T* (a way for the user to verify the information.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 313.8898 cm
+Q
+q
+1 0 0 1 78 301.8898 cm
+Q
+q
+1 0 0 1 78 181.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL (The usefulness of generative engines for developers and users is evident \226 users access) Tj T* (information faster and more accurately, while developers craft precise and personalized responses,) Tj T* (improving user satisfaction and revenue. However, generative engines disadvantage the third) Tj T* (stakeholder \226 website and content creators. Generative Engines, in contrast to traditional search) Tj T* (engines, remove the need to navigate to websites by directly providing a precise and) Tj T* (comprehensive response, potentially reducing organic traffic to websites and impacting their) Tj T* (visibility [16]. With millions of small businesses and individuals relying on online traffic and visibility) Tj T* (for their livelihood, generative engines will significantly disrupt the creator economy. Further, the) Tj T* (black-box and proprietary nature of generative engines makes it difficult for content creators to) Tj T* (control and understand how their content is ingested and portrayed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 175.8898 cm
+Q
+q
+1 0 0 1 78 163.8898 cm
+Q
+q
+1 0 0 1 78 151.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (![]\(images/45f22fcdcfd4559cf031ff336d3c1047e5bbd1c6ca5e180765a0e8879d35b014.jpg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 145.8898 cm
+Q
+q
+1 0 0 1 78 85.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL -0.075367 Tw (Figure 1: Our proposed Generative Engine Optimization \(GEO\) method optimizes websites to boost) Tj T* 0 Tw (their visibility in Generative Engine responses. GEO\222s black-box optimization framework then) Tj T* (enables the website owner of the pizza website, which lacked visibility originally, to optimize their) Tj T* (website to increase visibility under Generative Engines. Further, GEO\222s general framework allows) Tj T* (content creators to define and optimize their custom visibility metrics, giving them greater control in) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.619608 0.619608 0.619608 rg
+/gRLs0 gs
+n
+75 727.89 434 24 re
+f*
+0.4 0.4 1 rg
+n
+77 675.89 90 18 re
+f*
+0.4 0.4 1 rg
+n
+78 587.89 170 18 re
+f*
+0.4 0.4 1 rg
+n
+78 463.89 128 18 re
+f*
+0.4 0.4 1 rg
+n
+75 151.89 407 13 re
+f*
+0.6 0 0.298039 rg
+n
+76 639.89 277 12 re
+f*
+0.6 0 0.298039 rg
+n
+77 515.89 438 49 re
+f*
+0.6 0 0.298039 rg
+n
+76 319.89 440 120 re
+f*
+0.6 0 0.298039 rg
+n
+76 181.89 441 120 re
+f*
+0.6 0 0.298039 rg
+n
+76 85.89 443 61 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 169 683.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 355 641.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 250 595.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 554.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 208 471.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 429.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 291.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 484 154.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 136.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 16 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 6421
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 751.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (this new emerging paradigm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 745.8898 cm
+Q
+q
+1 0 0 1 78 733.8898 cm
+Q
+q
+1 0 0 1 78 661.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL (In this work, we propose the first general creator-centric framework to optimize content for) Tj T* (generative engines, which we dub Generative Engine Optimization \(GEO\), to empower content) Tj T* (creators to navigate this new search paradigm. GEO is a flexible black-box optimization framework) Tj T* (for optimizing web content visibility for proprietary and closed-source generative engines \(Figure 1\).) Tj T* (GEO ingests a source website and outputs an optimized version by tailoring and calibrating the) Tj T* (presentation, text style, and content to increase visibility in generative engines.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 655.8898 cm
+Q
+q
+1 0 0 1 78 643.8898 cm
+Q
+q
+1 0 0 1 78 523.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL (Further, GEO introduces a flexible framework for defining visibility metrics tailor-made for) Tj T* (generative engines as the notion of visibility in generative engines is more nuanced and) Tj T* (multi-faceted than traditional search engines \(Figure 3\). While average ranking on the response) Tj T* (page is a good measure of visibility in traditional search engines, which present a linear list of) Tj T* (websites, this does not apply to generative engines. Generative Engines provide rich, structured) Tj T* (responses and embed websites as inline citations in the response, often embedding them with) Tj T* (different lengths, at varying positions, and with diverse styles. This necessitates the need for) Tj T* (visibility metrics tailor-made for generative engines, which measure the visibility of attributed) Tj T* (sources over multiple dimensions, such as relevance and influence of citation to query, measured) Tj T* (through both an objective and a subjective lens.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 517.8898 cm
+Q
+q
+1 0 0 1 78 505.8898 cm
+Q
+q
+1 0 0 1 78 469.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (To facilitate faithful and extensive evaluation of GEO methods, we propose GEO-bench, a) Tj T* (benchmark consisting of 10000 queries from diverse domains and sources, adapted for generative) Tj T* (engines.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 463.8898 cm
+Q
+q
+1 0 0 1 78 451.8898 cm
+Q
+q
+1 0 0 1 78 367.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL (Through systematic evaluation, we demonstrate that our proposed Generative Engine Optimization) Tj T* (methods can boost visibility by up to $4 0 \\%$ on diverse queries, providing beneficial strategies for) Tj T* (content creators. Among other things, we find that including citations, quotations from relevant) Tj T* (sources, and statistics can significantly boost source visibility, with an increase of over $4 0 \\%$) Tj T* (across various queries. We also demonstrate the efficacy of Generative Engine Optimization on) Tj T* (Perplexity.ai, a real-world generative engine and demonstrate visibility improvements up to $3 7) Tj T* (\\%$ .) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 361.8898 cm
+Q
+q
+1 0 0 1 78 349.8898 cm
+Q
+q
+1 0 0 1 78 241.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL (In summary, our contributions are three-fold: \(1\) We propose Generative Engine Optimization, the) Tj T* (first general optimization framework for website owners to optimize their websites for generative) Tj T* -0.057776 Tw (engines. Generative Engine Optimization can improve the visibility of websites by up to $4 0 \\%$ on) Tj T* 0 Tw (a wide range of queries, domains, and real-world black-box generative engines. \(2\) Our framework) Tj T* (proposes a comprehensive set of visibility metrics specifically designed for generative engines and) Tj T* (enables content creators to flexibly optimize their content through customized visibility metrics. \(3\)) Tj T* -0.026744 Tw (To foster faithful evaluation of GEO methods in generative engines, we propose the first large-scale) Tj T* 0 Tw (benchmark consisting of diverse search queries from wide-ranging domains and datasets specially) Tj T* (tailored for Generative Engines.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 235.8898 cm
+Q
+q
+1 0 0 1 78 223.8898 cm
+Q
+q
+1 0 0 1 78 211.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (![]\(images/d0c75ef7b0d59bbf899e6f4746b5df21280ec6581c49d5513cd6e96205627236.jpg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 205.8898 cm
+Q
+q
+1 0 0 1 78 157.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL (Figure 2: Overview of Generative Engines. Generative Engines primrarily consists of a set of) Tj T* (generative models and a search engine to retrieve relevant documents. Generative Engines take) Tj T* (user query as input and through a series of steps generate a final response that is grounded in the) Tj T* (retrieved sources with inline attributions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 151.8898 cm
+Q
+q
+1 0 0 1 78 139.8898 cm
+Q
+q
+1 0 0 1 78 101.8898 cm
+q
+BT 1 0 0 1 0 7 Tm 22 TL /F2 15 Tf 0 0 0 rg (2 FORMULATION & METHODOLOGY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+75 211.89 412 12 re
+f*
+0.4 0.4 1 rg
+n
+76 105.89 263 18 re
+f*
+0.6 0 0.298039 rg
+n
+77 751.89 129 12 re
+f*
+0.6 0 0.298039 rg
+n
+77 661.89 440 72 re
+f*
+0.6 0 0.298039 rg
+n
+77 523.89 434 120 re
+f*
+0.6 0 0.298039 rg
+n
+76 469.89 439 37 re
+f*
+0.6 0 0.298039 rg
+n
+77 367.89 441 84 re
+f*
+0.6 0 0.298039 rg
+n
+77 241.89 442 108 re
+f*
+0.6 0 0.298039 rg
+n
+77 157.89 436 48 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 208 753.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 723.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 513 633.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 496.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 441.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 339.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 489 213.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 515 195.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 341 113.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 19 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 6364
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 741.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (2.1 Formulation of Generative Engines) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 649.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL (Despite the deployment of numerous generative engines to millions of users, there is currently no) Tj T* (standard framework. We provide a formulation that accommodates various modular components in) Tj T* (their design. We describe a generative engine, which includes several backend generative models) Tj T* (and a search engine for source retrieval. A Generative Engine \(GE\) takes a user query $q _ { u }$) Tj T* (and returns a natural language response $r$ , where $P _ { U }$ represents personalized user) Tj T* (information. The GE can be represented as a function:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 643.8898 cm
+Q
+q
+1 0 0 1 78 631.8898 cm
+Q
+q
+1 0 0 1 78 619.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 613.8898 cm
+Q
+q
+1 0 0 1 78 601.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (f _ { G E } : = \( q _ { u } , P _ { U } \) \\to r) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 595.8898 cm
+Q
+q
+1 0 0 1 78 583.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 577.8898 cm
+Q
+q
+1 0 0 1 78 565.8898 cm
+Q
+q
+1 0 0 1 78 385.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 170 Tm /F1 10 Tf 12 TL (Generative Engines comprise two crucial components: a.\) A set of generative models $G = \\{ G _ {) Tj T* (1 } , G _ { 2 } . . . G _ { n } \\}$ , each serving a specific purpose like query reformulation or) Tj T* (summarization, and b.\) A search engine $S E$ that returns a set of sources $\\boldsymbol { S } = \\{) Tj T* (s _ { 1 } , s _ { 2 } . . . s _ { m } \\}$ given a query $q$ . We present a representative workflow in) Tj T* (Figure 2, which, at the time of writing, closely resembles the design of BingChat. This workflow) Tj T* (breaks down the input query into a set of simpler queries that are easier to consume for the search) Tj T* -0.082019 Tw (engine. Given a query, a query re-formulating generative model, $G _ { 1 } = G _ { q r }$ , generates) Tj T* 0 Tw (a set of queries $Q ^ { 1 } = \\{ q _ { 1 } , q _ { 2 } . . . q _ { n } \\}$ , which are then passed to the) Tj T* -0.020983 Tw (search engine $S E$ to retrieve a set of ranked sources $S = \\{ s _ { 1 } , s _ { 2 } , . . . , s _ { m } \\}$) Tj T* 0 Tw (. The sets of sources $S$ are passed to a summarizing model $G _ { 2 } = G _ { s u m }$ , which) Tj T* (generates a summary $S u m _ { j }$ for each source in ??, resulting in the summary set $\( S u m =) Tj T* (\\{ S u m _ { 1 } , S u m _ { 2 } , . . . , S u m _ { m } \\} \)$ . The summary set is passed to a) Tj T* (response-generating model $G _ { 3 } = G _ { r e s p }$ , which generates a cumulative response) Tj T* ($r$ backed by sources ??. In this work, we focus on single-turn Generative Engines, but the) Tj T* (formulation can be extended to multi-turn Conversational Generative Engines \(Appendix A\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 379.8898 cm
+Q
+q
+1 0 0 1 78 367.8898 cm
+Q
+q
+1 0 0 1 78 271.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL (The response $r$ is typically a structured text with embedded citations. Citations are important) Tj T* (given the tendency of LLMs to hallucinate information [10]. Specifically, consider a response $r$) Tj T* -0.0667 Tw (composed of sentences $\\{ l _ { 1 } , l _ { 2 } . . . l _ { o } \\}$ . Each sentence may be backed by a set) Tj T* 0 Tw (of citations that are part of the retrieved set of documents $C _ { i } \\subset S$ . An ideal generative) Tj T* (engine should ensure all statements in the response are supported by relevant citations \(high) Tj T* (citation recall\), and all citations accurately support the statements they\222re associated with \(high) Tj T* (citation precision\) [14]. We refer readers to Figure 3 for a representative generative engine) Tj T* (response.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 265.8898 cm
+Q
+q
+1 0 0 1 78 253.8898 cm
+Q
+q
+1 0 0 1 78 215.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (2.2 Generative Engine Optimization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 195.8898 cm
+Q
+q
+1 0 0 1 78 87.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL (The advent of search engines led to search engine optimization \(SEO\), a process to help website) Tj T* (creators optimize their content to improve search engine rankings. Higher rankings correlate with) Tj T* (increased visibility and website traffic. However, traditional SEO methods are not directly applicable) Tj T* (to Generative Engines. This is because, unlike traditional search engines, the generative model in) Tj T* (generative engines is not limited to keyword matching, and the use of language models in ingesting) Tj T* (source documents and response generation results in a more nuanced understanding of text) Tj T* (documents and user query. With generative engines rapidly emerging as the primary information) Tj T* (delivery paradigm and SEO is not directly applicable; new techniques are needed. To this end, we) Tj T* (propose Generative Engine Optimization, a new paradigm where content creators aim to increase) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 745.89 275 18 re
+f*
+0.4 0.4 1 rg
+n
+77 620.89 13 11 re
+f*
+0.4 0.4 1 rg
+n
+77 218.89 253 19 re
+f*
+0.6 0 0.298039 rg
+n
+76 649.89 441 73 re
+f*
+0.6 0 0.298039 rg
+n
+76 385.89 443 180 re
+f*
+0.6 0 0.298039 rg
+n
+76 271.89 443 97 re
+f*
+0.6 0 0.298039 rg
+n
+76 87.89 443 109 re
+f*
+0 1 0 rg
+n
+75 582.89 178 40 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 354 753.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 712.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 92 621.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 255 612.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 555.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 358.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 332 227.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 186.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+19 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6615
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 655.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL (their visibility \(or impression\) in generative engine responses. We define the visibility of a website) Tj T* -0.013147 Tw (\(also referred to as a citation\) $c _ { i }$ in a cited response $r$ by the function $I m p \( c _ { i } , r \)$) Tj T* 0 Tw (, which the website creator wants to maximize. From the generative engine\222s perspective, the goal) Tj T* -0.058961 Tw (is to maximize the visibility of citations most relevant to the user query, i.e., maximize $\\begin{array}) Tj T* 0 Tw -0.104123 Tw ({ r } { \\sum _ { i } f \( I m p \( c _ { i } , r \) , R e l \( c _ { i } , q , r \) \) } \\end{array}$ , where $R e l \( c _ { i } ,) Tj T* 0 Tw (q , r \)$ measures the relevance of citation $c _ { i }$ to the query $q$ in the context of response $r$) Tj T* (and $f$ is determined by the exact algorithmic design of generative engine and is a black-box) Tj T* (function to end-users. Further, both the functions $I m p$ and $R e l$ are subjective and not) Tj T* (well-defined yet for generative engines, and we define them next.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 649.8898 cm
+Q
+q
+1 0 0 1 78 637.8898 cm
+Q
+q
+1 0 0 1 78 541.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL (2.2.1 Impressions for Generative Engines. In SEO, a website\222s impression \(or visibility\) is) Tj T* (determined by its average ranking over a range of queries. However, generative engines\222 output) Tj T* (nature necessitates different impression metrics. Unlike search engines, Generative Engines) Tj T* (combine information from multiple sources in a single response. Factors such as length,) Tj T* (uniqueness, and presentation of the cited website determine the true visibility of a citation. Thus, as) Tj T* -0.053201 Tw (illustrated in Figure 3, while a simple ranking on the response page serves as an effective metric for) Tj T* 0 Tw (impression and visibility in conventional search engines, such metrics are not applicable to) Tj T* (generative engine responses.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 535.8898 cm
+Q
+q
+1 0 0 1 78 523.8898 cm
+Q
+q
+1 0 0 1 78 463.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (In response to this challenge, we propose a suite of impression metrics designed with three key) Tj T* (principles in mind: 1.\) The metrics should hold relevance for creators, 2.\) They should be) Tj T* (explainable, and 3.\) They should be easily comprehensible by a broad spectrum of content) Tj T* (creators. The first of these metrics, the \223Word Count\224 metric, is the normalized word count of) Tj T* (sentences related to a citation. Mathematically, this is defined as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.8898 cm
+Q
+q
+1 0 0 1 78 445.8898 cm
+Q
+q
+1 0 0 1 78 433.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 427.8898 cm
+Q
+q
+1 0 0 1 78 415.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL -0.051934 Tw (I m p _ { w c } \( c _ { i } , r \) = \\frac { \\sum _ { s \\in S _ { c _ { i } } } | s | } { \\sum _ { s \\in S _ { r } } | s | }) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 78 409.8898 cm
+Q
+q
+1 0 0 1 78 397.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 391.8898 cm
+Q
+q
+1 0 0 1 78 379.8898 cm
+Q
+q
+1 0 0 1 78 319.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL -0.030437 Tw (Here $S _ { c _ { i } }$ is the set of sentences citing $c _ { i } , S _ { r }$ is the set of sentences in the) Tj T* 0 Tw (response, and $| s |$ is the number of words in sentence ??. In cases where a sentence is cited by) Tj T* (multiple sources, we share the word count equally with all the citations. Intuitively, a higher word) Tj T* (count correlates with the source playing a more important part in the answer, and thus, the user) Tj T* (gets higher exposure to that source.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 313.8898 cm
+Q
+q
+1 0 0 1 78 301.8898 cm
+Q
+q
+1 0 0 1 78 263.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (Search Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 243.8898 cm
+Q
+q
+1 0 0 1 78 205.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (Generative Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 185.8898 cm
+Q
+q
+1 0 0 1 78 173.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (![]\(images/4e9e1c658992ebcc7e4d7e6cc3ed9756b4952f6a4b7df385072bacb3b31d33b6.jpg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 167.8898 cm
+Q
+q
+1 0 0 1 78 83.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL (Figure 3: Ranking and Visibility Metrics are straightforward in traditional search engines, which list) Tj T* (website sources in ranked order with verbatim content. However, Generative Engines generate) Tj T* (rich, structured responses, often embedding citations in a single block interleaved with each other.) Tj T* (This makes ranking and visibility nuanced and multi-faceted. Further, unlike search engines, where) Tj T* (significant research has been conducted on improving visibility, optimizing visibility in generative) Tj T* (engine responses remains unclear. To address these challenges, our black-box optimization) Tj T* (framework proposes a series of well-designed impression metrics that creators can use to gauge) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 434.89 12 11 re
+f*
+0.4 0.4 1 rg
+n
+78 267.89 104 18 re
+f*
+0.4 0.4 1 rg
+n
+78 209.89 132 18 re
+f*
+0.6 0 0.298039 rg
+n
+76 655.89 443 109 re
+f*
+0.6 0 0.298039 rg
+n
+76 541.89 443 97 re
+f*
+0.6 0 0.298039 rg
+n
+77 463.89 424 61 re
+f*
+0.6 0 0.298039 rg
+n
+75 397.89 443 31 re
+f*
+0.6 0 0.298039 rg
+n
+77 319.89 441 61 re
+f*
+0.6 0 0.298039 rg
+n
+76 173.89 416 13 re
+f*
+0.6 0 0.298039 rg
+n
+76 83.89 440 85 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 628.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 503 514.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 91 435.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 418.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 370.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 184 275.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 212 217.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 494 176.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 158.89 cm
+BT
+1 0 0 1 0 0 Tm
+(10) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 7048
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 739.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (and optimize their website\222s performance and also allows the creator to define their impression) Tj T* (metrics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 733.8898 cm
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 685.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (However, since \223Word Count\224 is not impacted by the ranking of the citations \(whether it appears) Tj T* (first, for example\), we propose a position-adjusted count that reduces the weight by an) Tj T* (exponentially decaying function of the citation position:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 679.8898 cm
+Q
+q
+1 0 0 1 78 667.8898 cm
+Q
+q
+1 0 0 1 78 655.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 649.8898 cm
+Q
+q
+1 0 0 1 78 625.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.023688 Tw (I m p _ { \\hat { p } w c } \( c _ { i } , r \) = \\frac { \\sum _ { s \\in S _ { c _ { i } } } | s | \\cdot e ^ { - \\frac { p o) Tj T* 0 Tw (s \( s \) } { | S | } } } { \\sum _ { s \\in S _ { r } } | s | }) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 619.8898 cm
+Q
+q
+1 0 0 1 78 607.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 601.8898 cm
+Q
+q
+1 0 0 1 78 589.8898 cm
+Q
+q
+1 0 0 1 78 445.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 134 Tm /F1 10 Tf 12 TL (Intuitively, sentences that appear first in the response are more likely to be read, and the exponent) Tj T* (term in definition $I m p _ { P ^ { } w c }$ gives higher weightage to such citations. Thus, a website) Tj T* (cited at the top may have a higher impression despite having a lower word count than a website) Tj T* (cited in the middle or end of the response. Further, the choice of exponentially decaying function is) Tj T* (motivated by several studies showing click-through rates follow a power-law as a function of) Tj T* (ranking in search engines [7, 8]. While the above impression metrics are objective and) Tj T* (well-grounded, they ignore the subjective aspects of the impact of citations on the user\222s attention.) Tj T* (To address this, we propose the "Subjective Impression" metric, which incorporates facets such as) Tj T* (the relevance of the cited material to the user query, influence of the citation, uniqueness of the) Tj T* (material presented by a citation, subjective position, subjective count, probability of clicking the) Tj T* (citation, and diversity in the material presented. We use G-Eval [15], the current state-of-the-art for) Tj T* (evaluation with LLMs, to measure each of these sub-metrics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.8898 cm
+Q
+q
+1 0 0 1 78 427.8898 cm
+Q
+q
+1 0 0 1 78 319.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL (2.2.2 Generative Engine Optimization methods for website. To improve impression metrics, content) Tj T* (creators must make changes to their website content. We present several generative) Tj T* (engineagnostic strategies, referred to as Generative Engine Optimization methods \(GEO\).) Tj T* (Mathematically, every GEO method is a function $f : W \\to W _ { i } ^ { \\prime }$ , where $W$ is the) Tj T* -0.128023 Tw (initial web content, and $W ^ { \\prime }$ is the modified content after applying the GEO method. The) Tj T* 0 Tw (modifications can range from simple stylistic alterations to incorporating new content in a structured) Tj T* (format. A well-designed GEO is equivalent to a black-box optimization method that, without) Tj T* (knowing the exact algorithmic design of generative engines, can increase the website\222s visibility) Tj T* (and implement textual modifications to ?? independent of the exact queries.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 313.8898 cm
+Q
+q
+1 0 0 1 78 301.8898 cm
+Q
+q
+1 0 0 1 78 253.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL -0.113416 Tw (For our experiments, we apply Generative Engine Optimization methods on website content using a) Tj T* 0 Tw (large language model, prompted to perform specific stylistic and content changes to the website. In) Tj T* (particular, based on the GEO method defining a specific set of desired characteristics, the source) Tj T* (content is modified accordingly. We propose and evaluate several such methods:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 247.8898 cm
+Q
+q
+1 0 0 1 78 235.8898 cm
+Q
+q
+1 0 0 1 78 139.8898 cm
+q
+BT 1 0 0 1 0 86 Tm -0.062961 Tw 12 TL /F1 10 Tf 0 0 0 rg (1: Authoritative: Modifies text style of the source content to be more persuasive and authoritative, 2.) Tj T* 0 Tw (Statistics Addition: Modifies content to include quantitative statistics instead of qualitative) Tj T* (discussion, wherever possible, 3. Keyword Stuffing: Modifies content to include more keywords) Tj T* (from the query, as expected in classical SEO optimization. 4. Cite Sources & 5. Quotation Addition:) Tj T* (Adds relevant citations and quotations from credible sources respectively, 6.\) 6.) Tj T* (Easy-to-Understand: Simplifies the language of website, while 7. Fluency Optimization improves) Tj T* (the fluency of website text. 8. Unique Words & 9. Technical Terms: involves adding unique and) Tj T* (technical terms respectively wherever possible,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 133.8898 cm
+Q
+q
+1 0 0 1 78 121.8898 cm
+Q
+q
+1 0 0 1 78 85.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (These methods cover diverse general strategies that website owners can implement quickly and) Tj T* (use regardless of the website content. Further, except for methods 3, 4, and 5, the remaining) Tj T* (methods enhance the presentation of existing content to increase its persuasiveness or appeal to) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 656.89 13 11 re
+f*
+0.6 0 0.298039 rg
+n
+73 740.89 424 23 re
+f*
+0.6 0 0.298039 rg
+n
+77 685.89 424 37 re
+f*
+0.6 0 0.298039 rg
+n
+77 607.89 12 12 re
+f*
+0.6 0 0.298039 rg
+n
+76 445.89 440 144 re
+f*
+0.6 0 0.298039 rg
+n
+76 319.89 443 108 re
+f*
+0.6 0 0.298039 rg
+n
+77 253.89 441 48 re
+f*
+0.6 0 0.298039 rg
+n
+76 139.89 441 97 re
+f*
+0.6 0 0.298039 rg
+n
+77 85.89 432 36 re
+f*
+0 1 0 rg
+n
+76 622.89 428 29 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 499 753.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 503 712.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 92 657.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 506 641.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 91 609.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 579.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 417.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 291.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 226.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 511 111.89 cm
+BT
+1 0 0 1 0 0 Tm
+(10) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/Contents 27 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 28 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 5737
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 703.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (the generative engine, without requiring extra content. On the other hand, methods 3,4 and 5 may) Tj T* (require some form of additional content. To analyze the performance gain of our methods, for each) Tj T* (input user query, we randomly select one source website to be optimized and apply each of the) Tj T* (GEO methods separately on the same source. We refer readers to Appendix B.4 for more details) Tj T* (on GEO methods.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 697.8898 cm
+Q
+q
+1 0 0 1 78 685.8898 cm
+Q
+q
+1 0 0 1 78 647.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (3 EXPERIMENTAL SETUP) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 627.8898 cm
+Q
+q
+1 0 0 1 78 589.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (3.1 Evaluated Generative Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 569.8898 cm
+Q
+q
+1 0 0 1 78 449.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL (In accordance with previous works [14], we use a 2-step setup for Generative Engine design. The) Tj T* (first step involves fetching relevant sources for input query, followed by a second step where an) Tj T* (LLM generates a response based on the fetched sources. Similar to prevous works, we do not use) Tj T* (summarization and provide the whole response for each source. Due to context length limitations) Tj T* (and quadratic scaling cost based on the context size of transformer models, only the top 5 sources) Tj T* (are fetched from the Google search engine for every query. The setup closely mimics the workflow) Tj T* (used in previous works and the general design adopted by commercial GEs such as you.com and) Tj T* (perplexity.ai. The answer is then generated by the gpt3.5-turbo model [20] using the same prompt) Tj T* (as prior work [14]. We sample 5 different responses at temperature ${ : = } 0 . 7$ , to reduce) Tj T* (statistical deviations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 443.8898 cm
+Q
+q
+1 0 0 1 78 431.8898 cm
+Q
+q
+1 0 0 1 78 395.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Further in Section C.1, we evaluate the same Generative Engine Optimization methods on) Tj T* (Perplexity.ai, which is a commercially deployed generative engine, highlighting the generalizability) Tj T* (of our proposed Generative Engine Optimization methods.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 389.8898 cm
+Q
+q
+1 0 0 1 78 377.8898 cm
+Q
+q
+1 0 0 1 78 339.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (3.2 Benchmark : GEO-bench) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 319.8898 cm
+Q
+q
+1 0 0 1 78 259.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Since there is currently no publicly available dataset containing Generative Engine related queries,) Tj T* (we curate GEO-bench, a benchmark consisting of 10K queries from multiple sources, repurposed) Tj T* -0.084037 Tw (for generative engines, along with synthetically generated queries. The benchmark includes queries) Tj T* 0 Tw (from nine different sources, each further categorized based on their target domain, difficulty, query) Tj T* (intent, and other dimensions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 253.8898 cm
+Q
+q
+1 0 0 1 78 241.8898 cm
+Q
+q
+1 0 0 1 78 85.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 146 Tm /F1 10 Tf 12 TL (Datasets: 1. MS Macro, 2. ORCAS-1, and 3. Natural Questions: [1, 6, 13] These datasets contain) Tj T* (real anonymized user queries from Bing and Google Search Engines. These three collectively) Tj T* (represent the common set of datasets that are used in search engine related research. However,) Tj T* (Generative Engines will be posed with far more difficult and specific queries with the intent of) Tj T* (synthesizing answers from multiple sources instead of searching for them. To this end, we) Tj T* (repurpose several other publicly available datasets: 4. AllSouls: This dataset contains essay) Tj T* (questions from "All Souls College, Oxford University." The queries in this dataset require) Tj T* (Generative Engines to perform appropriate reasoning to aggregate information from multiple) Tj T* (sources. 5. LIMA: [25] contains challenging questions requiring Generative Engines to not only) Tj T* (aggregate information but also perform suitable reasoning to answer the question \(e.g., writing a) Tj T* (short poem, python code.\). 6. Davinci-Debtate [14] contains debate questions generated for testing) Tj T* (Generative Engines. 7. Perplexity.ai Discover2: These queries are sourced from Perplexity.ai\222s) Tj T* (Discover section, which is an updated list of trending queries on the platform. 8. ELI- ${ \\cdot } 5 ^ {) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+78 651.89 184 18 re
+f*
+0.4 0.4 1 rg
+n
+77 592.89 233 19 re
+f*
+0.4 0.4 1 rg
+n
+77 343.89 204 18 re
+f*
+0.6 0 0.298039 rg
+n
+77 703.89 438 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 449.89 438 121 re
+f*
+0.6 0 0.298039 rg
+n
+77 395.89 435 36 re
+f*
+0.6 0 0.298039 rg
+n
+77 259.89 441 60 re
+f*
+0.6 0 0.298039 rg
+n
+76 84.89 440 158 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 264 659.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 312 601.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 560.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 514 421.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 283 351.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 309.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 232.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+28 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+29 0 obj
+<<
+/Contents 30 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 31 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 6232
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 703.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (3 }$ : This dataset contains questions from the ELI5 subreddit, where users ask complex questions) Tj T* (and expect answers in simple, layman\222s terms. 9. GPT-4 Generated Queries: To supplement) Tj T* (diversity in query distribution, we prompt GPT-4 [21] to generate queries ranging from various) Tj T* (domains \(e.g., science, history\) and based on query intent \(e.g., navigational, transactional\) and) Tj T* (based on difficulty and scope of generated response \(e.g., open-ended, fact-based\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 697.8898 cm
+Q
+q
+1 0 0 1 78 685.8898 cm
+Q
+q
+1 0 0 1 78 625.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (. Our benchmark comprises 10K queries divided into 8K, 1K, and 1K for train, validation, and test) Tj T* -0.119534 Tw (splits, respectively. We preserve the real-world query distribution, with our benchmark containing $8) Tj T* 0 Tw (0 \\%$ informational queries and $1 0 \\%$ each for transactional and navigational queries. Each) Tj T* (query is augmented with the cleaned text content of the top 5 search results from the Google) Tj T* (search engine.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 619.8898 cm
+Q
+q
+1 0 0 1 78 607.8898 cm
+Q
+q
+1 0 0 1 78 547.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Tags. Optimizing website content often requires targeted changes based on the task\222s domain.) Tj T* (Additionally, a user of Generative Engine Optimization may need to identify an appropriate method) Tj T* (for only a subset of queries, considering multiple factors such as domain, user intent, and query) Tj T* (nature. To facilitate this, we tag each query with one of seven different categories. For tagging, we) Tj T* (employ the GPT-4 model and manually verify high recall and precision on the test split.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 541.8898 cm
+Q
+q
+1 0 0 1 78 529.8898 cm
+Q
+q
+1 0 0 1 78 445.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL -0.063886 Tw (Overall, GEO-bench consists of queries from 25 diverse domains such as Arts, Health, and Games;) Tj T* 0 Tw (it features a range of query difficulties from simple to multi-faceted; includes 9 different types of) Tj T* (queries such as informational and transactional; and encompasses 7 different categorizations.) Tj T* (Owing to its specially designed high diversity, the size of the benchmark, and its real-world nature,) Tj T* (GEObench is a comprehensive benchmark for evaluating Generative Engines and serves as a) Tj T* (standard testbed for assessing them for various purposes in this and future works. We provide) Tj T* (more details about GEO-bench in Appendix B.2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.8898 cm
+Q
+q
+1 0 0 1 78 427.8898 cm
+Q
+q
+1 0 0 1 78 389.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (3.3 GEO Methods) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 369.8898 cm
+Q
+q
+1 0 0 1 78 321.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL (We evaluate 9 different proposed GEO methods as described in Section 2.2.2. We compare them) Tj T* -0.068031 Tw (with a baseline, which measures the impression metric of unmodified website sources. We evaluate) Tj T* 0 Tw (methods on the complete GEO-bench test split. Further, to reduce variance in results, we run our) Tj T* (experiments on five different random seeds and report the average.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 315.8898 cm
+Q
+q
+1 0 0 1 78 303.8898 cm
+Q
+q
+1 0 0 1 78 265.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (3.4 Evaluation Metrics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 245.8898 cm
+Q
+q
+1 0 0 1 78 89.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 146 Tm /F1 10 Tf 12 TL (We utilize the impression metrics as defined in Section 2.2.1. Specifically, we employ two) Tj T* (impression metrics: 1. Position-Adjusted Word Count, which combines word count and position) Tj T* -0.024294 Tw (count. To analyze the effect of individual components, we also report scores on the two sub-metrics) Tj T* 0 Tw (separately. 2. Subjective Impression, which is a subjective metric encompassing seven different) Tj T* (aspects: 1\) relevance of the cited sentence to the user query, 2\) influence of the citation, assessing) Tj T* (the extent to which the generated response relies on the citation, 3\) uniqueness of the material) Tj T* (presented by a citation, 4\) subjective position, gauging the prominence of the positioning of source) Tj T* (from the user\222s viewpoint, 5\) subjective count, measuring the amount of content presented from the) Tj T* -0.051356 Tw (citation as perceived by the user, 6\) likelihood of the user clicking the citation, and 7\) diversity of the) Tj T* 0 Tw (material presented. These submetrics assess diverse aspects that content creators can target to) Tj T* (improve one or more areas effectively. Each sub-metric is evaluated using GPT-3.5, following a) Tj T* (methodology akin to that described in G-Eval [15]. In G-Eval, a form-based evaluation template is) Tj T* (provided to the language model, along with a GE generated response with citations. The model) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 393.89 125 18 re
+f*
+0.4 0.4 1 rg
+n
+78 269.89 157 18 re
+f*
+0.6 0 0.298039 rg
+n
+77 703.89 438 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 625.89 441 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 547.89 439 60 re
+f*
+0.6 0 0.298039 rg
+n
+76 445.89 441 84 re
+f*
+0.6 0 0.298039 rg
+n
+77 321.89 441 49 re
+f*
+0.6 0 0.298039 rg
+n
+77 88.89 442 157 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 676.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 597.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 519.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 204 401.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 360.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 237 277.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 235.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+31 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 34 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 7047
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 715.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL (outputs a score \(computed by sampling multiple times\) for each citation. However, since G-Eval) Tj T* (scores are poorly calibrated, we normalize them to have the same mean and variance as) Tj T* (Position-Adjusted Word Count to enable a fair and meaningful comparison. We provide the exact) Tj T* (templates used in Appendix B.3.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 709.8898 cm
+Q
+q
+1 0 0 1 78 697.8898 cm
+Q
+q
+1 0 0 1 78 613.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL (Table 1: Absolute impression metrics of GEO methods on GEO-bench. Performance Measured on) Tj T* (Two metrics and their sub-metrics. Compared to baselines, simple methods like Keyword Stuffing) Tj T* (traditionally used in SEO don\222t perform well. However, our proposed methods such as Statistics) Tj T* (Addition and Quotation Addition show strong performance improvements across all metrics. The) Tj T* (best methods improve upon baseline by $4 1 \\%$ and $\\mathbf { 2 8 \\% }$ on Position-Adjusted) Tj T* (Word Count and Subjective Impression respectively. For readability, Subjective Impression scores) Tj T* (are normalized with respect to Position-Adjusted Word Count resulting in similar baseline scores.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 607.8898 cm
+Q
+q
+1 0 0 1 78 595.8898 cm
+Q
+q
+1 0 0 1 78 451.8898 cm
+q
+BT 1 0 0 1 0 134 Tm 12 TL /F1 10 Tf 0 0 0 rg (Method) Tj (Position-Adjusted Word Count Subjective) Tj T* (Impression) Tj (Word) Tj (Position) Tj (Overall) Tj (Rel.Infl.) Tj (Unique) Tj (Div.) Tj (FollowUp) Tj (Pos. Count Average Performance) Tj T* (Without GENERATIVE ENGINE OPTIMIZATION) Tj (No Optimization) Tj (19.5) Tj (19.3) Tj (19.3) Tj (19.319.3) Tj (19.3) Tj T* (19.3) Tj (19.3) Tj (19.3) Tj (19.3) Tj (19.3 Non-Performing GENERATIVE ENGINE OPTIMIZATION methods Keyword) Tj T* (Stuffing) Tj (17.8) Tj (17.7) Tj (17.7) Tj (19.8) Tj (19.1) Tj (20.5 20.4) Tj (20.3) Tj (20.5) Tj (20.4) Tj (20.2) Tj (Unique) Tj T* (Words) Tj (20.7) Tj (20.5) Tj (20.5) Tj (20.520.1) Tj (19.9) Tj (20.4) Tj (20.2) Tj (20.7) Tj (20.2) Tj (20.4 High-PerfOrming GENERATIVE ENGINE) Tj T* (OPTIMIZATION methods) Tj (Easy-to-Understand) Tj (22.2) Tj (22.4) Tj (22.0) Tj (20.2) Tj (21.0 20.0) Tj (20.1) Tj T* (Authoritative) Tj (21.8) Tj (21.3) Tj (21.3) Tj (22.3) Tj (22.1 22.4) Tj (23.1) Tj (20.1 22.2) Tj (20.9 23.1) Tj (19.9 22.7) Tj (20.5 22.9 Technical) Tj T* (Terms) Tj (23.1) Tj (22.7) Tj (22.7) Tj (20.9) Tj (21.7) Tj (20.5) Tj (21.2) Tj (20.8 21.9) Tj (20.8) Tj (21.4 Fluency Optimization) Tj T* (25.1) Tj (24.6) Tj (24.7) Tj (21.1) Tj (22.9) Tj (20.4 21.6) Tj (21.0) Tj (22.4) Tj (21.1) Tj (21.9) Tj (Cite Sources) Tj (24.9) Tj (24.5) Tj (24.6) Tj (21.4) Tj (22.5) Tj (21.0 21.6) Tj (21.2) Tj T* (22.2) Tj (20.7) Tj (21.9 Quotation Addition) Tj (27.8) Tj (27.3) Tj (27.2) Tj (23.8) Tj (25.4) Tj (23.9 24.4) Tj (22.9) Tj (24.9) Tj (23.2) Tj (24.7 Statistics) Tj T* (Addition) Tj (25.9) Tj (25.4) Tj (25.2) Tj (22.5) Tj (24.5) Tj (23.0 23.3) Tj (21.6) Tj (24.2) Tj (23.0) Tj (23.7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 445.8898 cm
+Q
+q
+1 0 0 1 78 433.8898 cm
+Q
+q
+1 0 0 1 78 373.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Furthermore, all impression metrics are normalized by multiplying them with a constant factor so) Tj T* (that the sum of the impressions of all citations in a response equals 1. In our analysis, we compare) Tj T* (methods by calculating the relative improvement in impression. For an initial generated response) Tj T* -0.077814 Tw ($r$ from sources $S _ { i } \\in \\left\\{ s _ { 1 } , \\ldots , s _ { m } \\right\\}$ , and a modified response $r ^) Tj T* 0 Tw ({ \\prime }$ , the relative improvement in impression for each source $s _ { i }$ is measured as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 367.8898 cm
+Q
+q
+1 0 0 1 78 355.8898 cm
+Q
+q
+1 0 0 1 78 343.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 337.8898 cm
+Q
+q
+1 0 0 1 78 313.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.114463 Tw (I m p r o v e m e n t _ { s _ { i } } = \\frac { I m p _ { s _ { i } } \( r ^ { \\prime } \) - I m p _ { s _ { i } } \( r \) } { I) Tj T* 0 Tw (m p _ { s _ { i } } \( r \) } \\times 1 0 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 307.8898 cm
+Q
+q
+1 0 0 1 78 295.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 289.8898 cm
+Q
+q
+1 0 0 1 78 277.8898 cm
+Q
+q
+1 0 0 1 78 241.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL -0.004965 Tw (The modified response $r ^ { \\prime }$ is produced by applying the GEO method being evaluated to) Tj T* 0 Tw (one of the sources $s _ { i }$ . The source $s _ { i }$ selected for optimization is chosen randomly) Tj T* (but remains constant for a particular query across all GEO methods.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 235.8898 cm
+Q
+q
+1 0 0 1 78 223.8898 cm
+Q
+q
+1 0 0 1 78 185.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (4 RESULTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 165.8898 cm
+Q
+q
+1 0 0 1 78 81.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL (We evaluate various Generative Engine Optimization methods designed to optimize website) Tj T* (content for better visibility in Generative Engine responses, compared against a baseline with no) Tj T* (optimization. Our evaluation used GEO-bench, a diverse benchmark of user queries from multiple) Tj T* (domains and settings. Performance was measured using two metrics: Position-Adjusted Word) Tj T* (Count and Subjective Impression. The former considers word count and citation position in the) Tj T* (GE\222s response, while the latter computes multiple subjective factors, giving an overall impression) Tj T* (score.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.619608 0.619608 0.619608 rg
+/gRLs0 gs
+n
+77 296.89 12 11 re
+f*
+0.4 0.4 1 rg
+n
+77 344.89 13 11 re
+f*
+0.4 0.4 1 rg
+n
+77 189.89 83 18 re
+f*
+0.6 0 0.298039 rg
+n
+77 715.89 431 49 re
+f*
+0.6 0 0.298039 rg
+n
+77 613.89 437 85 re
+f*
+0.6 0 0.298039 rg
+n
+77 372.89 441 61 re
+f*
+0.6 0 0.298039 rg
+n
+74 313.89 444 24 re
+f*
+0.6 0 0.298039 rg
+n
+77 241.89 441 36 re
+f*
+0.6 0 0.298039 rg
+n
+76 81.89 434 84 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+76 451.89 439 145 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 510 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 516 688.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 586.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 423.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 92 345.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 327.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 267.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 162 197.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 512 155.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 6019
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 757.8898 cm
+Q
+q
+1 0 0 1 78 745.8898 cm
+Q
+q
+1 0 0 1 78 625.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL -0.103172 Tw (Table 1 details the absolute impression metrics of different methods on multiple metrics. The results) Tj T* 0 Tw (reveal that our GEO methods consistently outperform the baseline across all metrics on) Tj T* (GEObench. This shows the robustness of these methods to varying queries, yielding significant) Tj T* (improvements despite query diversity. Specifically, our top-performing methods, Cite Sources,) Tj T* (Quotation Addition, and Statistics Addition, achieved a relative improvement of $3 0 \226 4 0 \\%$ on) Tj T* -0.113023 Tw (the Position-Adjusted Word Count metric and $1 5 { - } 3 0 \\%$ on the Subjective Impression metric.) Tj T* 0 Tw (These methods, involving adding relevant statistics \(Statistics Addition\), incorporating credible) Tj T* (quotes \(Quotation Addition\), and including citations from reliable sources \(Cite Sources\) in the) Tj T* (website content, require minimal changes but significantly improve visibility in GE responses,) Tj T* (enhancing both the credibility and richness of the content.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 619.8898 cm
+Q
+q
+1 0 0 1 78 607.8898 cm
+Q
+q
+1 0 0 1 78 559.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL (Interestingly, stylistic changes such as improving fluency and readability of the source text \(Fluency) Tj T* (Optimization and Easy-toUnderstand\) also resulted in a significant visibility boost of $1 5 { - } 3 0) Tj T* (\\%$ This suggests that Generative Engines value not only content but also information) Tj T* (presentation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 553.8898 cm
+Q
+q
+1 0 0 1 78 541.8898 cm
+Q
+q
+1 0 0 1 78 493.8898 cm
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F1 10 Tf 0 0 0 rg (Method) Tj (Relative Improvement \(%\) in) Tj T* (Visibility) Tj (Rank-1) Tj (Rank-2) Tj (Rank-3) Tj (Rank-4) Tj (Rank-5) Tj (Authoritative) Tj (-6.0) Tj (4.1) Tj (-0.6) Tj (12.6) Tj (6.1) Tj (Fluency) Tj T* (Opt.) Tj (-2.0) Tj (5.2) Tj (3.6) Tj (-4.4) Tj (2.2) Tj (Cite Sources) Tj (-30.3) Tj (2.5) Tj (20.4) Tj (15.5) Tj (115.1) Tj (Quotation) Tj T* (Addition) Tj (-22.9) Tj (-7.0) Tj (3.5) Tj (25.1) Tj (99.7) Tj (Statistics Addition) Tj (-20.6) Tj (-3.9) Tj (8.1) Tj (10.0) Tj (97.9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 487.8898 cm
+Q
+q
+1 0 0 1 78 475.8898 cm
+Q
+q
+1 0 0 1 78 451.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Table 2: Visibility changes through GEO methods for sources with different Rankings in Search) Tj T* (Engine. GEO is especially helpful for lower ranked websites.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 445.8898 cm
+Q
+q
+1 0 0 1 78 433.8898 cm
+Q
+q
+1 0 0 1 78 373.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Further, given generative models are often designed to follow instructions, one would expect a) Tj T* (more persuasive and authoritative tone in website content to boost visibility. However, we find no) Tj T* (significant improvement, demonstrating that Generative Engines are already somewhat robust to) Tj T* (such changes. This highlights the need for website owners to focus on improving content) Tj T* (presentation and credibility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 367.8898 cm
+Q
+q
+1 0 0 1 78 355.8898 cm
+Q
+q
+1 0 0 1 78 295.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL -0.06957 Tw (Finally, we evaluate keyword stuffing, i.e., adding more relevant keywords to website content. While) Tj T* 0 Tw (widely used for Search Engine Optimization, we find such methods offer little to no improvement on) Tj T* (generative engine\222s responses. This underscores the need for website owners to rethink) Tj T* (optimization strategies for generative engines, as techniques effective in search engines may not) Tj T* (translate to success in this new paradigm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 289.8898 cm
+Q
+q
+1 0 0 1 78 277.8898 cm
+Q
+q
+1 0 0 1 78 239.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (5 ANALYSIS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 219.8898 cm
+Q
+q
+1 0 0 1 78 181.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (5.1 Domain-Specific Generative Engine Optimizations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 161.8898 cm
+Q
+q
+1 0 0 1 78 101.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (In Section 4, we presented the improvements achieved by GEO across the entirety of the) Tj T* (GEO-bench benchmark. However, in real-world SEO scenarios, domain-specific optimizations are) Tj T* (often applied. With this in mind, and considering that we provide categories for every query in) Tj T* (GEO-bench, we delve deeper into the performance of various GEO methods across these) Tj T* (categories.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 95.88976 cm
+Q
+q
+1 0 0 1 78 83.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 244.89 90 17 re
+f*
+0.4 0.4 1 rg
+n
+77 184.89 383 19 re
+f*
+0.6 0 0.298039 rg
+n
+77 625.89 442 121 re
+f*
+0.6 0 0.298039 rg
+n
+77 559.89 440 48 re
+f*
+0.6 0 0.298039 rg
+n
+77 493.89 372 48 re
+f*
+0.6 0 0.298039 rg
+n
+76 451.89 423 24 re
+f*
+0.6 0 0.298039 rg
+n
+77 373.89 430 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 295.89 441 60 re
+f*
+0.6 0 0.298039 rg
+n
+77 101.89 435 60 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 736.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 597.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 451 531.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 501 465.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 509 424.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 345.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 169 251.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 462 193.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 514 151.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/Contents 39 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 40 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+39 0 obj
+<<
+/Length 6789
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 703.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Table 3 provides a detailed breakdown of the categories where our GEO methods have proven to) Tj T* (be most effective. A careful analysis of these results reveals several intriguing observations. For) Tj T* (instance, Authoritative significantly improves performance in debatestyle questions and queries) Tj T* (related to the \223historical\224 domain. This aligns with our intuition, as a more persuasive form of writing) Tj T* (is likely to hold more value in debates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 697.8898 cm
+Q
+q
+1 0 0 1 78 685.8898 cm
+Q
+q
+1 0 0 1 78 553.8898 cm
+q
+BT 1 0 0 1 0 122 Tm 12 TL /F1 10 Tf 0 0 0 rg (Similarly, the addition of citations through Cite Sources is particularly beneficial for factual) Tj T* (questions, likely because citations provide a source of verification for the facts presented, thereby) Tj T* -0.114185 Tw (enhancing the credibility of the response. The effectiveness of different GEO methods varies across) Tj T* 0 Tw (domains. For example, as shown in row 5 of Table 3, domains such as \221Law & Government\222 and) Tj T* (question types like \221Opinion\222 benefit significantly from the addition of relevant statistics in the) Tj T* (website content, as implemented by Statistics Addition. This suggests that data-driven evidence) Tj T* -0.061627 Tw (can enhance the visibility of a website in particular contexts. The method Quotation Addition is most) Tj T* 0 Tw (effective in the \221People & Society,\222 \221Explanation,\222 and \221History\222 domains. This could be because) Tj T* (these domains often involve personal narratives or historical events, where direct quotes can add) Tj T* (authenticity and depth to the content. Overall, our analysis suggests that website owners should) Tj T* (strive towards making domain-specific targeted adjustments to their websites for higher visibility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 547.8898 cm
+Q
+q
+1 0 0 1 78 535.8898 cm
+Q
+q
+1 0 0 1 78 499.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F1 10 Tf 0 0 0 rg (Method) Tj (Top Performing Tags) Tj (Rank-1) Tj (Rank-2) Tj (Rank-3) Tj (Authoritative) Tj (Debate) Tj (History) Tj (Science) Tj (Fluency) Tj T* (Opt.) Tj (Business) Tj (Science) Tj (Health) Tj (Cite Sources) Tj (Statement) Tj (Facts) Tj (Law & Gov.) Tj (Quotation) Tj T* (Addition) Tj (People) Tj (&) Tj (Society) Tj (Explanation) Tj (History) Tj (Statistics Addition) Tj (Law & Gov.) Tj (Debate) Tj (Opinion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 493.8898 cm
+Q
+q
+1 0 0 1 78 481.8898 cm
+Q
+q
+1 0 0 1 78 457.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Table 3: Top Performing categories for each of the GEO methods. Website-owners can choose) Tj T* (relevant GEO strategy based on their target domain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 451.8898 cm
+Q
+q
+1 0 0 1 78 439.8898 cm
+Q
+q
+1 0 0 1 78 427.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (![]\(images/c0d77aba403c1cc4bab93b2e745e3f8fd665b1a0f9eb5d08688e6a331cf62769.jpg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 421.8898 cm
+Q
+q
+1 0 0 1 78 385.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Figure 4: Relative Improvement on using combination of GEO strategies. Using Fluency) Tj T* (Optimization and Statistics Addition in conjunction results in maximum performance. The rightmost) Tj T* (column shows using Fluency Optimization with other strategies is most beneficial.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 379.8898 cm
+Q
+q
+1 0 0 1 78 367.8898 cm
+Q
+q
+1 0 0 1 78 329.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (5.2 Optimization of Multiple Websites) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 309.8898 cm
+Q
+q
+1 0 0 1 78 153.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 146 Tm /F1 10 Tf 12 TL (In the evolving landscape of Generative Engines, GEO methods are expected to become widely) Tj T* (adopted, leading to a scenario where all source contents are optimized using GEO. To understand) Tj T* (the implications, we conducted an evaluation of GEO methods by optimizing all source contents) Tj T* (simultaneously, with results presented in Table 2. A key observation is the differential impact of) Tj T* (GEO on websites based on their Search Engine Results Pages \(SERP\) ranking. Notably,) Tj T* (lower-ranked websites, which typically struggle for visibility, benefit significantly more from GEO.) Tj T* (This is because traditional search engines rely on multiple factors, such as the number of backlinks) Tj T* (and domain presence, which are challenging for small creators to achieve. However, since) Tj T* (Generative Engines utilize generative models conditioned on website content, factors such as) Tj T* (backlink building should not disadvantage small creators. This is evident from the relative) Tj T* (improvements in visibility shown in Table 2. For example, the Cite Sources method led to a) Tj T* (substantial $1 1 5 . 1 \\%$ increase in visibility for websites ranked fifth in SERP, while on average,) Tj T* (the visibility of the top-ranked website decreased by $3 0 . 3 \\%$ .) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 147.8898 cm
+Q
+q
+1 0 0 1 78 135.8898 cm
+Q
+q
+1 0 0 1 78 99.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Table 4: Representative examples of GEO methods optimizing source website. Additions are) Tj T* (marked in green and Deletions in red. Without adding any substantial new information, GEO) Tj T* (methods significantly increase the visibility of the source content.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 93.88976 cm
+Q
+q
+1 0 0 1 78 81.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 332.89 266 19 re
+f*
+0.6 0 0.298039 rg
+n
+77 703.89 440 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 553.89 442 133 re
+f*
+0.6 0 0.298039 rg
+n
+77 499.89 416 36 re
+f*
+0.6 0 0.298039 rg
+n
+77 457.89 422 24 re
+f*
+0.6 0 0.298039 rg
+n
+75 427.89 412 12 re
+f*
+0.6 0 0.298039 rg
+n
+77 385.89 438 36 re
+f*
+0.6 0 0.298039 rg
+n
+77 153.89 439 157 re
+f*
+0.6 0 0.298039 rg
+n
+77 99.89 412 37 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 676.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 495 525.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 501 471.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 489 429.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 411.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 345 341.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 300.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 491 126.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+40 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+41 0 obj
+<<
+/Contents 42 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 43 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 5554
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 703.8898 cm
+q
+BT 1 0 0 1 0 50 Tm 12 TL /F1 10 Tf 0 0 0 rg (Method) Tj (GEO Optimization) Tj (Relative Improvement) Tj (Cite Sources) Tj (Query: What is the secret of Swiss) Tj T* (chocolate t) Tj (132.4%) Tj (Consumption Research Group [1] Statistics Addition Query: Should robots) Tj T* (replace humans in the workforce?) Tj (65.5%) Tj (ee with a staggering 70% increase in robotic involvement) Tj T* (in the last decade.) Tj (Authoritative) Tj (Query: Did the jacksonville jaguars ever make it to the) Tj T* (superbowl?) Tj (89.1%) Tj (e to their name.,a testament to their prowess and determination.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 697.8898 cm
+Q
+q
+1 0 0 1 78 685.8898 cm
+Q
+q
+1 0 0 1 78 589.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL (This finding highlights GEO\222s potential as a tool to democratize the digital space. Many) Tj T* (lower-ranked websites are created by small content creators or independent businesses, who) Tj T* -0.026029 Tw (traditionally struggle to compete with larger corporations in top search engine results. The advent of) Tj T* 0 Tw (Generative Engines might initially seem disadvantageous to these smaller entities. However, the) Tj T* (application of GEO methods presents an opportunity for these content creators to significantly) Tj T* (improve their visibility in Generative Engine responses. By enhancing their content with GEO, they) Tj T* (can reach a wider audience, leveling the playing field and allowing them to compete more) Tj T* (effectively with larger corporations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 583.8898 cm
+Q
+q
+1 0 0 1 78 571.8898 cm
+Q
+q
+1 0 0 1 78 533.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (5.3 Combination of GEO Strategies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 513.8898 cm
+Q
+q
+1 0 0 1 78 357.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 146 Tm /F1 10 Tf 12 TL (While individual GEO strategies show significant improvements across various domains, in) Tj T* (practice, website owners are expected to employ multiple strategies in conjunction. To study the) Tj T* (performance improvements achieved by combining GEO strategies, we consider all pairs of) Tj T* (combinations of the top 4 performing GEO methods, namely Cite Sources, Fluency Optimization,) Tj T* (Statistics Addition, and Quotation Addition. Figure 4 displays the heatmap of relative improvement) Tj T* (in the Position-Adjusted Word Count visibility metric achieved by combining different GEO) Tj T* (strategies. The analysis demonstrates that the combination of Generative Engine Optimization) Tj T* (methods can enhance performance, with the best combination \(Fluency Optimization and Statistics) Tj T* (Addition\) outperforming any single GEO strategy by more than $5 . 5 \\% ^ { 4 }$ . Furthermore, Cite) Tj T* (Sources significantly boosts performance when used in conjunction with other methods \(Average:) Tj T* ($3 1 . 4 \\%$ \), despite it being relatively less effective when used alone $8 \\%$ lower than) Tj T* (Quotation Addition\). The findings underscore the importance of studying GEO methods in) Tj T* (combination, as they are likely to be used by content creators in the real world.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 351.8898 cm
+Q
+q
+1 0 0 1 78 339.8898 cm
+Q
+q
+1 0 0 1 78 301.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (5.4 Qualitative Analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 281.8898 cm
+Q
+q
+1 0 0 1 78 185.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL (We present a qualitative analysis of GEO methods in Table 4, containing representative examples) Tj T* -0.024955 Tw (where GEO methods boost source visibility with minimal changes. Each method optimizes a source) Tj T* 0 Tw (through suitable text additions and deletions. In the first example, we see that simply adding the) Tj T* (source of a statement can significantly boost visibility in the final answer, requiring minimal effort) Tj T* (from the content creator. The second example demonstrates that adding relevant statistics) Tj T* (wherever possible ensures increased source visibility in the final Generative Engine response.) Tj T* -0.022776 Tw (Finally, the third row suggests that merely emphasizing parts of the text and using a persuasive text) Tj T* 0 Tw (style can also lead to improvements in visibility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 179.8898 cm
+Q
+q
+1 0 0 1 78 167.8898 cm
+Q
+q
+1 0 0 1 78 107.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 29 Tm /F2 15 Tf 22 TL (6 GEO IN THE WILD : EXPERIMENTS WITH DEPLOYED) Tj T* (GENERATIVE ENGINE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 87.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 537.89 250 18 re
+f*
+0.4 0.4 1 rg
+n
+78 305.89 167 18 re
+f*
+0.4 0.4 1 rg
+n
+76 111.89 394 40 re
+f*
+0.6 0 0.298039 rg
+n
+77 703.89 434 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 588.89 442 98 re
+f*
+0.6 0 0.298039 rg
+n
+77 357.89 441 157 re
+f*
+0.6 0 0.298039 rg
+n
+76 184.89 443 97 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 513 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 676.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 329 545.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 504.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 247 313.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 271.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 472 141.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+43 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+44 0 obj
+<<
+/Contents 45 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 46 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 6240
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 727.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Table 5: Absolute impression metrics of GEO methods on GEO-bench with Perplexity.ai as GE.) Tj T* (While SEO methods such as Keyword Stuffing perform poorly, our proposed GEO methods) Tj T* (generalize well to multiple generative engines significanlty improve content visibility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 709.8898 cm
+Q
+q
+1 0 0 1 78 685.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg (Method) Tj (Position-Adjusted Word Count Subjective Impression) Tj (No Optimization) Tj (24.1) Tj (24.7) Tj (Keyword) Tj T* (Stuffing) Tj (21.9) Tj (28.1) Tj (Quotation Addition) Tj (29.1) Tj (32.1) Tj (Statistics Addition) Tj (26.2) Tj (33.9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 679.8898 cm
+Q
+q
+1 0 0 1 78 667.8898 cm
+Q
+q
+1 0 0 1 78 523.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 134 Tm /F1 10 Tf 12 TL (To reinforce the efficacy of our proposed Generative Engine Optimization methods, we evaluate) Tj T* (them on Perplexity.ai, a real deployed Generative Engine with a large user base. Results are in) Tj T* (Table 5. Similar to our generative engine, Quotation Addition performs best in Position-Adjusted) Tj T* (Word Count with a $2 2 \\%$ improvement over the baseline. Methods that performed well in our) Tj T* (generative engine such as Cite Sources, Statistics Addition show improvements of up to $9 \\%$) Tj T* (and $3 7 \\%$ on the two metrics. Our observations, such as the ineffectiveness of traditional SEO) Tj T* (methods like Keyword Stuffing, are further highlighted, as it performs $1 0 \\%$ worse than the) Tj T* (baseline. The results are significant for three reasons: 1\) they underscore the importance of) Tj T* (developing different Generative Engine Optimization methods to benefit content creators, 2\) they) Tj T* (highlight the generalizability of our proposed GEO methods on different generative engines, 3\) they) Tj T* (demonstrate that content creators can use our easy-to-implement proposed GEO methods directly,) Tj T* (thus having a high real-world impact. We refer readers to Appendix C.1 for more details.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 517.8898 cm
+Q
+q
+1 0 0 1 78 505.8898 cm
+Q
+q
+1 0 0 1 78 467.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (7 RELATED WORK) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 447.8898 cm
+Q
+q
+1 0 0 1 78 339.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL (Evidence-based Answer Generation: Previous works have used several techniques for answer) Tj T* (generation backed by sources. Nakano et al. [19] trained GPT-3 to navigate web environments to) Tj T* (generate source-backed answers. Similarly, other methods [17, 23, 24] fetch sources via search) Tj T* (engines for answer generation. Our work unifies these approaches and provides a common) Tj T* (benchmark for improving these systems in the future. In a recent working draft, Kumar and) Tj T* (Lakkaraju [11] showed that strategic text sequences can manipulate LLM recommendations to) Tj T* (enhance product visibility in generative engines. While their approach focuses on increasing) Tj T* (product visibility through adversarial text, our method introduces non-adversarial strategies to) Tj T* (optimize any website content for improved visibility in generative engine search results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 333.8898 cm
+Q
+q
+1 0 0 1 78 321.8898 cm
+Q
+q
+1 0 0 1 78 237.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL (Retrieval-Augmented Language Models: Several recent works have tackled the issues of limited) Tj T* (memory of language models by fetching relevant sources from a knowledge base to complete a) Tj T* (task [3, 9, 18]. However, Generative Engine needs to generate an answer and provide attributions) Tj T* (throughout the answer. Further, Generative Engine is not limited to a single text modality regarding) Tj T* (both input and output. Additionally, the framework of Generative Engine is not limited to fetching) Tj T* (relevant sources but instead comprises multiple tasks such as query reformulation, source) Tj T* (selection, and making decisions on how and when to perform them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 231.8898 cm
+Q
+q
+1 0 0 1 78 219.8898 cm
+Q
+q
+1 0 0 1 78 135.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL (Search Engine Optimization: In nearly the past 25 years, extensive research has optimized web) Tj T* (content for search engines [2, 12, 22]. These methods fall into On-Page SEO, improving content) Tj T* (and user experience, and Off-Page SEO, boosting website authority through link building. In) Tj T* (contrast, GEO deals with a more complex environment involving multi-modality, conversational) Tj T* (settings. Since GEO is optimized against a generative model not limited to simple keyword) Tj T* (matching, traditional SEO strategies will not apply to Generative Engine settings, highlighting the) Tj T* (need for GEO.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 129.8898 cm
+Q
+q
+1 0 0 1 78 117.8898 cm
+Q
+q
+1 0 0 1 78 79.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (8 CONCLUSION) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 471.89 136 18 re
+f*
+0.4 0.4 1 rg
+n
+77 84.89 114 16 re
+f*
+0.6 0 0.298039 rg
+n
+77 727.89 422 37 re
+f*
+0.6 0 0.298039 rg
+n
+76 685.89 420 24 re
+f*
+0.6 0 0.298039 rg
+n
+76 523.89 441 145 re
+f*
+0.6 0 0.298039 rg
+n
+77 339.89 432 109 re
+f*
+0.6 0 0.298039 rg
+n
+77 237.89 439 85 re
+f*
+0.6 0 0.298039 rg
+n
+77 135.89 429 84 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 501 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 498 699.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 658.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 215 479.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 511 438.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 312.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 508 209.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 193 90.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+46 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/Contents 48 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 49 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+48 0 obj
+<<
+/Length 5419
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 751.8898 cm
+Q
+q
+1 0 0 1 78 559.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 182 Tm /F1 10 Tf 12 TL (In this work, we formulate search engines augmented with generative models that we dub) Tj T* (generative engines. We propose Generative Engine Optimization \(GEO\) to empower content) Tj T* (creators to optimize their content under generative engines. We define impression metrics for) Tj T* (generative engines and propose and release GEO-bench: a benchmark encompassing diverse) Tj T* (user queries from multiple domains and settings, along with relevant sources needed to answer) Tj T* (those queries. We propose several ways to optimize content for generative engines and) Tj T* (demonstrate that these methods can boost source visibility by up to $4 0 \\%$ in generative engine) Tj T* (responses. Among other findings, we show that including citations, quotations from relevant) Tj T* (sources, and statistics can significantly boost source visibility. Further, we discover a dependence) Tj T* (of GEO methods\222 effectiveness on the query domain and the potential of combining multiple GEO) Tj T* (strategies in conjunction. We show promising results on a commercially deployed generative) Tj T* (engine with millions of active users, showcasing the real-world impact of our work. In summary, our) Tj T* (work is the first to formalize the important and timely GEO paradigm, releasing algorithms and) Tj T* (infrastructure \(benchmarks, datasets, and metrics\) to facilitate rapid progress in generative engines) Tj T* (by the community. This serves as a first step towards understanding the impact of generative) Tj T* (engines on the digital space and the role of GEO in this new paradigm of search engines.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 553.8898 cm
+Q
+q
+1 0 0 1 78 541.8898 cm
+Q
+q
+1 0 0 1 78 503.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (9 LIMITATIONS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 483.8898 cm
+Q
+q
+1 0 0 1 78 327.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 146 Tm /F1 10 Tf 12 TL (While we rigorously test our proposed methods on two generative engines, including a publicly) Tj T* (available one, methods may need to adapt over time as GEs evolve, mirroring the evolution of) Tj T* (SEO. Additionally, despite our efforts to ensure the queries in our GEObench closely resemble) Tj T* (real-world queries, the nature of queries can change over time, necessitating continuous updates.) Tj T* (Further, owing to the black-box nature of search engine algorithms, we didn\222t evaluate how GEO) Tj T* (methods affect search rankings. However, we note that changes made by GEO methods are) Tj T* (targeted changes in textual content, bearing some resemblance with SEO methods, while not) Tj T* (affecting other metadata such as domain name, backlinks, etc, and thus, they are less likely to) Tj T* (affect search engine rankings. Further, as larger context lengths in language models become) Tj T* (economical, it is expected that future generative models will be able to ingest more sources, thus) Tj T* (reducing the impact of search rankings. Lastly, while every query in our proposed GEO-bench is) Tj T* (tagged and manually inspected, there may be discrepancies due to subjective interpretations or) Tj T* (errors in labeling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 321.8898 cm
+Q
+q
+1 0 0 1 78 309.8898 cm
+Q
+q
+1 0 0 1 78 271.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (10 ACKNOWLEDGEMENTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 251.8898 cm
+Q
+q
+1 0 0 1 78 203.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL (This material is based upon work supported by the National Science Foundation under Grant No.) Tj T* (2107048. Any opinions, findings, and conclusions or recommendations expressed in this material) Tj T* (are those of the author\(s\) and do not necessarily reflect the views of the National Science) Tj T* (Foundation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 197.8898 cm
+Q
+q
+1 0 0 1 78 185.8898 cm
+Q
+q
+1 0 0 1 78 147.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (REFERENCES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 127.8898 cm
+Q
+q
+1 0 0 1 78 79.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL ([1] Daria Alexander, Wojciech Kusa, and Arjen P. de Vries. 2022. ORCAS-I: Queries Annotated) Tj T* (with Intent using Weak Supervision. Proceedings of the 45th International ACM SIGIR Conference) Tj T* (on Research and Development in Information Retrieval \(2022\).) Tj T* (https://api.semanticscholar.org/CorpusID:248495926) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.619608 0.619608 0.619608 rg
+/gRLs0 gs
+n
+77 79.89 436 49 re
+f*
+0.4 0.4 1 rg
+n
+77 507.89 109 18 re
+f*
+0.4 0.4 1 rg
+n
+78 275.89 194 18 re
+f*
+0.4 0.4 1 rg
+n
+77 151.89 104 18 re
+f*
+0.6 0 0.298039 rg
+n
+76 559.89 440 192 re
+f*
+0.6 0 0.298039 rg
+n
+77 327.89 432 157 re
+f*
+0.6 0 0.298039 rg
+n
+77 203.89 432 48 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 741.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 188 515.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 511 474.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 274 283.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 511 241.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 183 159.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+49 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+50 0 obj
+<<
+/Contents 51 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 52 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+51 0 obj
+<<
+/Length 7903
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 757.8898 cm
+Q
+q
+1 0 0 1 78 733.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg ([2] Prashant Ankalkoti. 2017. Survey on Search Engine Optimization Tools & Techniques. Imperial) Tj T* (journal of interdisciplinary research 3 \(2017\). https: //api.semanticscholar.org/CorpusID:116487363) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 727.8898 cm
+Q
+q
+1 0 0 1 78 691.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([3] Akari Asai, Xinyan Velocity Yu, Jungo Kasai, and Hannaneh Hajishirzi. 2021. One Question) Tj T* (Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval. In Neural) Tj T* (Information Processing Systems. https: //api.semanticscholar.org/CorpusID:236428949) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 685.8898 cm
+Q
+q
+1 0 0 1 78 649.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([4] Sergey Brin and Lawrence Page. 1998. The Anatomy of a Large-Scale Hypertextual Web) Tj T* (Search Engine. Comput. Networks 30 \(1998\), 107\226117. https:) Tj T* (//api.semanticscholar.org/CorpusID:7587743) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 643.8898 cm
+Q
+q
+1 0 0 1 78 523.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL ([5] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal,) Tj T* (Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel) Tj T* (Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler,) Tj T* (Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray,) Tj T* (Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,) Tj T* (and Dario Amodei. 2020. Language Models are Few-Shot Learners. In Advances in Neural) Tj T* (Information Processing Systems, H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin) Tj T* (\(Eds.\), Vol. 33. Curran Associates, Inc., 1877\2261901.) Tj T* (https://proceedings.neurips.cc/paper_files/paper/2020/file/) Tj T* (1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 517.8898 cm
+Q
+q
+1 0 0 1 78 469.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL ([6] Nick Craswell, Bhaskar Mitra, Emine Yilmaz, Daniel Fernando Campos, and Jimmy J. Lin. 2021.) Tj T* (MS MARCO: Benchmarking Ranking Models in the Large-Data Regime. Proceedings of the 44th) Tj T* (International ACM SIGIR Conference on Research and Development in Information Retrieval) Tj T* (\(2021\). https://api.semanticscholar.org/ CorpusID:234336491) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 463.8898 cm
+Q
+q
+1 0 0 1 78 439.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL ([7] Brian Dean. 2023. We Analyzed 4 Million Google Search Results. Here\222s What We Learned) Tj T* (About Organic Click Through Rate. https://backlinko.com/googlectr-stats Accessed: 2024-06-08.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 433.8898 cm
+Q
+q
+1 0 0 1 78 409.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL ([8] Danny Goodwin. 2011. Top Google Result Gets $3 6 . 4 \\%$ of Clicks [Study].) Tj T* (https://www.searchenginewatch.com/2011/04/21/top-google-resultgets-36-4-of-clicks-study/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 403.8898 cm
+Q
+q
+1 0 0 1 78 367.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([9] Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. 2020. REALM:) Tj T* (Retrieval-Augmented Language Model Pre-Training. ArXiv abs/2002.08909 \(2020\).) Tj T* (https://api.semanticscholar.org/CorpusID:211204736) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 361.8898 cm
+Q
+q
+1 0 0 1 78 325.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([10] Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye Jin Bang,) Tj T* (Andrea Madotto, and Pascale Fung. 2023. Survey of hallucination in natural language generation.) Tj T* (Comput. Surveys 55, 12 \(2023\), 1\22638.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 319.8898 cm
+Q
+q
+1 0 0 1 78 295.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL ([11] Aounon Kumar and Himabindu Lakkaraju. 2024. Manipulating Large Language Models to) Tj T* (Increase Product Visibility. arXiv:2404.07981 [cs.IR]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 289.8898 cm
+Q
+q
+1 0 0 1 78 253.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([12] R.Anil Kumar, Zaiduddin Shaik, and Mohammed Furqan. 2019. A Survey on Search Engine) Tj T* (Optimization Techniques. International Journal of P2P Network Trends and Technology \(2019\).) Tj T* (https://doi.org/10.14445/22492615/IJPTT-V9I1P402) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 247.8898 cm
+Q
+q
+1 0 0 1 78 175.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL ([13] Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur P. Parikh,) Tj T* -0.029534 Tw (Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin, Kenton Lee, Kristina Toutanova, Llion) Tj T* 0 Tw (Jones, Matthew Kelcey, Ming-Wei Chang, Andrew M. Dai, Jakob Uszkoreit, Quoc V. Le, and Slav) Tj T* (Petrov. 2019. Natural Questions: A Benchmark for Question Answering Research. Transactions of) Tj T* (the Association for Computational Linguistics 7 \(2019\), 453\226466. https:) Tj T* (//api.semanticscholar.org/CorpusID:86611921) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 169.8898 cm
+Q
+q
+1 0 0 1 78 133.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([14] Nelson F. Liu, Tianyi Zhang, and Percy Liang. 2023. Evaluating Verifiability in Generative) Tj T* (Search Engines. ArXiv abs/2304.09848 \(2023\). https://api.) Tj T* (semanticscholar.org/CorpusID:258212854) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 127.8898 cm
+Q
+q
+1 0 0 1 78 91.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([15] Yang Liu, Dan Iter, Yichong Xu, Shuo Wang, Ruochen Xu, and Chenguang Zhu. 2023. G-Eval:) Tj T* (NLG Evaluation using GPT-4 with Better Human Alignment. ArXiv abs/2303.16634 \(2023\).) Tj T* (https://api.semanticscholar.org/CorpusID:257804696) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 85.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.6 0 0.298039 rg
+/gRLs0 gs
+n
+75 733.89 441 25 re
+f*
+0.6 0 0.298039 rg
+n
+77 691.89 422 36 re
+f*
+0.6 0 0.298039 rg
+n
+77 469.89 439 48 re
+f*
+0.6 0 0.298039 rg
+n
+78 439.89 423 24 re
+f*
+0.6 0 0.298039 rg
+n
+76 408.89 424 26 re
+f*
+0.6 0 0.298039 rg
+n
+77 367.89 434 37 re
+f*
+0.6 0 0.298039 rg
+n
+77 325.89 434 37 re
+f*
+0.6 0 0.298039 rg
+n
+77 294.89 421 25 re
+f*
+0.6 0 0.298039 rg
+n
+77 253.89 424 37 re
+f*
+0.6 0 0.298039 rg
+n
+77 91.89 439 37 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+77 649.89 413 37 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+77 523.89 434 120 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+77 174.89 441 74 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+77 133.89 416 36 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 748.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 501 717.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 492 676.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 513 633.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 507.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 503 453.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 502 424.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 513 394.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 513 352.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 500 309.89 cm
+BT
+1 0 0 1 0 0 Tm
+(10) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 503 280.89 cm
+BT
+1 0 0 1 0 0 Tm
+(11) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 238.89 cm
+BT
+1 0 0 1 0 0 Tm
+(12) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 495 159.89 cm
+BT
+1 0 0 1 0 0 Tm
+(13) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 118.89 cm
+BT
+1 0 0 1 0 0 Tm
+(14) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+52 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+53 0 obj
+<<
+/Contents 54 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 55 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+54 0 obj
+<<
+/Length 7049
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 727.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL ([16] G. D. Maayan. 2023. How Google SGE will impact your traffic and 3 SGE recovery case) Tj T* (studies. Search Engine Land \(5 Sep 2023\). https://searchengineland.com/how-google-sge-will-imp) Tj T* (act-your-trafficand-3-sge-recovery-case-studies-431430) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 673.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL ([17] Jacob Menick, Maja Trebacz, Vladimir Mikulik, John Aslanides, Francis Song, Martin) Tj T* (Chadwick, Mia Glaese, Susannah Young, Lucy Campbell-Gillingham, Geoffrey Irving, and Nathan) Tj T* (McAleese. 2022. Teaching language models to support answers with verified quotes. ArXiv) Tj T* (abs/2203.11147 \(2022\). https: //api.semanticscholar.org/CorpusID:247594830) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 667.8898 cm
+Q
+q
+1 0 0 1 78 619.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL -0.087441 Tw ([18] Gr\351goire Mialon, Roberto Dess\354, Maria Lomeli, Christoforos Nalmpantis, Ramakanth Pasunuru,) Tj T* 0 Tw (Roberta Raileanu, Baptiste Rozi\350re, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz, Edouard) Tj T* (Grave, Yann LeCun, and Thomas Scialom. 2023. Augmented Language Models: a Survey. ArXiv) Tj T* (abs/2302.07842 \(2023\). https://api.semanticscholar.org/CorpusID:256868474) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 613.8898 cm
+Q
+q
+1 0 0 1 78 553.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL ([19] Reiichiro Nakano, Jacob Hilton, S. Arun Balaji, Jeff Wu, Ouyang Long, Christina Kim,) Tj T* -0.029534 Tw (Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna) Tj T* 0 Tw (Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, and John Schulman.) Tj T* (2021. WebGPT: Browser-assisted question-answering with human feedback. ArXiv) Tj T* (abs/2112.09332 \(2021\). https: //api.semanticscholar.org/CorpusID:245329531) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 547.8898 cm
+Q
+q
+1 0 0 1 78 535.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ([20] OpenAI. 2022. Introducing ChatGPT. https://openai.com/index/chatgpt/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 529.8898 cm
+Q
+q
+1 0 0 1 78 85.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 434 Tm /F1 10 Tf 12 TL ([21] OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia) Tj T* (Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor) Tj T* (Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff) Tj T* (Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny) Tj T* (Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles) Tj T* (Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea) Tj T* (Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen,) Tj T* (Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung Won Chung,) Tj T* (Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch,) Tj T* -0.068801 Tw (Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti,) Tj T* 0 Tw (Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Sim\363n Posada Fishman, Juston Forte,) Tj T* (Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh,) Tj T* (Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua) Tj T* (Gross, Shixiang Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike) Tj T* (Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon) Tj T* (Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain, Joanne) Tj T* (Jang, Angela Jiang, Roger Jiang, Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun,) Tj T* (Tomer Kaftan, ) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (ukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish Shirish Keskar, Tabarak) Tj T* (Khan, Logan Kilpatrick, Jong Wook Kim, Christina Kim, Yongjik Kim, Jan Hendrik Kirchner, Jamie) Tj T* (Kiros, Matt Knight, Daniel Kokotajlo, ) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (ukasz Kondraciuk, Andrew Kondrich, Aris Konstantinidis,) Tj T* (Kyle Kosic, Gretchen Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade) Tj T* (Leung, Daniel Levy, Chak Ming Li, Rachel Lim, Molly Lin, Stephanie Lin, Mateusz Litwin, Theresa) Tj T* -0.111878 Tw (Lopez, Ryan Lowe, Patricia Lue, Anna Makanju, Kim Malfacini, Sam Manning, Todor Markov, Yaniv) Tj T* 0 Tw (Markovski, Bianca Martin, Katie Mayer, Andrew Mayne, Bob McGrew, Scott Mayer McKinney,) Tj T* (Christine McLeavey, Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke) Tj T* (Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel Mossing, Tong) Tj T* (Mu, Mira Murati, Oleg Murk, David M\351ly, Ashvin Nair, Reiichiro Nakano, Rajeev Nayak, Arvind) Tj T* (Neelakantan, Richard Ngo, Hyeonwoo Noh, Long Ouyang, Cullen O\222Keefe, Jakub Pachocki, Alex) Tj T* (Paino, Joe Palermo, Ashley Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita,) Tj T* -0.111108 Tw (Alex Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de Avila Belbute Peres, Michael) Tj T* 0 Tw (Petrov, Henrique Ponde de Oliveira Pinto, Michael, Pokorny, Michelle Pokrass, Vitchyr H. Pong,) Tj T* (Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae,) Tj T* (Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted,) Tj T* (Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry,) Tj T* (Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov,) Tj T* (Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan) Tj T* (Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.6 0 0.298039 rg
+/gRLs0 gs
+n
+73 727.89 442 37 re
+f*
+0.6 0 0.298039 rg
+n
+77 673.89 437 49 re
+f*
+0.6 0 0.298039 rg
+n
+77 619.89 439 49 re
+f*
+0.6 0 0.298039 rg
+n
+77 553.89 441 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 535.89 335 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 83.89 441 452 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 516 712.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 658.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 604.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 414 538.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 520 525.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+55 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+56 0 obj
+<<
+/Contents 57 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 58 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+57 0 obj
+<<
+/Length 6997
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 655.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL (Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine B.) Tj T* (Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry) Tj T* (Tworek, Juan Felipe Cer\363n Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll) Tj T* (Wainwright, Justin Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ Weinmann,) Tj T* (Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens) Tj T* (Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai) Tj T* (Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong) Tj T* (Zhang, Marvin Zhang, Shengjia Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, and Barret) Tj T* (Zoph. 2024. GPT-4 Technical Report. arXiv:2303.08774 [cs.CL]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 649.8898 cm
+Q
+q
+1 0 0 1 78 601.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL ([22] A. Shahzad, Deden Witarsyah Jacob, Nazri M. Nawi, Hairulnizam Bin Mahdin, and Marheni) Tj T* (Eka Saputri. 2020. The new trend for search engine optimization, tools and techniques. Indonesian) Tj T* (Journal of Electrical Engineering and Computer Science 18 \(2020\), 1568.) Tj T* (https://api.semanticscholar.org/CorpusID:213123106) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 595.8898 cm
+Q
+q
+1 0 0 1 78 535.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL ([23] Kurt Shuster, Jing Xu, Mojtaba Komeili, Da Ju, Eric Michael Smith, Stephen Roller, Megan) Tj T* (Ung, Moya Chen, Kushal Arora, Joshua Lane, Morteza Behrooz, W.K.F. Ngan, Spencer Poff,) Tj T* (Naman Goyal, Arthur Szlam, Y-Lan Boureau, Melanie Kambadur, and Jason Weston. 2022.) Tj T* (BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage. ArXiv) Tj T* (abs/2208.03188 \(2022\). https://api.semanticscholar.org/CorpusID:251371589) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 529.8898 cm
+Q
+q
+1 0 0 1 78 397.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL ([24] Romal Thoppilan, Daniel De Freitas, Jamie Hall, Noam Shazeer, Apoorv Kulshreshtha,) Tj T* (Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du, YaGuang Li, Hongrae Lee, Huaixiu) Tj T* (Steven Zheng, Amin Ghafouri, Marcelo Menegali, Yanping Huang, Maxim Krikun, Dmitry Lepikhin,) Tj T* (James Qin, Dehao Chen, Yuanzhong Xu, Zhifeng Chen, Adam Roberts, Maarten Bosma, Vincent) Tj T* (Zhao, Yanqi Zhou, Chung-Ching Chang, Igor Krivokon, Will Rusch, Marc Pickett, Pranesh) Tj T* (Srinivasan, Laichee Man, Kathleen Meier-Hellstern, Meredith Ringel Morris, Tulsee Doshi, Renelito) Tj T* (Delos Santos, Toju Duke, Johnny Soraker, Ben Zevenbergen, Vinodkumar Prabhakaran, Mark) Tj T* (Diaz, Ben Hutchinson, Kristen Olson, Alejandra Molina, Erin Hoffman-John, Josh Lee, Lora Aroyo,) Tj T* (Ravi Rajakumar, Alena Butryna, Matthew Lamm, Viktoriya Kuzmina, Joe Fenton, Aaron Cohen,) Tj T* (Rachel Bernstein, Ray Kurzweil, Blaise Aguera-Arcas, Claire Cui, Marian Croak, Ed Chi, and Quoc) Tj T* (Le. 2022. LaMDA: Language Models for Dialog Applications. arXiv:2201.08239 [cs.CL]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 391.8898 cm
+Q
+q
+1 0 0 1 78 343.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL ([25] Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia) Tj T* (Efrat, Ping Yu, L. Yu, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, and Omer Levy.) Tj T* (2023. LIMA: Less Is More for Alignment. ArXiv abs/2305.11206 \(2023\).) Tj T* (https://api.semanticscholar.org/CorpusID:258822910) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 337.8898 cm
+Q
+q
+1 0 0 1 78 325.8898 cm
+Q
+q
+1 0 0 1 78 301.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Listing 1: Prompt used for Generative Engine. The GE takes the query and 5 sources as input and) Tj T* (outputs the response to query with response grounded in the sources.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 295.8898 cm
+Q
+q
+1 0 0 1 78 283.8898 cm
+Q
+q
+1 0 0 1 78 163.8898 cm
+q
+BT 1 0 0 1 0 110 Tm 12 TL /F1 10 Tf 0 0 0 rg (1) Tj (Write an accurate and concise answer for the given user question, using _only_ the provided) Tj T* (summarized web search results. The answer should be correct) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (high-quality) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (and written by an) Tj T* (expert using an unbiased and journalistic tone.The user ') Tj (slanguage of choice such as) Tj T* (English) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (Francais) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (Espamol) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL ( Deutsch) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (or should be used) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (The answer should be) Tj T* (informative) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (interesting) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (and engaging.The answer) Tj (') Tj (s logic and reasoning should be rigorous and) Tj T* (defensible.Every sentence in the answer should be _immediately followed_ by an in-line citation to) Tj T* (the search result\(s\).The cited search result\(s\)should fully support _all_ the information in the) Tj T* (sentence.Search results need to be cited using[ index]. When citing several search results) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (use) Tj T* ([1][2][3] format rather than [1) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (2) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (3].You can use multiple search results to respond) Tj T* (comprehensively while avoiding irrelevant search results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 157.8898 cm
+Q
+q
+1 0 0 1 78 145.8898 cm
+Q
+q
+1 0 0 1 78 107.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (A CONVERSATIONAL GENERATIVE ENGINE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 87.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+76 111.89 322 18 re
+f*
+0.6 0 0.298039 rg
+n
+77 655.89 436 109 re
+f*
+0.6 0 0.298039 rg
+n
+77 601.89 439 48 re
+f*
+0.6 0 0.298039 rg
+n
+77 535.89 439 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 397.89 440 132 re
+f*
+0.6 0 0.298039 rg
+n
+76 301.89 437 25 re
+f*
+0.6 0 0.298039 rg
+n
+77 163.89 437 120 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+77 343.89 435 48 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 515 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 639.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 586.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 519.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 514 381.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 515 316.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 516 273.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 400 119.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+58 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+59 0 obj
+<<
+/Contents 60 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 61 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+60 0 obj
+<<
+/Length 5592
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 741.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (B.1 Evaluated Generative Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 637.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL (In Section 2.1, we discussed a single-turn Generative Enginethat outputs a single response given) Tj T* (the user query. However, one of the strengths of upcoming Generative Engines will be their ability) Tj T* (to engage in an active back-and-forth conversation with the user. The conversation allows users to) Tj T* (provide clarifications to their queries or Generative Engine response and ask follow-ups.) Tj T* (Specifically, in equation 1, instead of the input being a single query $q _ { u }$ , it is modeled as a) Tj T* (conversation history $H = \( q _ { u } ^ { t } , r ^ { t } \)$ pairs. The response $r ^ { t + 1 }$ is then) Tj T* (defined as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 631.8898 cm
+Q
+q
+1 0 0 1 78 619.8898 cm
+Q
+q
+1 0 0 1 78 607.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 601.8898 cm
+Q
+q
+1 0 0 1 78 589.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (G E : = f _ { L E } \( H , P _ { U } \) \\to r ^ { t + 1 }) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 583.8898 cm
+Q
+q
+1 0 0 1 78 571.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 565.8898 cm
+Q
+q
+1 0 0 1 78 553.8898 cm
+Q
+q
+1 0 0 1 78 541.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (where $t$ is the turn number.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 535.8898 cm
+Q
+q
+1 0 0 1 78 523.8898 cm
+Q
+q
+1 0 0 1 78 463.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 29 Tm /F2 15 Tf 22 TL (Listing 2: Representative Queries from each of the 9 datasets) Tj T* (in GEO-bench) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 443.8898 cm
+Q
+q
+1 0 0 1 78 371.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL -0.091531 Tw (Further, to engage the user in a conversation, a separate LLM, $L _ { f o l l o w }$ or $L _ { r e s p }$) Tj T* 0 Tw (, may generate suggested follow-up queries based on $H$ , $P _ { U }$ , and $r ^ { t + 1 }$ . The) Tj T* (suggested follow-up queries are typically designed to maximize the likelihood of user engagement.) Tj T* (This not only benefits Generative Engine providers by increasing user interaction but also benefits) Tj T* -0.111108 Tw (website owners by enhancing their visibility. Furthermore, these follow-up queries can help users by) Tj T* 0 Tw (getting more detailed information.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 365.8898 cm
+Q
+q
+1 0 0 1 78 353.8898 cm
+Q
+q
+1 0 0 1 78 315.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (B EXPERIMENTAL SETUP) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 295.8898 cm
+Q
+q
+1 0 0 1 78 283.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The exact prompt used is shown in Listing 1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 277.8898 cm
+Q
+q
+1 0 0 1 78 265.8898 cm
+Q
+q
+1 0 0 1 78 227.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (B.2 Benchmark) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 207.8898 cm
+Q
+q
+1 0 0 1 78 147.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (GEO-bench contains queries from nine datasets. Representative queries from each of the datasets) Tj T* -0.079706 Tw (are shown in Figure 2. Further, we tag each of the queries based on a pool of 7 different categories.) Tj T* 0 Tw (For tagging, we use the GPT-4 model and manually confirm high recall and precision in tagging.) Tj T* (However, owing to such an automated system, the tags can be noisy and should not be considered) Tj T* (carefully. Details about each of these queries are presented here:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 141.8898 cm
+Q
+q
+1 0 0 1 78 129.8898 cm
+Q
+q
+1 0 0 1 78 93.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (1 ### ORCAS 2 - what does globalization mean 3 - wine pairing list 4 5 ### AllSouls 6 - Are) Tj T* (open-access journals the future of academic publishing? - Should the study of non-Western) Tj T* (philosophy be a requirement for a philosophy degree in the UK? 8 ### Davinci-Debate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 87.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 745.89 236 18 re
+f*
+0.4 0.4 1 rg
+n
+77 467.89 439 40 re
+f*
+0.4 0.4 1 rg
+n
+77 319.89 187 18 re
+f*
+0.4 0.4 1 rg
+n
+77 231.89 110 18 re
+f*
+0.6 0 0.298039 rg
+n
+76 637.89 439 85 re
+f*
+0.6 0 0.298039 rg
+n
+77 541.89 131 12 re
+f*
+0.6 0 0.298039 rg
+n
+76 371.89 443 73 re
+f*
+0.6 0 0.298039 rg
+n
+77 282.89 198 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 147.89 440 61 re
+f*
+0.6 0 0.298039 rg
+n
+77 92.89 409 37 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+76 571.89 208 48 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 315 753.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 712.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 286 609.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 210 543.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 497.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 434.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 266 327.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 277 285.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 189 239.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 198.89 cm
+BT
+1 0 0 1 0 0 Tm
+(10) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 488 119.89 cm
+BT
+1 0 0 1 0 0 Tm
+(11) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+61 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+62 0 obj
+<<
+/Contents 63 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 64 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+63 0 obj
+<<
+/Length 7683
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 751.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (10 - Should all citizens receive a basic income?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 745.8898 cm
+Q
+q
+1 0 0 1 78 733.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (11 - Should governments promote atheism?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 727.8898 cm
+Q
+q
+1 0 0 1 78 715.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 709.8898 cm
+Q
+q
+1 0 0 1 78 697.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13 ### ELI5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 691.8898 cm
+Q
+q
+1 0 0 1 78 679.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14 - Why does my cat kick its toys when playing with them?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.8898 cm
+Q
+q
+1 0 0 1 78 661.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15 - what does caffeine actually do your muscles, especially regarding exercising?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 655.8898 cm
+Q
+q
+1 0 0 1 78 643.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 637.8898 cm
+Q
+q
+1 0 0 1 78 625.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (17 ### GPT-4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 619.8898 cm
+Q
+q
+1 0 0 1 78 607.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (18 - What are the benefits of a keto diet?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 601.8898 cm
+Q
+q
+1 0 0 1 78 589.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (19 - What are the most profound impacts of the Renaissance period on modern society?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 583.8898 cm
+Q
+q
+1 0 0 1 78 571.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 565.8898 cm
+Q
+q
+1 0 0 1 78 553.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (21 22 ### LIMA - What are the primary factors that influence consumer behavior?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 547.8898 cm
+Q
+q
+1 0 0 1 78 511.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (23 - What would be a great twist for a murder mystery? ${ \\boldsymbol { \\mathrm { ~ I ~ } } } ^ {) Tj T* (\\prime } { \\boldsymbol { \\mathrm { ~ m ~ } } }$ looking for something creative, not to rehash old) Tj T* (tropes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 505.8898 cm
+Q
+q
+1 0 0 1 78 493.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 487.8898 cm
+Q
+q
+1 0 0 1 78 475.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (28 ### MS-Macro - what does monogamous - what is the normal fbs range for children) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 469.8898 cm
+Q
+q
+1 0 0 1 78 445.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (29 30 ### Natural Questions - where does the phrase bee line come from - what is the prince of) Tj T* (persia in the bible) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.8898 cm
+Q
+q
+1 0 0 1 78 427.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($3 2$ ### Perplexity.ai - how to gain more followers on LinkedIn) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 421.8898 cm
+Q
+q
+1 0 0 1 78 409.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (35 - why is blood sugar higher after a meal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 403.8898 cm
+Q
+q
+1 0 0 1 78 391.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 Difficulty Level: The complexity of the query, ranging from simple to complex.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 385.8898 cm
+Q
+q
+1 0 0 1 78 361.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (\177 Nature of Query: The type of information sought by the query, such as factual, opinion, or) Tj T* (comparison.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 355.8898 cm
+Q
+q
+1 0 0 1 78 343.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 Genre: The category or domain of the query, such as arts and entertainment, finance, or science.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 337.8898 cm
+Q
+q
+1 0 0 1 78 313.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (\177 Specific Topics: The specific subject matter of the query, such as physics, economics, or) Tj T* (computer science.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 307.8898 cm
+Q
+q
+1 0 0 1 78 295.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 Sensitivity: Whether the query involves sensitive topics or not.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 289.8898 cm
+Q
+q
+1 0 0 1 78 277.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 User Intent: The purpose behind the user\222s query, such as research, purchase, or entertainment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 271.8898 cm
+Q
+q
+1 0 0 1 78 259.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\177 Answer Type: The format of the answer that the query is seeking, such as fact, opinion, or list.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 253.8898 cm
+Q
+q
+1 0 0 1 78 241.8898 cm
+Q
+q
+1 0 0 1 78 203.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (B.3 Evaluation Metrics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 183.8898 cm
+Q
+q
+1 0 0 1 78 159.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (We use 7 different subjective impression metrics, whose prompts are presented in our our public) Tj T* (repository: https://github.com/GEOoptim/GEO.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 153.8898 cm
+Q
+q
+1 0 0 1 78 141.8898 cm
+Q
+q
+1 0 0 1 78 103.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (B.4 GEO Methods) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 83.88976 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+78 207.89 160 17 re
+f*
+0.4 0.4 1 rg
+n
+78 107.89 127 18 re
+f*
+0.6 0 0.298039 rg
+n
+77 552.89 363 13 re
+f*
+0.6 0 0.298039 rg
+n
+76 511.89 421 36 re
+f*
+0.6 0 0.298039 rg
+n
+77 494.89 13 11 re
+f*
+0.6 0 0.298039 rg
+n
+78 475.89 388 12 re
+f*
+0.6 0 0.298039 rg
+n
+75 445.89 428 25 re
+f*
+0.6 0 0.298039 rg
+n
+76 426.89 287 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 408.89 191 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 390.89 347 13 re
+f*
+0.6 0 0.298039 rg
+n
+75 360.89 404 25 re
+f*
+0.6 0 0.298039 rg
+n
+75 342.89 437 13 re
+f*
+0.6 0 0.298039 rg
+n
+76 313.89 403 24 re
+f*
+0.6 0 0.298039 rg
+n
+76 294.89 282 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 276.89 433 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 258.89 428 13 re
+f*
+0.6 0 0.298039 rg
+n
+77 159.89 428 24 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+76 561.89 394 203 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 472 754.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 442 555.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 499 537.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 92 495.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 468 477.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 505 460.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 365 429.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 270 411.89 cm
+BT
+1 0 0 1 0 0 Tm
+(8) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 426 393.89 cm
+BT
+1 0 0 1 0 0 Tm
+(9) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 481 375.89 cm
+BT
+1 0 0 1 0 0 Tm
+(10) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 514 345.89 cm
+BT
+1 0 0 1 0 0 Tm
+(11) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 481 327.89 cm
+BT
+1 0 0 1 0 0 Tm
+(12) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 360 297.89 cm
+BT
+1 0 0 1 0 0 Tm
+(13) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 512 279.89 cm
+BT
+1 0 0 1 0 0 Tm
+(14) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 507 261.89 cm
+BT
+1 0 0 1 0 0 Tm
+(15) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 240 214.89 cm
+BT
+1 0 0 1 0 0 Tm
+(16) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 507 173.89 cm
+BT
+1 0 0 1 0 0 Tm
+(17) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 207 115.89 cm
+BT
+1 0 0 1 0 0 Tm
+(18) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+64 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+65 0 obj
+<<
+/Contents 66 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 67 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+66 0 obj
+<<
+/Length 8463
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 739.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (We propose 9 different Generative Engine Optimization methods to optimize website content for) Tj T* (generative engines. We evaluate these methods on the complete GEO-bench test split. Further, to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 733.8898 cm
+Q
+q
+1 0 0 1 78 721.8898 cm
+Q
+q
+1 0 0 1 78 661.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Table 6: Absolute impression metrics of GEO methods on GEO-bench. Compared to baselines,) Tj T* (simple methods like Keyword Stuffing traditionally used in SEO don\222t perform well. However, our) Tj T* (proposed methods such as Statistics Addition and Quotation Addition show strong performance) Tj T* (improvements across all metrics. The best methods improve upon baseline by $4 1 \\%$ and) Tj T* ($\\mathbf { 2 8 \\% }$ on Position-Adjusted Word Count and Subjective Impression respectively.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 655.8898 cm
+Q
+q
+1 0 0 1 78 643.8898 cm
+Q
+q
+1 0 0 1 78 439.8898 cm
+q
+BT 1 0 0 1 0 194 Tm 12 TL /F1 10 Tf 0 0 0 rg (Method) Tj (Position-Adjusted Word Count) Tj (Subjective Impression) Tj (Word) Tj (Position) Tj (Overall) Tj (Rel.) Tj (Inf.) Tj (Unique) Tj (Div.) Tj T* (FollowUp) Tj (Pos.) Tj (Count) Tj (Average Performance WithOut GENERATIVE ENGINE OPTIMIZATION) Tj (No Opt) Tj  T* (imization) Tj (19.7\(\2610.7\)) Tj (19.6\(\2610.5\)) Tj (19.8\(\2610.6\)) Tj (19.8\(\2610.9\)) Tj (19.8\(\2611.6\)) Tj (19.8\(\2610.6\)) Tj (19.8\(\2611.1\)) Tj (19.8\(\2611.0\)) Tj (19.8\(\261) Tj T* (1.0\)) Tj (19.8\(\2610.9\)) Tj (19.8\(\2610.9\) Non-Performing GENERATIVE ENGINE OPTIMIZATION) Tj T* (methods) Tj (Keyword Stuffing) Tj (19.6\(\2610.5\)) Tj (19.5\(\2610.6) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (19.8\(\2610.5\)) Tj (20.8\(\2610.8) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (19.8\(\2611.0\)) Tj (20.4\(\2610.5) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (20.6\(\2610.) Tj  T* (9\)) Tj (19.9\(\2610.9) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (21.1\(\2611.0\)) Tj (21.0\(\2610.9\)) Tj (20.6\(\2610.7\) Unique Words) Tj (20.6\(\2610.6\)) Tj (20.5\(\2610.7) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (20.7\(\2610.5\)) Tj (20.8\(\2610) Tj  T* (.7) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (\)20.3\(\2611.3\)) Tj (20.5\(\2610.3\)) Tj (20.9\(\2610.3\)) Tj (20.4\(\2610.7) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (21.5\(\2610.6\)) Tj (21.2\(\2610.4\)) Tj (20.9\(\2610.4\) High-Performing) Tj T* (GENERATIVE ENGINE OPTIMIZATION methods) Tj (Easy-to-Understand) Tj (21.5\(\2610.7\)) Tj (22.0\(\2610.8\)) Tj (21.5\(\2610.) Tj  T* (6\)) Tj (21.0\(\2611.1\)) Tj (21.1\(\2611.8\)) Tj (21.2\(\2610.9\)) Tj (20.9\(\2611.1\)) Tj (20.6\(\2611.0\)) Tj (21.9\(\2611.1\)) Tj (21.4\(\2610.9\)) Tj (21.3\(\2611.0\)) Tj (Authoritative) Tj (2) Tj T* (1.3\(\2610.7\)) Tj (21.2\(\2610.9\)) Tj (21.1\(\2610.8\)) Tj (22.3\(\2610.8) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (22.9\(\2610.8\)) Tj (22.1\(\2610.9\)) Tj (23.2\(\2610.7\)) Tj (21.9\(\2610.4\)) Tj (23.9\(\2611.2\)) Tj (23.0\() Tj T* (\2611.1\)) Tj (23.1\(\2610.7\)) Tj (Technical Terms) Tj (22.5\(\2610.6\)) Tj (22.4\(\2610.6\)) Tj (22.5\(\2610.6\)) Tj (21.2\(\2610.7\)) Tj (21.8\(\2610.8\)) Tj (20.5\(\2610.5) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (21.) Tj  T* (1\(\2610.6\)) Tj (20.5\(\2610.6\)) Tj (22.1\(\2610.6\)) Tj (21.2\(\2610.2) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (21.4\(\2610.4\)) Tj (Fluency Optimization 24.4\(\2610.8) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (24.4\(\2610.6) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (24.4\() Tj  T* (\2610.8) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (21.3\(\2610.9\)) Tj (23.2\(\2611.5\)) Tj (21.2\(\2611.0\)) Tj (21.4\(\2611.4\)) Tj (20.8\(\2611.3\)) Tj (23.2\(\2611.8\)) Tj (21.5\(\2611.3\)) Tj (22.1\(\2611.2\)) Tj (Cite Sour) Tj  T* (ces) Tj (25.5\(\2610.7\)) Tj (25.3\(\2610.6\)) Tj (25.3\(\2610.6\)) Tj (22.8\(\2610.9) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (24.2\(\2610.7) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (\)) Tj (21.7\(\2610.3\)) Tj (22.3\(\2610.8\)) Tj (21.3\(\2610.9\)) Tj (23.5\(\2610.4) Tj T* (\)) Tj (21.7\(\2610.6\)) Tj (22.9\(\2610.5\) Quotation Addition) Tj (27.5\(\2610.8\)) Tj (27.6\(\2610.8) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (27.1\(\2610.6\)) Tj (24.4\(\2611.0\)) Tj (26.7\(\2611.1\)) Tj (24.6\() Tj  T* (\2610.7) Tj /F4 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (24.9\(\2610.9\)) Tj (23.2\(\2610.9\)) Tj (26.4\(\2611.0\)) Tj (24.1\(\2611.2\)) Tj (25.5\(\2610.9\)) Tj (Statistics Addition) Tj (25.8\(\2611.2\)) Tj (26.0\(\2610.8\)) Tj (25) Tj  T* (.5\(\2611.2\)) Tj (23.1\(\2611.4\)) Tj (26.1\(\2610.9\)) Tj (23.6\(\2610.9\)) Tj (24.5\(\2611.2\)) Tj (22.4\(\2611.2\)) Tj (26.1\(\2611.2\)) Tj (23.8\(\2611.2\)) Tj (24.8\(\2611.1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 433.8898 cm
+Q
+q
+1 0 0 1 78 421.8898 cm
+Q
+q
+1 0 0 1 78 277.8898 cm
+q
+BT 1 0 0 1 0 134 Tm 12 TL /F1 10 Tf 0 0 0 rg (Method) Tj (Position-Adjusted Word Count Subjective) Tj T* (Impression) Tj (Word) Tj (Position) Tj (Overall) Tj (Rel.Infl.) Tj (Unique) Tj (Div.FollowUpPos.) Tj (CountAverage PerformaNCe) Tj T* (WithOut GENERATIVE ENGINE OPTIMIZATION) Tj (No) Tj T* (Optimization) Tj (24.0) Tj (24.4) Tj (24.1) Tj (24.724.7) Tj (24.7) Tj (24.7) Tj (24.7) Tj (24.7) Tj (24.7) Tj (24.7 Non-Performing GENERATIVE) Tj T* (ENGINE OPTIMIZATION methods) Tj (Keyword Stuffing) Tj (21.9) Tj (21.4) Tj (21.9) Tj (26.3) Tj T* (27.2) Tj (27.2) Tj (30.2) Tj (27.9) Tj (28.2) Tj (26.9) Tj (28.1 Unique Words) Tj (24.0) Tj (23.7) Tj (23.6) Tj (24.9 25.1) Tj (24.7) Tj (24.4) Tj (23.0) Tj (23.6) Tj (23.9) Tj (24.1) Tj T* (High-Performing GENERATIVE ENGINE OPTIMIZATION methods) Tj T* (Authoritative) Tj (25.6) Tj (25.7) Tj (25.9) Tj (28.9) Tj (30.9 31.2) Tj (31.7) Tj (31.5) Tj (26.9) Tj (29.5) Tj (30.6) Tj (Fluency) Tj T* (Optimization) Tj (25.8) Tj (26.2) Tj (26.0) Tj (28.9) Tj (29.4 29.8) Tj (30.6) Tj (30.1) Tj (29.6) Tj (29.6) Tj (30.0) Tj (Cite) Tj T* (Sources) Tj (26.6) Tj (26.9) Tj (26.8) Tj (19.8) Tj (20.7) Tj (19.5 18.9) Tj (20.0) Tj (18.5) Tj (18.9) Tj (19.0 Quotation) Tj T* (Addition) Tj (28.8) Tj (28.7) Tj (29.1) Tj (31.4) Tj (31.9) Tj (31.9 32.3) Tj (31.4) Tj (31.7) Tj (30.9) Tj (32.1) Tj (Statistics) Tj T* (Addition) Tj (25.8) Tj (26.6) Tj (26.2) Tj (31.6) Tj (33.4) Tj (34.0 33.7) Tj (34.0) Tj (33.3) Tj (33.1) Tj (33.9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 271.8898 cm
+Q
+q
+1 0 0 1 78 259.8898 cm
+Q
+q
+1 0 0 1 78 187.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL (Table 7: Performance improvement of GEO methods on GEO-bench with Perplexity.ai as) Tj T* (generative engine. Compared to the baselines simple methods such as Keyword Stuffing) Tj T* (traditionally used in SEO often perform worse. However, our proposed methods such as Statistics) Tj T* (Addition and Quotation Addition show strong performance improvements across the board. The) Tj T* (best performing methods improve upon baseline by $\\mathbf { 2 2 \\% }$ on Position-Adjusted Word) Tj T* (Count and $3 7 \\%$ on Subjective Impression.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 181.8898 cm
+Q
+q
+1 0 0 1 78 169.8898 cm
+Q
+q
+1 0 0 1 78 145.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (reduce variance in results, we run our experiments on five different random seeds and report the) Tj T* (average.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 139.8898 cm
+Q
+q
+1 0 0 1 78 127.8898 cm
+Q
+q
+1 0 0 1 78 89.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (B.5 Prompts for GEO methods) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 93.89 218 17 re
+f*
+0.6 0 0.298039 rg
+n
+76 739.89 437 24 re
+f*
+0.6 0 0.298039 rg
+n
+77 661.89 428 61 re
+f*
+0.6 0 0.298039 rg
+n
+76 439.89 441 204 re
+f*
+0.6 0 0.298039 rg
+n
+77 187.89 442 72 re
+f*
+0.6 0 0.298039 rg
+n
+77 145.89 430 24 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+76 277.89 422 144 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 515 753.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 507 712.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 519 633.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 500 411.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 521 249.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 509 159.89 cm
+BT
+1 0 0 1 0 0 Tm
+(6) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 297 100.89 cm
+BT
+1 0 0 1 0 0 Tm
+(7) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+67 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+68 0 obj
+<<
+/Contents 69 0 R
+/MediaBox [ 0 0 595.276 841.89 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.3
+>>
+/gRLs1 <<
+/ca 1
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 70 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0 0 595.276 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+69 0 obj
+<<
+/Length 2391
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 751.8898 cm
+Q
+q
+1 0 0 1 78 739.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (We present all prompts in our our public repository: https://github.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 733.8898 cm
+Q
+q
+1 0 0 1 78 721.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (com/GEO-optim/GEO. GPT-3.5 turbo was used for all experiments.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 715.8898 cm
+Q
+q
+1 0 0 1 78 703.8898 cm
+Q
+q
+1 0 0 1 78 665.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (C RESULTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 645.8898 cm
+Q
+q
+1 0 0 1 78 621.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (We perform experiments on 5 random seeds and present results with statistical deviations in Table) Tj T* (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 615.8898 cm
+Q
+q
+1 0 0 1 78 603.8898 cm
+Q
+q
+1 0 0 1 78 543.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 29 Tm /F2 15 Tf 22 TL (C.1 GEO in the Wild : Experiments with Deployed Generative) Tj T* (Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.8898 cm
+Q
+q
+1 0 0 1 78 463.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (We also evaluate our proposed Generative Engine Optimization methods on real-world deployed) Tj T* (Generative Engine: Perplexity.ai. Since perplexity.ai does not allow the user to specify source) Tj T* (URLs, we instead provide source text as file uploads to perplexity.ai while ensuring all answers are) Tj T* (generated only using the file sources provided. We evaluate all our methods on a subset of 200) Tj T* (samples of our test set. Results using Perplexity.ai are shown in Table 7.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.8898 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 1 rg
+/gRLs0 gs
+n
+77 669.89 87 18 re
+f*
+0.4 0.4 1 rg
+n
+77 547.89 434 40 re
+f*
+0.6 0 0.298039 rg
+n
+74 621.89 442 25 re
+f*
+0.6 0 0.298039 rg
+n
+77 463.89 438 61 re
+f*
+0.156863 0.662745 0.360784 rg
+n
+76 721.89 298 30 re
+f*
+1 0 0 rg
+/gRLs1 gs
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 376 741.89 cm
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 166 677.89 cm
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 518 636.89 cm
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 513 577.89 cm
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+1 0 0 rg
+BT
+/F1-0 10 Tf
+14.4 TL
+ET
+q
+1 0 0 1 517 514.89 cm
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+70 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 71
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000254 00000 n 
+0000000303 00000 n 
+0000000653 00000 n 
+0000006789 00000 n 
+0000006896 00000 n 
+0000007003 00000 n 
+0000007115 00000 n 
+0000007192 00000 n 
+0000007276 00000 n 
+0000007629 00000 n 
+0000013633 00000 n 
+0000013741 00000 n 
+0000014094 00000 n 
+0000020568 00000 n 
+0000020676 00000 n 
+0000021029 00000 n 
+0000027446 00000 n 
+0000027554 00000 n 
+0000027907 00000 n 
+0000034575 00000 n 
+0000034683 00000 n 
+0000035036 00000 n 
+0000042137 00000 n 
+0000042245 00000 n 
+0000042598 00000 n 
+0000048388 00000 n 
+0000048496 00000 n 
+0000048849 00000 n 
+0000055134 00000 n 
+0000055242 00000 n 
+0000055595 00000 n 
+0000062695 00000 n 
+0000062803 00000 n 
+0000063156 00000 n 
+0000069228 00000 n 
+0000069336 00000 n 
+0000069689 00000 n 
+0000076531 00000 n 
+0000076639 00000 n 
+0000076992 00000 n 
+0000082599 00000 n 
+0000082707 00000 n 
+0000083060 00000 n 
+0000089353 00000 n 
+0000089461 00000 n 
+0000089814 00000 n 
+0000095286 00000 n 
+0000095394 00000 n 
+0000095747 00000 n 
+0000103703 00000 n 
+0000103811 00000 n 
+0000104164 00000 n 
+0000111266 00000 n 
+0000111374 00000 n 
+0000111727 00000 n 
+0000118777 00000 n 
+0000118885 00000 n 
+0000119238 00000 n 
+0000124883 00000 n 
+0000124991 00000 n 
+0000125344 00000 n 
+0000133080 00000 n 
+0000133188 00000 n 
+0000133541 00000 n 
+0000142057 00000 n 
+0000142165 00000 n 
+0000142518 00000 n 
+0000144962 00000 n 
+trailer
+<<
+/Size 71
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+145070
+%%EOF

@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO优化</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: #f5f6fa;
+            color: #333;
+        }
+        
+        .header {
+            background: #fff;
+            padding: 15px 30px;
+            border-bottom: 1px solid #e1e8ed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-left h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .header-left p {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .validity {
+            color: #27ae60;
+            font-size: 14px;
+        }
+        
+        .no-refund {
+            color: #e74c3c;
+            font-size: 14px;
+        }
+        
+        .container {
+            display: flex;
+            min-height: calc(100vh - 80px);
+        }
+        
+        .sidebar {
+            width: 200px;
+            background: #2c3e50;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        .sidebar-item {
+            padding: 15px 20px;
+            cursor: pointer;
+            border-left: 3px solid transparent;
+            transition: all 0.3s;
+        }
+        
+        .sidebar-item:hover {
+            background: #34495e;
+        }
+        
+        .sidebar-item.active {
+            background: #3498db;
+            border-left-color: #2980b9;
+        }
+        
+        .sidebar-item h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .sidebar-item p {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding: 30px;
+        }
+        
+        .workflow-section {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .workflow-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .workflow-steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        
+        .workflow-step {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ecf0f1;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        
+        .workflow-step.completed {
+            border-color: #27ae60;
+            background: #d5f4e6;
+        }
+        
+        .workflow-step h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .workflow-step p {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        
+        .workflow-step .btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .workflow-step .btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+        
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card h3 {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .stat-card .number {
+            color: #2c3e50;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .models-section {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .models-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .models-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+        
+        .model-card {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid #ecf0f1;
+            border-radius: 6px;
+            background: #f8f9fa;
+        }
+        
+        .model-card h4 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .model-card .count {
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+        
+        .charts-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .chart-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .chart-title {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .chart-placeholder {
+            height: 200px;
+            background: #f8f9fa;
+            border: 2px dashed #bdc3c7;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7f8c8d;
+        }
+        
+        .right-sidebar {
+            width: 250px;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
+        
+        .right-sidebar h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .quick-nav-item {
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .quick-nav-item:hover {
+            background: #e9ecef;
+        }
+        
+        .quick-nav-item h4 {
+            color: #2c3e50;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .quick-nav-item p {
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+        
+        .tools-section {
+            margin-top: 20px;
+        }
+        
+        .tool-item {
+            padding: 8px 0;
+            border-bottom: 1px solid #ecf0f1;
+            cursor: pointer;
+            color: #3498db;
+            font-size: 14px;
+        }
+        
+        .tool-item:hover {
+            color: #2980b9;
+        }
+        
+        .query-section {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .query-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .query-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .query-input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .query-input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .query-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .query-btn:hover {
+            background: #2980b9;
+        }
+        
+        .result {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 4px;
+            border-left: 4px solid #3498db;
+        }
+        
+        /* 文章容器样式 - 确保每篇文章完全分开 */
+        .article-container {
+            display: block !important;
+            clear: both !important;
+            margin: 25px 0 !important;
+            padding: 25px !important;
+            border-radius: 15px !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+            overflow: hidden !important;
+            position: relative !important;
+            border: 2px solid transparent !important;
+            background-clip: padding-box !important;
+        }
+        
+        .article-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #3498db, #2ecc71, #e74c3c);
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .article-container::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            border-radius: 0 0 15px 15px;
+        }
+        
+        .article-container:not(:last-child) {
+            margin-bottom: 35px !important;
+        }
+        
+        /* 确保文章内容不会影响整体布局 */
+        .article-content {
+            font-family: 'Microsoft YaHei', Arial, sans-serif !important;
+            line-height: 1.8 !important;
+            color: #2c3e50 !important;
+            background: #ffffff !important;
+            border: 1px solid #e1e8ed !important;
+            border-radius: 8px !important;
+            padding: 20px !important;
+            margin: 15px 0 !important;
+            max-height: 500px !important;
+            overflow-y: auto !important;
+            white-space: pre-wrap !important;
+            word-wrap: break-word !important;
+        }
+        
+        .result h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .result p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #3498db;
+            font-style: italic;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border-left-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <h1>GEO优化</h1>
+            <p>Ai大模型搜索结果千人千面,报表检测结果以系统IP检测结果为准</p>
+        </div>
+        <div class="header-right">
+            <span class="validity">有效期: 2026-09-02</span>
+            <span class="no-refund">口碑差不退</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-item active">
+                <h3>控制台</h3>
+                <p>官网主页</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI蒸馏</h3>
+                <p>蒸馏词</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI蒸馏</h3>
+                <p>拓展问题</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI备课</h3>
+                <p>创作内容</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI备课</h3>
+                <p>流量复刻</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI训练授课</h3>
+                <p>大模型训练</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI训练授课</h3>
+                <p>自媒体投喂</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI画像素材</h3>
+                <p>智能体知识库</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI画像素材</h3>
+                <p>企业画像图库</p>
+            </div>
+            <div class="sidebar-item" onclick="showAIAnalysis()">
+                <h3>AI曝光率分析</h3>
+                <p>大模型曝光统计</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>AI数据报表</h3>
+            </div>
+            <div class="sidebar-item">
+                <h3>设置</h3>
+                <p>AI创作指令</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>设置</h3>
+                <p>全局代理IP</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="workflow-section">
+                <h2 class="workflow-title">工作流程</h2>
+                <div class="workflow-steps">
+                    <div class="workflow-step completed">
+                        <h3>1 蒸馏词</h3>
+                        <p>需要做的词</p>
+                        <button class="btn" disabled>已完成</button>
+                    </div>
+                    <div class="workflow-step">
+                        <h3>2 上传图库</h3>
+                        <p>上传产品图片</p>
+                        <button class="btn" onclick="uploadImage()">上传图库</button>
+                    </div>
+                    <div class="workflow-step">
+                        <h3>3 创建指令</h3>
+                        <p>创作文章指令提示词</p>
+                        <button class="btn" onclick="createInstruction()">创建指令</button>
+                    </div>
+                    <div class="workflow-step">
+                        <h3>4 AI创作</h3>
+                        <p>AI自动写文章</p>
+                        <button class="btn" onclick="startCreation()">开始创作</button>
+                    </div>
+                    <div class="workflow-step">
+                        <h3>5 授权账号</h3>
+                        <p>获取授权码授权</p>
+                        <button class="btn" onclick="authorizeAccount()">授权账号</button>
+                    </div>
+                    <div class="workflow-step">
+                        <h3>6 投喂任务</h3>
+                        <p>投喂任务管理</p>
+                        <button class="btn" onclick="createFeeding()">创建投喂</button>
+                    </div>
+                    <div class="workflow-step">
+                        <h3>7 开始投喂</h3>
+                        <p>去客户端发布</p>
+                        <button class="btn" onclick="startFeeding()">客户端发布</button>
+                    </div>
+                    <div class="workflow-step">
+                        <h3>8 收录明细</h3>
+                        <p>验收AI收录效果</p>
+                        <button class="btn" onclick="viewReport()">查看报表</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stats-section" id="stats">
+                <div class="stat-card">
+                    <h3>AI蒸馏词</h3>
+                    <div class="number">1/1</div>
+                </div>
+                <div class="stat-card">
+                    <h3>训练问题</h3>
+                    <div class="number">9/10</div>
+                </div>
+                <div class="stat-card">
+                    <h3>收录问题</h3>
+                    <div class="number">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>创作数量</h3>
+                    <div class="number">0/10</div>
+                </div>
+                <div class="stat-card">
+                    <h3>媒体投喂</h3>
+                    <div class="number">0/10</div>
+                </div>
+                <div class="stat-card">
+                    <h3>投喂账号</h3>
+                    <div class="number">0/1</div>
+                </div>
+            </div>
+            
+            <div class="models-section">
+                <h3 class="models-title">AI模型集成</h3>
+                <div class="models-grid">
+                    <div class="model-card">
+                        <h4>deepseek</h4>
+                        <div class="count">0 收录</div>
+                    </div>
+                    <div class="model-card">
+                        <h4>豆包</h4>
+                        <div class="count">0 收录</div>
+                    </div>
+                    <div class="model-card">
+                        <h4>腾讯元宝</h4>
+                        <div class="count">0 收录</div>
+                    </div>
+                    <div class="model-card">
+                        <h4>通义千问</h4>
+                        <div class="count">0 收录</div>
+                    </div>
+                    <div class="model-card">
+                        <h4>文心一言</h4>
+                        <div class="count">0 收录</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="charts-section">
+                <div class="chart-card">
+                    <h3 class="chart-title">AI创作</h3>
+                    <div class="chart-placeholder">根据最新时间统计数据</div>
+                </div>
+                <div class="chart-card">
+                    <h3 class="chart-title">收录比例</h3>
+                    <div class="chart-placeholder">根据最新时间统计数据</div>
+                </div>
+                <div class="chart-card">
+                    <h3 class="chart-title">投喂数据</h3>
+                    <div class="chart-placeholder">根据最新时间统计数据</div>
+                </div>
+            </div>
+            
+            <div class="query-section">
+                <h3 class="query-title">智能体知识库查询</h3>
+                <div class="query-form">
+                    <input type="text" class="query-input" id="queryInput" placeholder="请输入您的问题..." />
+                    <button class="query-btn" onclick="queryKnowledgeBase()">查询</button>
+                </div>
+                <div id="queryResult"></div>
+            </div>
+            
+            <div class="wordpress-section" style="background: white; border-radius: 8px; padding: 30px; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3 class="query-title">GEO平台 - 智能内容生成</h3>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 10px; color: #2c3e50;">WordPress URL:</label>
+                    <input type="text" id="wpUrl" class="query-input" value="https://www.shjingjun.com" placeholder="输入WordPress网站URL" style="margin-bottom: 10px;" />
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 10px; color: #2c3e50;">用户名:</label>
+                    <input type="text" id="wpUsername" class="query-input" value="jingjun2020" placeholder="WordPress用户名" style="margin-bottom: 10px;" />
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 10px; color: #2c3e50;">应用密码:</label>
+                    <input type="password" id="wpPassword" class="query-input" value="ymZx ssrJ UG1z IENK XHMi 10iP" placeholder="WordPress应用密码" style="margin-bottom: 10px;" />
+                    <small style="color: #666; font-size: 12px; margin-top: 5px; display: block;">使用WordPress应用密码，不是登录密码</small>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 10px; color: #2c3e50;">生成文章数量:</label>
+                    <input type="number" id="maxArticles" class="query-input" value="1" min="1" max="5" style="margin-bottom: 10px;" />
+                    <small style="color: #666; font-size: 12px; margin-top: 5px; display: block;">建议设置为1篇，节省token成本</small>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: flex; align-items: center; color: #2c3e50;">
+                        <input type="checkbox" id="enhancedMode" checked style="margin-right: 10px;" />
+                        增强模式（联网搜索+大模型优化）
+                    </label>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 10px; color: #2c3e50;">选择模型:</label>
+                    <select id="modelSelect" class="query-input" style="margin-bottom: 10px;">
+                        <option value="doubao-seed-1-6-flash">豆包Seed 1.6 Flash (快速响应)</option>
+                        <option value="doubao-1-5-lite-32k">豆包1.5 Lite 32K (轻量级)</option>
+                        <option value="doubao-seed-1-6">豆包Seed 1.6 (最新种子)</option>
+                        <option value="doubao-1-5-pro-32k">豆包1.5 Pro 32K (专业版)</option>
+                        <option value="doubao-1-5-pro-256k">豆包1.5 Pro 256K (超长上下文)</option>
+                        <option value="doubao-1-5-vision-pro">豆包1.5 Vision Pro (视觉理解)</option>
+                        <option value="doubao-1-5-vision-pro-32k">豆包1.5 Vision Pro 32K (视觉+长上下文)</option>
+                        <option value="doubao-seed-1-6-vision">豆包Seed 1.6 Vision (视觉种子)</option>
+                        <option value="doubao-1-5-ui-tars">豆包1.5 UI TARS (UI交互)</option>
+                        <option value="kimi-k2-250905">Kimi K2 (智能助手)</option>
+                    </select>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 10px; color: #2c3e50;">发布分类:</label>
+                    <input type="text" id="categoryName" class="query-input" placeholder="新闻资讯" value="新闻资讯" style="margin-bottom: 10px;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="display: flex; align-items: center; gap: 10px; color: #2c3e50;">
+                        <input type="checkbox" id="autoPublish" checked style="transform: scale(1.2);">
+                        生成后自动发布到WordPress
+                    </label>
+                    <small style="color: #666; font-size: 12px; margin-top: 5px; display: block;">勾选后文章生成完成将自动发布到新闻资讯分类（建议先预览再发布）</small>
+                </div>
+                <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                    <button class="query-btn" onclick="testWordPressConnection()">测试连接</button>
+                    <button class="query-btn" onclick="loadPromotionData()" style="background: #f39c12;">加载推广数据</button>
+                    <button class="query-btn" onclick="generateAndPublishArticle()" style="background: #27ae60;">📝 生成文章</button>
+                    <button class="query-btn" onclick="getWordPressPosts()" style="background: #3498db;">📋 查看已发布</button>
+                </div>
+                <div id="wordpressResult"></div>
+            </div>
+
+            <div class="wordpress-section" style="background: white; border-radius: 8px; padding: 30px; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3 class="query-title">百度推广数据分析</h3>
+                <div id="promotionData" style="background: #f8f9fa; padding: 20px; border-radius: 4px; border-left: 4px solid #3498db;"></div>
+            </div>
+            
+            <!-- AI大模型曝光率分析仪表板 -->
+            <div id="aiAnalysisDashboard" style="display: none; background: white; border-radius: 8px; padding: 30px; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h2 class="query-title">AI大模型曝光率分析</h2>
+                
+                <!-- 数据采集控制 -->
+                <div style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3498db;">
+                    <h3 style="margin: 0 0 15px 0; color: #2c3e50;">数据采集控制</h3>
+                    
+                    <!-- 真实数据采集区域 -->
+                    <div style="margin-bottom: 20px; padding: 15px; background: #e8f5e8; border-radius: 6px; border-left: 4px solid #27ae60;">
+                        <h4 style="margin: 0 0 10px 0; color: #27ae60;">🎯 真实数据采集</h4>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                            <div>
+                                <label style="display: block; margin-bottom: 5px; color: #2c3e50;">关键词 (每行一个):</label>
+                                <textarea id="realDataKeywords" rows="4" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="静钧抛光&#10;抛光布轮&#10;尼龙打磨片"></textarea>
+                            </div>
+                            <div>
+                                <label style="display: block; margin-bottom: 5px; color: #2c3e50;">AI平台:</label>
+                                <div id="platformCheckboxes" style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                                    <label><input type="checkbox" value="豆包" checked> 豆包</label>
+                                    <label><input type="checkbox" value="Deepseek" checked> Deepseek</label>
+                                    <label><input type="checkbox" value="通义" checked> 通义</label>
+                                    <label><input type="checkbox" value="元宝"> 元宝</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 10px;">
+                            <button onclick="collectRealData()" style="padding: 10px 20px; background: #27ae60; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                🚀 开始真实采集
+                            </button>
+                            <button onclick="checkPlatformStatus()" style="padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                📊 检查平台状态
+                            </button>
+                            <button onclick="analyzeRealData()" style="padding: 10px 20px; background: #9b59b6; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                📈 分析数据
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- 模拟数据采集区域 -->
+                    <div style="margin-bottom: 20px; padding: 15px; background: #fff3e0; border-radius: 6px; border-left: 4px solid #f39c12;">
+                        <h4 style="margin: 0 0 10px 0; color: #f39c12;">🧪 模拟数据采集</h4>
+                        <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                            <button onclick="collectMockData()" style="padding: 10px 20px; background: #f39c12; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                📊 生成模拟数据
+                            </button>
+                            <button onclick="collectFromBaidu()" style="padding: 10px 20px; background: #e67e22; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                🔍 从百度统计采集
+                            </button>
+                            <button onclick="getCollectionReport()" style="padding: 10px 20px; background: #9b59b6; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                📋 查看采集报告
+                            </button>
+                            <button onclick="refreshAIData()" style="padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                🔄 刷新数据
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 关键指标卡片 -->
+                <div class="ai-stats-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+                    <div class="ai-stat-card" style="text-align: center; padding: 20px; background: #e8f5e8; border-radius: 8px;">
+                        <h3 style="color: #27ae60; margin: 0 0 10px 0;">总问题量</h3>
+                        <div id="totalQuestions" style="font-size: 28px; font-weight: bold; color: #2c3e50;">0</div>
+                    </div>
+                    <div class="ai-stat-card" style="text-align: center; padding: 20px; background: #e3f2fd; border-radius: 8px;">
+                        <h3 style="color: #3498db; margin: 0 0 10px 0;">收录问题</h3>
+                        <div id="includedQuestions" style="font-size: 28px; font-weight: bold; color: #2c3e50;">0</div>
+                    </div>
+                    <div class="ai-stat-card" style="text-align: center; padding: 20px; background: #fff3e0; border-radius: 8px;">
+                        <h3 style="color: #f39c12; margin: 0 0 10px 0;">品牌词量</h3>
+                        <div id="brandKeywords" style="font-size: 28px; font-weight: bold; color: #2c3e50;">0</div>
+                    </div>
+                    <div class="ai-stat-card" style="text-align: center; padding: 20px; background: #f3e5f5; border-radius: 8px;">
+                        <h3 style="color: #9b59b6; margin: 0 0 10px 0;">覆盖平台</h3>
+                        <div id="coveredPlatforms" style="font-size: 28px; font-weight: bold; color: #2c3e50;">0</div>
+                    </div>
+                </div>
+                
+                <!-- 平台问题分布 -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 30px 0;">
+                    <!-- 饼图区域 -->
+                    <div class="chart-container" style="background: #f8f9fa; padding: 20px; border-radius: 8px;">
+                        <h3 style="margin: 0 0 20px 0; color: #2c3e50;">平台问题占比</h3>
+                        <canvas id="platformChart" width="300" height="300" style="max-width: 100%; height: auto;"></canvas>
+                    </div>
+                    
+                    <!-- 平台详情表格 -->
+                    <div class="platform-table-container" style="background: #f8f9fa; padding: 20px; border-radius: 8px;">
+                        <h3 style="margin: 0 0 20px 0; color: #2c3e50;">平台详情</h3>
+                        <div id="platformTable" style="overflow-x: auto;">
+                            <table style="width: 100%; border-collapse: collapse;">
+                                <thead>
+                                    <tr style="background: #34495e; color: white;">
+                                        <th style="padding: 10px; text-align: left;">平台</th>
+                                        <th style="padding: 10px; text-align: right;">占比</th>
+                                        <th style="padding: 10px; text-align: right;">问题数</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="platformTableBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 设备分布图表 -->
+                <div style="margin: 30px 0;">
+                    <h3 style="margin: 0 0 20px 0; color: #2c3e50;">设备分布统计</h3>
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px;">
+                        <canvas id="deviceChart" width="800" height="400" style="max-width: 100%; height: auto;"></canvas>
+                    </div>
+                </div>
+                
+                <!-- 搜索和筛选 -->
+                <div style="margin: 30px 0;">
+                    <h3 style="margin: 0 0 20px 0; color: #2c3e50;">问题搜索</h3>
+                    <div style="display: flex; gap: 15px; margin-bottom: 20px;">
+                        <input type="text" id="questionSearch" placeholder="输入搜索词" style="flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                        <select id="platformFilter" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option value="">请选择平台</option>
+                        </select>
+                        <button onclick="searchQuestions()" style="padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer;">搜索</button>
+                    </div>
+                </div>
+                
+                <!-- 问题详情表格 -->
+                <div style="margin: 30px 0;">
+                    <h3 style="margin: 0 0 20px 0; color: #2c3e50;">问题详情</h3>
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; overflow-x: auto;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <thead>
+                                <tr style="background: #34495e; color: white;">
+                                    <th style="padding: 10px; text-align: left;">序号</th>
+                                    <th style="padding: 10px; text-align: left;">训练词</th>
+                                    <th style="padding: 10px; text-align: left;">问题</th>
+                                    <th style="padding: 10px; text-align: left;">平台</th>
+                                    <th style="padding: 10px; text-align: left;">来源</th>
+                                    <th style="padding: 10px; text-align: left;">上线时间</th>
+                                </tr>
+                            </thead>
+                            <tbody id="questionsTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-sidebar">
+            <h3>快速导航</h3>
+            <div class="quick-nav-item" onclick="trainingManagement()">
+                <h4>训练管理</h4>
+                <p>内置算法自动训练</p>
+            </div>
+            <div class="quick-nav-item" onclick="aiCreation()">
+                <h4>AI创作</h4>
+                <p>大模型自动创作</p>
+            </div>
+            <div class="quick-nav-item" onclick="mediaAuth()">
+                <h4>媒体授权</h4>
+                <p>12+平台媒体管理</p>
+            </div>
+            <div class="quick-nav-item" onclick="knowledgeBase()">
+                <h4>企业知识库</h4>
+                <p>构建企业AI知识库</p>
+            </div>
+            
+            <div class="tools-section">
+                <h3>常用工具</h3>
+                <div class="tool-item" onclick="downloadAssistant()">发布助手下载</div>
+                <div class="tool-item" onclick="manageAccounts()">投喂账号</div>
+                <div class="tool-item" onclick="selfMediaFeeding()">自媒体投喂</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000';
+        
+        // 初始化知识库
+        async function initKnowledgeBase() {
+            try {
+                const response = await fetch(`${API_BASE}/api/init`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({})
+                });
+                
+                const result = await response.json();
+                if (result.success) {
+                    console.log('知识库初始化成功');
+                    loadStats();
+                } else {
+                    console.error('知识库初始化失败:', result.message);
+                }
+            } catch (error) {
+                console.error('初始化错误:', error);
+            }
+        }
+        
+        // 查询知识库
+        async function queryKnowledgeBase() {
+            const query = document.getElementById('queryInput').value.trim();
+            if (!query) {
+                alert('请输入问题');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('queryResult');
+            resultDiv.innerHTML = '<div class="loading">正在查询中...</div>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/query`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: query })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    resultDiv.innerHTML = `
+                        <div class="result">
+                            <h4>问题：${result.question}</h4>
+                            <p>${result.answer}</p>
+                        </div>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>查询失败</h4>
+                            <p>${result.detail || '未知错误'}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>网络错误</h4>
+                        <p>无法连接到后端服务，请确保后端正在运行</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // 加载统计信息
+        async function loadStats() {
+            try {
+                const response = await fetch(`${API_BASE}/api/stats`);
+                const stats = await response.json();
+                
+                // 更新统计卡片
+                const statCards = document.querySelectorAll('.stat-card .number');
+                if (statCards.length >= 6) {
+                    statCards[0].textContent = '1/1'; // AI蒸馏词
+                    statCards[1].textContent = `${stats.training_questions || 9}/10`; // 训练问题
+                    statCards[2].textContent = stats.inclusion_questions || 0; // 收录问题
+                    statCards[3].textContent = `${stats.creation_count || 0}/10`; // 创作数量
+                    statCards[4].textContent = `${stats.media_feeding || 0}/10`; // 媒体投喂
+                    statCards[5].textContent = `${stats.feeding_accounts || 0}/1`; // 投喂账号
+                }
+            } catch (error) {
+                console.error('加载统计信息失败:', error);
+            }
+        }
+        
+        // 工作流程按钮功能
+        function uploadImage() {
+            alert('上传图库功能');
+        }
+        
+        function createInstruction() {
+            const instruction = prompt('请输入创作指令：');
+            if (instruction) {
+                alert('指令创建成功：' + instruction);
+            }
+        }
+        
+        async function startCreation() {
+            const topic = prompt('请输入创作主题：');
+            if (topic) {
+                try {
+                    const response = await fetch(`${API_BASE}/api/start_creation`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ topic: topic, count: 1 })
+                    });
+                    
+                    const result = await response.json();
+                    if (result.success) {
+                        alert('创作成功！文章内容：\n\n' + result.articles[0]);
+                    } else {
+                        alert('创作失败：' + (result.detail || '未知错误'));
+                    }
+                } catch (error) {
+                    alert('创作失败：网络错误');
+                }
+            }
+        }
+        
+        function authorizeAccount() {
+            alert('授权账号功能');
+        }
+        
+        function createFeeding() {
+            alert('创建投喂功能');
+        }
+        
+        function startFeeding() {
+            alert('开始投喂功能');
+        }
+        
+        function viewReport() {
+            alert('查看报表功能');
+        }
+        
+        // 右侧导航功能
+        function trainingManagement() {
+            alert('训练管理功能');
+        }
+        
+        function aiCreation() {
+            startCreation();
+        }
+        
+        function mediaAuth() {
+            alert('媒体授权功能');
+        }
+        
+        function knowledgeBase() {
+            document.getElementById('queryInput').focus();
+        }
+        
+        function downloadAssistant() {
+            alert('发布助手下载功能');
+        }
+        
+        function manageAccounts() {
+            alert('投喂账号管理功能');
+        }
+        
+        function selfMediaFeeding() {
+            alert('自媒体投喂功能');
+        }
+        
+        // WordPress同步功能
+        async function testWordPressConnection() {
+            const wpUrl = document.getElementById('wpUrl').value.trim();
+            if (!wpUrl) {
+                alert('请输入WordPress网站URL');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('wordpressResult');
+            resultDiv.innerHTML = '<div class="loading">正在测试连接...</div>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/wordpress_test?wp_url=${encodeURIComponent(wpUrl)}`);
+                const result = await response.json();
+                
+                if (result.success) {
+                    resultDiv.innerHTML = `
+                        <div class="result">
+                            <h4>连接成功！</h4>
+                            <p>${result.message}</p>
+                            <p>示例文章：</p>
+                            <ul>
+                                ${result.sample_posts.map(post => `<li>${post.title}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>连接失败</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>网络错误</h4>
+                        <p>无法连接到后端服务</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 加载百度推广数据
+        async function loadPromotionData() {
+            const resultDiv = document.getElementById('promotionData');
+            resultDiv.innerHTML = '<div class="loading">正在加载推广数据...</div>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/baidu_promotion`);
+                const result = await response.json();
+                
+                if (result.success) {
+                    const data = result.data.promotion_data;
+                    resultDiv.innerHTML = `
+                        <div class="result">
+                            <h4>百度推广数据总览</h4>
+                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0;">
+                                <div style="text-align: center; padding: 15px; background: #e8f5e8; border-radius: 8px;">
+                                    <h3 style="color: #27ae60; margin: 0;">总消费</h3>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">¥${data.summary.total_cost}</div>
+                                </div>
+                                <div style="text-align: center; padding: 15px; background: #e3f2fd; border-radius: 8px;">
+                                    <h3 style="color: #3498db; margin: 0;">总点击</h3>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">${data.summary.total_clicks}</div>
+                                </div>
+                                <div style="text-align: center; padding: 15px; background: #fff3e0; border-radius: 8px;">
+                                    <h3 style="color: #f39c12; margin: 0;">总浏览量</h3>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">${data.summary.total_pv}</div>
+                                </div>
+                            </div>
+                            <h4>高价值关键词TOP3</h4>
+                            <div style="margin-top: 15px;">
+                                ${data.top_keywords.map((kw, index) => `
+                                    <div style="padding: 10px; margin: 5px 0; background: #f8f9fa; border-radius: 4px; border-left: 4px solid #3498db;">
+                                        <strong>${index + 1}. ${kw.keyword}</strong>
+                                        <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">
+                                            消费: ¥${kw.cost} | 点击: ${kw.clicks} | 浏览: ${kw.pv} | 跳出率: ${kw.bounce_rate}%
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>加载失败</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>网络错误</h4>
+                        <p>无法连接到后端服务</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 生成文章（先展示内容，再手动发布）
+        async function generateAndPublishArticle() {
+            const wpUrl = document.getElementById('wpUrl').value.trim();
+            const wpUsername = document.getElementById('wpUsername').value.trim();
+            const wpPassword = document.getElementById('wpPassword').value.trim();
+            const maxArticles = 1; // 固定为1篇，节省token
+            const enhancedMode = document.getElementById('enhancedMode').checked;
+            const selectedModel = document.getElementById('modelSelect').value;
+            
+            if (!wpUrl || !wpUsername || !wpPassword) {
+                alert('请填写完整的WordPress信息');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('wordpressResult');
+            const modeText = enhancedMode ? '增强版（联网搜索+大模型优化）' : '基础版';
+            resultDiv.innerHTML = `<div class="loading">正在生成${modeText}文章，请稍候...</div>`;
+            
+            try {
+                const formData = new FormData();
+                formData.append('wp_url', wpUrl);
+                formData.append('wp_username', wpUsername);
+                formData.append('wp_password', wpPassword);
+                formData.append('max_articles', maxArticles);
+                formData.append('enhanced', enhancedMode);
+                formData.append('model', selectedModel);
+                formData.append('category_name', '新闻资讯');
+                formData.append('auto_publish', 'false'); // 先不自动发布
+                
+                const response = await fetch(`${API_BASE}/api/publish_articles`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    // 存储文章数据供发布使用
+                    window.generatedArticle = result.articles[0];
+                    
+                    let html = `
+                        <div class="result">
+                            <h4>✅ 文章生成成功！</h4>
+                            <p>分类: ${result.category}</p>
+                            <div style="margin: 15px 0; padding: 10px; background: #e8f5e8; border-radius: 8px; border-left: 4px solid #27ae60;">
+                                <strong>📝 文章预览:</strong>
+                            </div>
+                    `;
+                    
+                    // 显示文章内容
+                    if (result.articles && result.articles.length > 0) {
+                        const article = result.articles[0];
+                        html += `
+                            <div class="article-container" style="margin: 15px 0; padding: 20px; border: 2px solid #e1e8ed; border-radius: 8px; background: #f8f9fa;">
+                                <h3 style="color: #2c3e50; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
+                                    ${article.title}
+                                </h3>
+                                <div class="article-meta" style="margin-bottom: 15px; padding: 10px; background: #ecf0f1; border-radius: 5px; font-size: 14px; color: #7f8c8d;">
+                                    <strong>关键词:</strong> ${article.keyword} | 
+                                    <strong>评分:</strong> ${article.score} | 
+                                    <strong>点击量:</strong> ${article.clicks} | 
+                                    <strong>转化率:</strong> ${article.conversion_rate}%
+                                </div>
+                                <div class="article-content" style="line-height: 1.6; color: #2c3e50; white-space: pre-wrap; word-wrap: break-word;">
+                                    ${article.content.replace(/</g, '&lt;').replace(/>/g, '&gt;')}
+                                </div>
+                                <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #bdc3c7;">
+                                    <button onclick="copyArticleContent()" style="background: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; margin-right: 10px;">
+                                        📋 复制内容
+                                    </button>
+                                    <button onclick="showArticleContent()" style="background: #9b59b6; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; margin-right: 10px;">
+                                        👁️ 查看全文
+                                    </button>
+                                    <button onclick="publishSingleArticle()" style="background: #27ae60; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer;">
+                                        🚀 发布到WordPress
+                                    </button>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    
+                    html += '</div>';
+                    resultDiv.innerHTML = html;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>❌ 生成失败</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>❌ 网络错误</h4>
+                        <p>无法连接到后端服务</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 发布单篇文章
+        async function publishSingleArticle() {
+            if (!window.generatedArticle) {
+                alert('没有可发布的文章，请先生成文章');
+                return;
+            }
+            
+            const wpUrl = document.getElementById('wpUrl').value.trim();
+            const wpUsername = document.getElementById('wpUsername').value.trim();
+            const wpPassword = document.getElementById('wpPassword').value.trim();
+            
+            if (!wpUrl || !wpUsername || !wpPassword) {
+                alert('请填写完整的WordPress信息');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('wordpressResult');
+            resultDiv.innerHTML += `<div class="loading" style="margin-top: 15px;">正在发布文章到WordPress...</div>`;
+            
+            try {
+                // 直接使用已生成的文章数据，而不是重新生成
+                const article = window.generatedArticle;
+                
+                // 调用WordPress发布API
+                const publishData = {
+                    title: article.title,
+                    content: article.content,
+                    category_name: '新闻资讯'
+                };
+                
+                const response = await fetch(`${API_BASE}/api/publish_single_article`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        wp_url: wpUrl,
+                        wp_username: wpUsername,
+                        wp_password: wpPassword,
+                        article: publishData
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    let publishHtml = `
+                        <div style="margin: 15px 0; padding: 10px; background: #e8f5e8; border-radius: 8px; border-left: 4px solid #27ae60;">
+                            <strong>✅ 文章发布成功！</strong>
+                            <div style="margin-top: 5px;">
+                                文章标题: ${result.article_title}
+                            </div>
+                            <div style="margin-top: 5px;">
+                                文章ID: ${result.post_id} | 
+                                <a href="${result.post_url}" target="_blank" style="color: #27ae60;">查看文章</a>
+                            </div>
+                        </div>
+                    `;
+                    
+                    resultDiv.innerHTML += publishHtml;
+                } else {
+                    resultDiv.innerHTML += `
+                        <div style="margin: 15px 0; padding: 10px; background: #f8d7da; border-radius: 8px; border-left: 4px solid #dc3545;">
+                            <strong>❌ 发布失败</strong>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML += `
+                    <div style="margin: 15px 0; padding: 10px; background: #f8d7da; border-radius: 8px; border-left: 4px solid #dc3545;">
+                        <strong>❌ 发布异常</strong>
+                        <p>无法连接到后端服务: ${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 生成文章（保留原函数用于兼容）
+        async function generateArticles() {
+            const wpUrl = document.getElementById('wpUrl').value.trim();
+            const wpUsername = document.getElementById('wpUsername').value.trim();
+            const wpPassword = document.getElementById('wpPassword').value.trim();
+            const maxArticles = document.getElementById('maxArticles').value;
+            const enhancedMode = document.getElementById('enhancedMode').checked;
+            const selectedModel = document.getElementById('modelSelect').value;
+            
+            if (!wpUrl || !wpUsername || !wpPassword) {
+                alert('请填写完整的WordPress信息');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('wordpressResult');
+            const modeText = enhancedMode ? '增强版（联网搜索+大模型优化）' : '基础版';
+            resultDiv.innerHTML = `<div class="loading">正在生成${modeText}文章，请稍候...</div>`;
+            
+            try {
+                const formData = new FormData();
+                formData.append('wp_url', wpUrl);
+                formData.append('wp_username', wpUsername);
+                formData.append('wp_password', wpPassword);
+                formData.append('max_articles', maxArticles);
+                formData.append('enhanced', enhancedMode);
+                formData.append('model', selectedModel);
+                
+                const response = await fetch(`${API_BASE}/api/generate_articles`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    let html = `
+                        <div class="result">
+                            <h4>文章生成成功！</h4>
+                            <p>${result.message}</p>
+                            <h5>生成结果：</h5>
+                    `;
+                    
+                    result.results.forEach((article, index) => {
+                        if (article.success) {
+                            const isEnhanced = article.enhanced || false;
+                            const borderColor = isEnhanced ? "#e74c3c" : "#27ae60";
+                            const bgColor = isEnhanced ? "#fdf2f2" : "#e8f5e8";
+                            const badgeText = isEnhanced ? "增强版" : "基础版";
+                            const badgeColor = isEnhanced ? "#e74c3c" : "#27ae60";
+                            
+                            // 每篇文章使用独立的容器，确保完全分开
+                            html += `
+                                <div class="article-container" style="
+                                    padding: 20px; 
+                                    margin: 20px 0; 
+                                    background: ${bgColor}; 
+                                    border-radius: 12px; 
+                                    border: 2px solid ${borderColor};
+                                    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                                    clear: both;
+                                    overflow: hidden;
+                                ">
+                                    <!-- 文章头部信息 -->
+                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                                        <div style="display: flex; align-items: center; gap: 15px;">
+                                            <div style="background: ${badgeColor}; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">
+                                                ${badgeText}
+                                            </div>
+                                            <strong style="color: #2c3e50; font-size: 18px;">${index + 1}. ${article.keyword}</strong>
+                                        </div>
+                                        <div style="font-size: 12px; color: #7f8c8d; background: rgba(255,255,255,0.7); padding: 5px 10px; border-radius: 15px;">
+                                            得分: ${article.score.toFixed(2)} | 点击: ${article.clicks} | 转化率: ${(article.conversion_rate * 100).toFixed(1)}%
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- 文章标题 -->
+                                    <div style="margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.8); border-radius: 8px;">
+                                        <strong style="color: #2c3e50; font-size: 14px;">📝 标题:</strong>
+                                        <div style="margin-top: 5px; font-size: 16px; color: #34495e; line-height: 1.4;">
+                                            ${article.title}
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- 文章摘要 -->
+                                    <div style="margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.8); border-radius: 8px;">
+                                        <strong style="color: #2c3e50; font-size: 14px;">📋 摘要:</strong>
+                                        <div style="margin-top: 5px; font-size: 14px; color: #34495e; line-height: 1.5;">
+                                            ${article.excerpt}
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- 搜索来源（仅增强版显示） -->
+                                    ${isEnhanced && article.search_results ? `
+                                        <div style="margin-bottom: 15px; padding: 10px; background: #f0f8ff; border-radius: 8px; border-left: 4px solid #3498db;">
+                                            <strong style="color: #2c3e50; font-size: 14px;">🔍 搜索来源:</strong>
+                                            <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">
+                                                ${article.search_results.slice(0, 2).map(r => `${r.source}: ${r.title}`).join(' | ')}
+                                            </div>
+                                        </div>
+                                    ` : ''}
+                                    
+                                    <!-- 操作按钮 -->
+                                    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(0,0,0,0.1); text-align: center;">
+                                        <button onclick="copyArticleContent(${index})" style="
+                                            background: #3498db; 
+                                            color: white; 
+                                            border: none; 
+                                            padding: 8px 16px; 
+                                            border-radius: 6px; 
+                                            cursor: pointer; 
+                                            margin-right: 10px;
+                                            font-size: 14px;
+                                            transition: background 0.3s;
+                                        " onmouseover="this.style.background='#2980b9'" onmouseout="this.style.background='#3498db'">
+                                            📋 复制内容
+                                        </button>
+                                        <button onclick="showArticleContent(${index})" style="
+                                            background: #f39c12; 
+                                            color: white; 
+                                            border: none; 
+                                            padding: 8px 16px; 
+                                            border-radius: 6px; 
+                                            cursor: pointer;
+                                            font-size: 14px;
+                                            transition: background 0.3s;
+                                        " onmouseover="this.style.background='#e67e22'" onmouseout="this.style.background='#f39c12'">
+                                            👁️ 查看全文
+                                        </button>
+                                    </div>
+                                    
+                                    <!-- 文章内容（默认隐藏） -->
+                                    <div id="article-content-${index}" class="article-content" style="display: none;">
+                                        ${article.content.replace(/</g, '&lt;').replace(/>/g, '&gt;')}
+                                    </div>
+                                </div>
+                            `;
+                        } else {
+                            html += `
+                                <div class="article-container" style="
+                                    padding: 15px; 
+                                    margin: 20px 0; 
+                                    background: #f8d7da; 
+                                    border-radius: 8px; 
+                                    border: 2px solid #dc3545;
+                                    clear: both;
+                                ">
+                                    <strong style="color: #721c24; font-size: 16px;">${index + 1}. ${article.keyword}</strong>
+                                    <div style="font-size: 14px; color: #721c24; margin-top: 8px;">
+                                        ❌ 生成失败: ${article.error}
+                                    </div>
+                                </div>
+                            `;
+                        }
+                    });
+                    
+                    html += '</div>';
+                    resultDiv.innerHTML = html;
+                    
+                    // 存储文章数据供复制使用
+                    window.generatedArticles = result.results;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>生成失败</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>网络错误</h4>
+                        <p>无法连接到后端服务</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 获取WordPress现有文章
+        async function getWordPressPosts() {
+            const wpUrl = document.getElementById('wpUrl').value.trim();
+            const wpUsername = document.getElementById('wpUsername').value.trim();
+            const wpPassword = document.getElementById('wpPassword').value.trim();
+            
+            if (!wpUrl || !wpUsername || !wpPassword) {
+                alert('请填写完整的WordPress信息');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('wordpressResult');
+            resultDiv.innerHTML = '<div class="loading">正在获取文章列表...</div>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/wordpress_posts?wp_url=${encodeURIComponent(wpUrl)}&wp_username=${encodeURIComponent(wpUsername)}&wp_password=${encodeURIComponent(wpPassword)}`);
+                const result = await response.json();
+                
+                if (result.success) {
+                    let html = `
+                        <div class="result">
+                            <h4>WordPress文章列表</h4>
+                            <p>共找到 ${result.count} 篇文章</p>
+                            <div style="max-height: 400px; overflow-y: auto;">
+                    `;
+                    
+                    result.posts.slice(0, 10).forEach((post, index) => {
+                        html += `
+                            <div style="padding: 10px; margin: 5px 0; background: #f8f9fa; border-radius: 4px; border-left: 4px solid #3498db;">
+                                <strong>${index + 1}. ${post.title.rendered}</strong>
+                                <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">
+                                    状态: ${post.status} | 日期: ${new Date(post.date).toLocaleDateString()} | 
+                                    <a href="${post.link}" target="_blank">查看</a>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    
+                    html += '</div></div>';
+                    resultDiv.innerHTML = html;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>获取失败</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>网络错误</h4>
+                        <p>无法连接到后端服务</p>
+                    </div>
+                `;
+            }
+        }
+        
+        async function syncWordPress() {
+            const wpUrl = document.getElementById('wpUrl').value.trim();
+            if (!wpUrl) {
+                alert('请输入WordPress网站URL');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('wordpressResult');
+            resultDiv.innerHTML = '<div class="loading">正在同步WordPress内容，请稍候...</div>';
+            
+            try {
+                const formData = new FormData();
+                formData.append('wp_url', wpUrl);
+                
+                const response = await fetch(`${API_BASE}/api/sync_wordpress`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    resultDiv.innerHTML = `
+                        <div class="result">
+                            <h4>同步成功！</h4>
+                            <p>${result.message}</p>
+                            <p>网站：${result.wp_url}</p>
+                            <p>内容数量：${result.content_count}</p>
+                        </div>
+                    `;
+                    // 重新加载统计信息
+                    loadStats();
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>同步失败</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>网络错误</h4>
+                        <p>无法连接到后端服务</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // 复制文章内容
+        function copyArticleContent(index) {
+            if (window.generatedArticles && window.generatedArticles[index]) {
+                const article = window.generatedArticles[index];
+                
+                // 将HTML内容转换为纯文本
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = article.content;
+                const plainTextContent = tempDiv.textContent || tempDiv.innerText || '';
+                
+                const content = `标题: ${article.title}\n\n${plainTextContent}`;
+                
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('文章内容已复制到剪贴板！');
+                }).catch(err => {
+                    // 如果剪贴板API不可用，使用传统方法
+                    const textArea = document.createElement('textarea');
+                    textArea.value = content;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    alert('文章内容已复制到剪贴板！');
+                });
+            }
+        }
+        
+        // 显示/隐藏文章内容
+        function showArticleContent(index) {
+            const contentDiv = document.getElementById(`article-content-${index}`);
+            if (contentDiv) {
+                if (contentDiv.style.display === 'none') {
+                    contentDiv.style.display = 'block';
+                } else {
+                    contentDiv.style.display = 'none';
+                }
+            }
+        }
+        
+        // 自动发布文章到WordPress
+        async function publishArticles() {
+            const wpUrl = document.getElementById('wpUrl').value.trim();
+            const wpUsername = document.getElementById('wpUsername').value.trim();
+            const wpPassword = document.getElementById('wpPassword').value.trim();
+            const maxArticles = document.getElementById('maxArticles').value;
+            const enhancedMode = document.getElementById('enhancedMode').checked;
+            const selectedModel = document.getElementById('modelSelect').value;
+            const categoryName = document.getElementById('categoryName').value.trim() || '新闻资讯';
+            const autoPublish = document.getElementById('autoPublish').checked;
+            
+            if (!wpUrl || !wpUsername || !wpPassword) {
+                alert('请填写完整的WordPress信息');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('wordpressResult');
+            const modeText = enhancedMode ? '增强版（联网搜索+大模型优化）' : '基础版';
+            const publishText = autoPublish ? '并自动发布' : '（仅生成不发布）';
+            resultDiv.innerHTML = `<div class="loading">正在生成${modeText}文章${publishText}，请稍候...</div>`;
+            
+            try {
+                const formData = new FormData();
+                formData.append('wp_url', wpUrl);
+                formData.append('wp_username', wpUsername);
+                formData.append('wp_password', wpPassword);
+                formData.append('max_articles', maxArticles);
+                formData.append('enhanced', enhancedMode);
+                formData.append('model', selectedModel);
+                formData.append('category_name', categoryName);
+                formData.append('auto_publish', autoPublish);
+                
+                const response = await fetch(`${API_BASE}/api/publish_articles`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    let html = `
+                        <div class="result">
+                            <h4>${result.message}</h4>
+                            <p>分类: ${result.category}</p>
+                    `;
+                    
+                    if (autoPublish && result.results) {
+                        html += `
+                            <div style="margin: 15px 0; padding: 10px; background: #e8f5e8; border-radius: 8px; border-left: 4px solid #27ae60;">
+                                <strong>📊 发布统计:</strong>
+                                <div style="margin-top: 5px;">
+                                    总文章: ${result.total_articles} | 
+                                    成功发布: ${result.published_count} | 
+                                    发布失败: ${result.failed_count}
+                                </div>
+                            </div>
+                        `;
+                        
+                        // 显示发布结果详情
+                        result.results.forEach((publishResult, index) => {
+                            if (publishResult.success) {
+                                html += `
+                                    <div style="padding: 10px; margin: 5px 0; background: #e8f5e8; border-radius: 4px; border-left: 3px solid #27ae60;">
+                                        <strong>✅ 第${publishResult.article_index}篇: ${publishResult.article_keyword}</strong>
+                                        <div style="font-size: 12px; color: #27ae60; margin-top: 3px;">
+                                            文章ID: ${publishResult.post_id} | 
+                                            <a href="${publishResult.post_url}" target="_blank" style="color: #27ae60;">查看文章</a>
+                                        </div>
+                                    </div>
+                                `;
+                            } else {
+                                html += `
+                                    <div style="padding: 10px; margin: 5px 0; background: #f8d7da; border-radius: 4px; border-left: 3px solid #dc3545;">
+                                        <strong>❌ 第${publishResult.article_index}篇: ${publishResult.article_keyword}</strong>
+                                        <div style="font-size: 12px; color: #dc3545; margin-top: 3px;">
+                                            失败原因: ${publishResult.message}
+                                        </div>
+                                    </div>
+                                `;
+                            }
+                        });
+                    } else if (result.articles) {
+                        // 只生成不发布的情况
+                        html += `
+                            <div style="margin: 15px 0; padding: 10px; background: #fff3cd; border-radius: 8px; border-left: 4px solid #ffc107;">
+                                <strong>⚠️ 注意:</strong> 文章已生成但未发布，请手动复制内容到WordPress
+                            </div>
+                        `;
+                    }
+                    
+                    html += '</div>';
+                    resultDiv.innerHTML = html;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h4>发布失败</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h4>网络错误</h4>
+                        <p>无法连接到后端服务</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // AI大模型曝光率分析相关函数
+        let aiAnalysisData = {
+            summary: {},
+            platforms: [],
+            questions: []
+        };
+        
+        // 显示AI分析仪表板
+        function showAIAnalysis() {
+            // 隐藏其他内容
+            document.querySelector('.workflow-section').style.display = 'none';
+            document.querySelector('.stats-section').style.display = 'none';
+            document.querySelector('.models-section').style.display = 'none';
+            document.querySelector('.charts-section').style.display = 'none';
+            document.querySelector('.query-section').style.display = 'none';
+            document.querySelectorAll('.wordpress-section').forEach(el => el.style.display = 'none');
+            
+            // 显示AI分析仪表板
+            document.getElementById('aiAnalysisDashboard').style.display = 'block';
+            
+            // 加载数据
+            loadAIAnalysisData();
+        }
+        
+        // 加载AI分析数据
+        async function loadAIAnalysisData() {
+            try {
+                // 加载汇总统计
+                const summaryResponse = await fetch(`${API_BASE}/api/ai_exposure/summary`);
+                const summaryData = await summaryResponse.json();
+                if (summaryData.success) {
+                    aiAnalysisData.summary = summaryData.data;
+                    updateSummaryStats();
+                }
+                
+                // 加载平台统计
+                const platformsResponse = await fetch(`${API_BASE}/api/ai_exposure/platforms`);
+                const platformsData = await platformsResponse.json();
+                if (platformsData.success) {
+                    aiAnalysisData.platforms = platformsData.data;
+                    updatePlatformStats();
+                    updatePlatformChart();
+                    updateDeviceChart();
+                    updatePlatformFilter();
+                }
+                
+                // 加载问题数据
+                const questionsResponse = await fetch(`${API_BASE}/api/ai_exposure/questions`);
+                const questionsData = await questionsResponse.json();
+                if (questionsData.success) {
+                    aiAnalysisData.questions = questionsData.data;
+                    updateQuestionsTable();
+                }
+                
+            } catch (error) {
+                console.error('加载AI分析数据失败:', error);
+                alert('加载数据失败，请检查网络连接');
+            }
+        }
+        
+        // 更新汇总统计
+        function updateSummaryStats() {
+            const summary = aiAnalysisData.summary;
+            document.getElementById('totalQuestions').textContent = summary.total_questions || 0;
+            document.getElementById('includedQuestions').textContent = summary.included_questions || 0;
+            document.getElementById('brandKeywords').textContent = summary.brand_keywords || 0;
+            document.getElementById('coveredPlatforms').textContent = summary.covered_platforms || 0;
+        }
+        
+        // 更新平台统计表格
+        function updatePlatformStats() {
+            const tbody = document.getElementById('platformTableBody');
+            tbody.innerHTML = '';
+            
+            aiAnalysisData.platforms.forEach(platform => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${platform.platform}</td>
+                    <td style="padding: 10px; text-align: right; border-bottom: 1px solid #ddd;">${platform.exposure_rate}%</td>
+                    <td style="padding: 10px; text-align: right; border-bottom: 1px solid #ddd;">${platform.included_questions}条</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+        
+        // 更新平台饼图
+        function updatePlatformChart() {
+            const canvas = document.getElementById('platformChart');
+            const ctx = canvas.getContext('2d');
+            
+            // 清除画布
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // 准备数据
+            const platforms = aiAnalysisData.platforms;
+            const total = platforms.reduce((sum, p) => sum + p.included_questions, 0);
+            
+            if (total === 0) return;
+            
+            // 颜色配置
+            const colors = ['#3498db', '#e74c3c', '#f39c12', '#9b59b6', '#1abc9c', '#34495e', '#e67e22', '#2ecc71', '#8e44ad'];
+            
+            // 绘制饼图
+            let currentAngle = 0;
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            const radius = Math.min(centerX, centerY) - 20;
+            
+            platforms.forEach((platform, index) => {
+                const sliceAngle = (platform.included_questions / total) * 2 * Math.PI;
+                
+                // 绘制扇形
+                ctx.beginPath();
+                ctx.moveTo(centerX, centerY);
+                ctx.arc(centerX, centerY, radius, currentAngle, currentAngle + sliceAngle);
+                ctx.closePath();
+                ctx.fillStyle = colors[index % colors.length];
+                ctx.fill();
+                
+                // 绘制标签
+                const labelAngle = currentAngle + sliceAngle / 2;
+                const labelX = centerX + Math.cos(labelAngle) * (radius + 30);
+                const labelY = centerY + Math.sin(labelAngle) * (radius + 30);
+                
+                ctx.fillStyle = '#2c3e50';
+                ctx.font = '12px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText(platform.platform, labelX, labelY);
+                
+                currentAngle += sliceAngle;
+            });
+        }
+        
+        // 更新设备分布图表
+        function updateDeviceChart() {
+            const canvas = document.getElementById('deviceChart');
+            const ctx = canvas.getContext('2d');
+            
+            // 清除画布
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const platforms = aiAnalysisData.platforms;
+            const barWidth = canvas.width / (platforms.length * 3);
+            const maxValue = Math.max(...platforms.map(p => Math.max(p.desktop_questions, p.mobile_questions)));
+            
+            platforms.forEach((platform, index) => {
+                const x = (index * 3 + 1) * barWidth;
+                const desktopHeight = (platform.desktop_questions / maxValue) * (canvas.height - 60);
+                const mobileHeight = (platform.mobile_questions / maxValue) * (canvas.height - 60);
+                
+                // 绘制电脑端柱状图
+                ctx.fillStyle = '#3498db';
+                ctx.fillRect(x, canvas.height - 40 - desktopHeight, barWidth, desktopHeight);
+                
+                // 绘制移动端柱状图
+                ctx.fillStyle = '#e74c3c';
+                ctx.fillRect(x + barWidth, canvas.height - 40 - mobileHeight, barWidth, mobileHeight);
+                
+                // 绘制标签
+                ctx.fillStyle = '#2c3e50';
+                ctx.font = '12px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText(platform.platform, x + barWidth, canvas.height - 20);
+            });
+            
+            // 绘制图例
+            ctx.fillStyle = '#3498db';
+            ctx.fillRect(20, 20, 15, 15);
+            ctx.fillStyle = '#2c3e50';
+            ctx.fillText('电脑端', 40, 32);
+            
+            ctx.fillStyle = '#e74c3c';
+            ctx.fillRect(120, 20, 15, 15);
+            ctx.fillStyle = '#2c3e50';
+            ctx.fillText('移动端', 140, 32);
+        }
+        
+        // 更新平台筛选器
+        function updatePlatformFilter() {
+            const select = document.getElementById('platformFilter');
+            select.innerHTML = '<option value="">请选择平台</option>';
+            
+            aiAnalysisData.platforms.forEach(platform => {
+                const option = document.createElement('option');
+                option.value = platform.platform;
+                option.textContent = platform.platform;
+                select.appendChild(option);
+            });
+        }
+        
+        // 更新问题表格
+        function updateQuestionsTable() {
+            const tbody = document.getElementById('questionsTableBody');
+            tbody.innerHTML = '';
+            
+            aiAnalysisData.questions.forEach((question, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${index + 1}</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${question.training_word}</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${question.question}</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${question.platform}</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${question.source}</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${question.launch_time}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+        
+        // 搜索问题
+        async function searchQuestions() {
+            const keyword = document.getElementById('questionSearch').value;
+            const platform = document.getElementById('platformFilter').value;
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/ai_exposure/search`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        keyword: keyword,
+                        platform: platform || null
+                    })
+                });
+                
+                const data = await response.json();
+                if (data.success) {
+                    aiAnalysisData.questions = data.data;
+                    updateQuestionsTable();
+                } else {
+                    alert('搜索失败: ' + data.error);
+                }
+            } catch (error) {
+                console.error('搜索失败:', error);
+                alert('搜索失败，请检查网络连接');
+            }
+        }
+        
+        // 数据采集相关函数
+        async function collectMockData() {
+            if (!confirm('确定要生成模拟数据吗？这将覆盖现有数据。')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/ai_exposure/collect/mock?days=30`, {
+                    method: 'POST'
+                });
+                
+                const data = await response.json();
+                if (data.success) {
+                    alert(`模拟数据生成成功！\n总问题数: ${data.data.total_questions}\n平台数: ${data.data.platforms_count}\n品牌关键词数: ${data.data.brand_keywords_count}`);
+                    // 刷新数据
+                    await loadAIAnalysisData();
+                } else {
+                    alert('生成模拟数据失败: ' + data.error);
+                }
+            } catch (error) {
+                console.error('生成模拟数据失败:', error);
+                alert('生成模拟数据失败，请检查网络连接');
+            }
+        }
+        
+        async function collectFromBaidu() {
+            try {
+                const response = await fetch(`${API_BASE}/api/ai_exposure/collect/baidu`, {
+                    method: 'POST'
+                });
+                
+                const data = await response.json();
+                if (data.success) {
+                    alert(`从百度统计采集成功！\n采集问题数: ${data.data.questions_count}\n数据源: ${data.data.source}`);
+                    // 刷新数据
+                    await loadAIAnalysisData();
+                } else {
+                    alert('从百度统计采集失败: ' + data.error);
+                }
+            } catch (error) {
+                console.error('从百度统计采集失败:', error);
+                alert('从百度统计采集失败，请检查网络连接');
+            }
+        }
+        
+        async function getCollectionReport() {
+            try {
+                const response = await fetch(`${API_BASE}/api/ai_exposure/collect/report`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    const report = data.data;
+                    let reportHtml = `
+                        <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                            <h3 style="color: #2c3e50; margin-bottom: 20px;">📊 数据采集报告</h3>
+                            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 20px;">
+                                <div style="text-align: center; padding: 15px; background: #e8f5e8; border-radius: 8px;">
+                                    <h4 style="color: #27ae60; margin: 0;">总问题数</h4>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">${report.total_questions}</div>
+                                </div>
+                                <div style="text-align: center; padding: 15px; background: #e3f2fd; border-radius: 8px;">
+                                    <h4 style="color: #3498db; margin: 0;">平台数量</h4>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">${report.platforms_count}</div>
+                                </div>
+                            </div>
+                            <h4 style="color: #2c3e50;">平台分布:</h4>
+                            <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
+                                <thead>
+                                    <tr style="background: #34495e; color: white;">
+                                        <th style="padding: 10px; text-align: left;">平台</th>
+                                        <th style="padding: 10px; text-align: right;">问题数</th>
+                                        <th style="padding: 10px; text-align: right;">曝光率</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                    `;
+                    
+                    for (const [platform, stats] of Object.entries(report.platform_breakdown)) {
+                        reportHtml += `
+                            <tr>
+                                <td style="padding: 10px; border-bottom: 1px solid #ddd;">${platform}</td>
+                                <td style="padding: 10px; text-align: right; border-bottom: 1px solid #ddd;">${stats.questions}</td>
+                                <td style="padding: 10px; text-align: right; border-bottom: 1px solid #ddd;">${stats.exposure_rate}%</td>
+                            </tr>
+                        `;
+                    }
+                    
+                    reportHtml += `
+                                </tbody>
+                            </table>
+                            <h4 style="color: #2c3e50;">热门关键词TOP5:</h4>
+                            <ul style="margin: 10px 0;">
+                    `;
+                    
+                    report.top_keywords.slice(0, 5).forEach(([keyword, count]) => {
+                        reportHtml += `<li style="margin: 5px 0;">${keyword}: ${count}次</li>`;
+                    });
+                    
+                    reportHtml += `
+                            </ul>
+                            <p style="color: #7f8c8d; font-size: 12px; margin-top: 20px;">
+                                采集时间: ${new Date(report.collection_time).toLocaleString()}
+                            </p>
+                        </div>
+                    `;
+                    
+                    // 显示报告
+                    const reportDiv = document.createElement('div');
+                    reportDiv.innerHTML = reportHtml;
+                    reportDiv.style.position = 'fixed';
+                    reportDiv.style.top = '50%';
+                    reportDiv.style.left = '50%';
+                    reportDiv.style.transform = 'translate(-50%, -50%)';
+                    reportDiv.style.background = 'rgba(0,0,0,0.8)';
+                    reportDiv.style.padding = '20px';
+                    reportDiv.style.borderRadius = '8px';
+                    reportDiv.style.maxWidth = '80%';
+                    reportDiv.style.maxHeight = '80%';
+                    reportDiv.style.overflow = 'auto';
+                    reportDiv.style.zIndex = '1000';
+                    
+                    // 添加关闭按钮
+                    const closeBtn = document.createElement('button');
+                    closeBtn.textContent = '关闭';
+                    closeBtn.style.padding = '10px 20px';
+                    closeBtn.style.background = '#e74c3c';
+                    closeBtn.style.color = 'white';
+                    closeBtn.style.border = 'none';
+                    closeBtn.style.borderRadius = '4px';
+                    closeBtn.style.cursor = 'pointer';
+                    closeBtn.style.marginTop = '20px';
+                    closeBtn.onclick = () => document.body.removeChild(reportDiv);
+                    
+                    reportDiv.appendChild(closeBtn);
+                    document.body.appendChild(reportDiv);
+                } else {
+                    alert('获取采集报告失败: ' + data.error);
+                }
+            } catch (error) {
+                console.error('获取采集报告失败:', error);
+                alert('获取采集报告失败，请检查网络连接');
+            }
+        }
+        
+        async function refreshAIData() {
+            try {
+                await loadAIAnalysisData();
+                alert('数据刷新成功！');
+            } catch (error) {
+                console.error('刷新数据失败:', error);
+                alert('刷新数据失败，请检查网络连接');
+            }
+        }
+        
+        // 真实数据采集相关函数
+        async function collectRealData() {
+            const keywordsText = document.getElementById('realDataKeywords').value.trim();
+            if (!keywordsText) {
+                alert('请输入关键词！');
+                return;
+            }
+            
+            const keywords = keywordsText.split('\n').filter(k => k.trim());
+            if (keywords.length === 0) {
+                alert('请输入有效的关键词！');
+                return;
+            }
+            
+            // 获取选中的平台
+            const selectedPlatforms = [];
+            document.querySelectorAll('#platformCheckboxes input[type="checkbox"]:checked').forEach(checkbox => {
+                selectedPlatforms.push(checkbox.value);
+            });
+            
+            if (selectedPlatforms.length === 0) {
+                alert('请至少选择一个AI平台！');
+                return;
+            }
+            
+            if (!confirm(`确定要开始真实数据采集吗？\n关键词: ${keywords.join(', ')}\n平台: ${selectedPlatforms.join(', ')}`)) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/real_data/collect`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        keywords: keywords,
+                        platforms: selectedPlatforms
+                    })
+                });
+                
+                const data = await response.json();
+                if (data.success) {
+                    alert(`真实数据采集成功！\n采集结果数: ${data.data.results_count}\n关键词: ${data.data.keywords.join(', ')}\n平台: ${data.data.platforms.join(', ')}\n保存文件: ${data.data.filename}`);
+                    // 刷新数据
+                    await loadAIAnalysisData();
+                } else {
+                    alert('真实数据采集失败: ' + data.error);
+                }
+            } catch (error) {
+                console.error('真实数据采集失败:', error);
+                alert('真实数据采集失败，请检查网络连接');
+            }
+        }
+        
+        async function checkPlatformStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/api/real_data/platforms/status`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    let statusHtml = '<div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0;"><h3 style="color: #2c3e50; margin-bottom: 20px;">AI平台状态</h3>';
+                    
+                    for (const [platform, info] of Object.entries(data.data)) {
+                        const statusColor = info.status === 'active' ? '#27ae60' : '#e74c3c';
+                        const statusText = info.status === 'active' ? '正常' : '异常';
+                        
+                        statusHtml += `
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; margin: 5px 0; background: #f8f9fa; border-radius: 4px;">
+                                <div>
+                                    <strong>${platform}</strong>
+                                    <div style="font-size: 12px; color: #7f8c8d;">${info.version || 'N/A'}</div>
+                                </div>
+                                <div style="color: ${statusColor}; font-weight: bold;">${statusText}</div>
+                            </div>
+                        `;
+                    }
+                    
+                    statusHtml += '</div>';
+                    
+                    // 显示状态
+                    const statusDiv = document.createElement('div');
+                    statusDiv.innerHTML = statusHtml;
+                    statusDiv.style.position = 'fixed';
+                    statusDiv.style.top = '50%';
+                    statusDiv.style.left = '50%';
+                    statusDiv.style.transform = 'translate(-50%, -50%)';
+                    statusDiv.style.background = 'rgba(0,0,0,0.8)';
+                    statusDiv.style.padding = '20px';
+                    statusDiv.style.borderRadius = '8px';
+                    statusDiv.style.maxWidth = '80%';
+                    statusDiv.style.maxHeight = '80%';
+                    statusDiv.style.overflow = 'auto';
+                    statusDiv.style.zIndex = '1000';
+                    
+                    // 添加关闭按钮
+                    const closeBtn = document.createElement('button');
+                    closeBtn.textContent = '关闭';
+                    closeBtn.style.padding = '10px 20px';
+                    closeBtn.style.background = '#e74c3c';
+                    closeBtn.style.color = 'white';
+                    closeBtn.style.border = 'none';
+                    closeBtn.style.borderRadius = '4px';
+                    closeBtn.style.cursor = 'pointer';
+                    closeBtn.style.marginTop = '20px';
+                    closeBtn.onclick = () => document.body.removeChild(statusDiv);
+                    
+                    statusDiv.appendChild(closeBtn);
+                    document.body.appendChild(statusDiv);
+                } else {
+                    alert('获取平台状态失败: ' + data.error);
+                }
+            } catch (error) {
+                console.error('获取平台状态失败:', error);
+                alert('获取平台状态失败，请检查网络连接');
+            }
+        }
+        
+        async function analyzeRealData() {
+            try {
+                const response = await fetch(`${API_BASE}/api/real_data/analyze`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({})
+                });
+                
+                const data = await response.json();
+                if (data.success) {
+                    const analysis = data.data;
+                    let analysisHtml = `
+                        <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                            <h3 style="color: #2c3e50; margin-bottom: 20px;">📊 真实数据分析报告</h3>
+                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 20px;">
+                                <div style="text-align: center; padding: 15px; background: #e8f5e8; border-radius: 8px;">
+                                    <h4 style="color: #27ae60; margin: 0;">总问题数</h4>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">${analysis.total_questions}</div>
+                                </div>
+                                <div style="text-align: center; padding: 15px; background: #e3f2fd; border-radius: 8px;">
+                                    <h4 style="color: #3498db; margin: 0;">平台数量</h4>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">${analysis.platforms}</div>
+                                </div>
+                                <div style="text-align: center; padding: 15px; background: #fff3e0; border-radius: 8px;">
+                                    <h4 style="color: #f39c12; margin: 0;">品牌关键词</h4>
+                                    <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">${analysis.brand_keywords}</div>
+                                </div>
+                            </div>
+                    `;
+                    
+                    // 平台分布
+                    if (Object.keys(analysis.platform_distribution).length > 0) {
+                        analysisHtml += '<h4 style="color: #2c3e50;">平台分布:</h4><table style="width: 100%; border-collapse: collapse; margin: 10px 0;"><thead><tr style="background: #34495e; color: white;"><th style="padding: 10px; text-align: left;">平台</th><th style="padding: 10px; text-align: right;">问题数</th><th style="padding: 10px; text-align: right;">曝光率</th></tr></thead><tbody>';
+                        
+                        for (const [platform, stats] of Object.entries(analysis.platform_distribution)) {
+                            analysisHtml += `
+                                <tr>
+                                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">${platform}</td>
+                                    <td style="padding: 10px; text-align: right; border-bottom: 1px solid #ddd;">${stats.questions}</td>
+                                    <td style="padding: 10px; text-align: right; border-bottom: 1px solid #ddd;">${stats.exposure_rate}%</td>
+                                </tr>
+                            `;
+                        }
+                        analysisHtml += '</tbody></table>';
+                    }
+                    
+                    // 关键词频率
+                    if (Object.keys(analysis.keyword_frequency).length > 0) {
+                        analysisHtml += '<h4 style="color: #2c3e50;">热门关键词TOP5:</h4><ul style="margin: 10px 0;">';
+                        for (const [keyword, count] of Object.entries(analysis.keyword_frequency).slice(0, 5)) {
+                            analysisHtml += `<li style="margin: 5px 0;">${keyword}: ${count}次</li>`;
+                        }
+                        analysisHtml += '</ul>';
+                    }
+                    
+                    analysisHtml += `
+                        <p style="color: #7f8c8d; font-size: 12px; margin-top: 20px;">
+                            分析时间: ${new Date(analysis.analysis_time).toLocaleString()}
+                        </p>
+                    </div>
+                    `;
+                    
+                    // 显示分析结果
+                    const analysisDiv = document.createElement('div');
+                    analysisDiv.innerHTML = analysisHtml;
+                    analysisDiv.style.position = 'fixed';
+                    analysisDiv.style.top = '50%';
+                    analysisDiv.style.left = '50%';
+                    analysisDiv.style.transform = 'translate(-50%, -50%)';
+                    analysisDiv.style.background = 'rgba(0,0,0,0.8)';
+                    analysisDiv.style.padding = '20px';
+                    analysisDiv.style.borderRadius = '8px';
+                    analysisDiv.style.maxWidth = '80%';
+                    analysisDiv.style.maxHeight = '80%';
+                    analysisDiv.style.overflow = 'auto';
+                    analysisDiv.style.zIndex = '1000';
+                    
+                    // 添加关闭按钮
+                    const closeBtn = document.createElement('button');
+                    closeBtn.textContent = '关闭';
+                    closeBtn.style.padding = '10px 20px';
+                    closeBtn.style.background = '#e74c3c';
+                    closeBtn.style.color = 'white';
+                    closeBtn.style.border = 'none';
+                    closeBtn.style.borderRadius = '4px';
+                    closeBtn.style.cursor = 'pointer';
+                    closeBtn.style.marginTop = '20px';
+                    closeBtn.onclick = () => document.body.removeChild(analysisDiv);
+                    
+                    analysisDiv.appendChild(closeBtn);
+                    document.body.appendChild(analysisDiv);
+                } else {
+                    alert('分析真实数据失败: ' + data.error);
+                }
+            } catch (error) {
+                console.error('分析真实数据失败:', error);
+                alert('分析真实数据失败，请检查网络连接');
+            }
+        }
+        
+        // 页面加载时初始化
+        window.onload = function() {
+            initKnowledgeBase();
+        };
+        
+        // 回车键查询
+        document.getElementById('queryInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                queryKnowledgeBase();
+            }
+        });
+    </script>
+</body>
+</html>

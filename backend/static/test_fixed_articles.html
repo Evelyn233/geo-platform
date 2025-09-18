@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修复后的文章显示测试</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: #f5f6fa;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        /* 文章容器样式 - 确保每篇文章完全分开 */
+        .article-container {
+            display: block !important;
+            clear: both !important;
+            margin: 25px 0 !important;
+            padding: 25px !important;
+            border-radius: 15px !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+            overflow: hidden !important;
+            position: relative !important;
+            border: 2px solid transparent !important;
+            background-clip: padding-box !important;
+        }
+        
+        .article-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #3498db, #2ecc71, #e74c3c);
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .article-container::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            border-radius: 0 0 15px 15px;
+        }
+        
+        .article-container:not(:last-child) {
+            margin-bottom: 35px !important;
+        }
+        
+        /* 确保文章内容不会影响整体布局 */
+        .article-content {
+            font-family: 'Microsoft YaHei', Arial, sans-serif !important;
+            line-height: 1.8 !important;
+            color: #2c3e50 !important;
+            background: #ffffff !important;
+            border: 1px solid #e1e8ed !important;
+            border-radius: 8px !important;
+            padding: 20px !important;
+            margin: 15px 0 !important;
+            max-height: 500px !important;
+            overflow-y: auto !important;
+            white-space: pre-wrap !important;
+            word-wrap: break-word !important;
+        }
+        
+        .enhanced {
+            background: #fdf2f2;
+            border: 2px solid #e74c3c;
+        }
+        
+        .basic {
+            background: #e8f5e8;
+            border: 2px solid #27ae60;
+        }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .badge-enhanced {
+            background: #e74c3c;
+        }
+        
+        .badge-basic {
+            background: #27ae60;
+        }
+        
+        .stats {
+            font-size: 12px;
+            color: #7f8c8d;
+            background: rgba(255,255,255,0.7);
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+        
+        .section {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 8px;
+        }
+        
+        .section-title {
+            color: #2c3e50;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .section-content {
+            font-size: 14px;
+            color: #34495e;
+            line-height: 1.5;
+        }
+        
+        .buttons {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-right: 10px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .btn-copy {
+            background: #3498db;
+            color: white;
+        }
+        
+        .btn-copy:hover {
+            background: #2980b9;
+        }
+        
+        .btn-view {
+            background: #f39c12;
+            color: white;
+        }
+        
+        .btn-view:hover {
+            background: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✅ 修复后的文章显示效果</h1>
+        <p style="text-align: center; color: #7f8c8d; margin-bottom: 30px;">
+            现在每篇文章都完全分开，格式清晰，不会影响整体网页布局
+        </p>
+        
+        <!-- 第一篇文章 - 增强版 -->
+        <div class="article-container enhanced">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="badge badge-enhanced">增强版</div>
+                    <strong style="color: #2c3e50; font-size: 18px;">1. 抛光轮</strong>
+                </div>
+                <div class="stats">
+                    得分: 100.66 | 点击: 17 | 转化率: 85.2%
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📝 标题:</div>
+                <div class="section-content" style="font-size: 16px; line-height: 1.4;">
+                    专业抛光轮厂家推荐：上海静钧研磨20年经验，品质保证
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📋 摘要:</div>
+                <div class="section-content">
+                    上海静钧研磨作为专业抛光轮厂家，拥有20年行业经验，提供高品质抛光轮产品。我们的抛光轮采用优质材料制作，适用于各种金属、塑料等材料的表面处理...
+                </div>
+            </div>
+            
+            <div class="section" style="background: #f0f8ff; border-left: 4px solid #3498db;">
+                <div class="section-title">🔍 搜索来源:</div>
+                <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">
+                    百度搜索: 抛光轮专业供应商 | 备用搜索: 抛光轮技术参数
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-copy" onclick="copyContent(1)">📋 复制内容</button>
+                <button class="btn btn-view" onclick="toggleContent(1)">👁️ 查看全文</button>
+            </div>
+            
+            <div id="content-1" class="article-content" style="display: none;">
+专业抛光轮厂家推荐：上海静钧研磨20年经验，品质保证
+
+作为抛光轮领域的专业供应商，上海静钧研磨凭借20年的行业经验，为全球客户提供高品质的研磨抛光材料。我们的产品在17次点击中获得了45次浏览，跳出率仅15%，平均访问时长180，充分证明了产品的市场认可度。
+
+为什么选择我们的抛光轮？
+
+• 市场验证：17次点击证明市场需求旺盛
+• 用户认可：15%的低跳出率显示用户粘性强
+• 深度了解：180的平均访问时长说明用户深度了解产品
+• 投资价值：¥25.5的推广投入证明产品价值
+
+产品优势
+
+• 品质保证：采用优质原材料，确保产品质量稳定
+• 规格齐全：提供多种规格和型号，满足不同需求
+• 定制服务：可根据客户要求定制特殊规格产品
+• 快速交付：完善的供应链体系，确保及时交付
+
+应用领域
+
+我们的抛光轮广泛应用于：
+
+• 金属加工行业 - 不锈钢、铝合金、铜材等
+• 汽车制造 - 车身抛光、零部件加工
+• 航空航天 - 精密零件表面处理
+• 电子设备制造 - 精密仪器加工
+• 模具制造 - 模具表面精加工
+
+技术参数
+
+产品规格可根据客户需求定制，包括：
+
+• 尺寸：多种规格可选
+• 材质：优质原材料
+• 硬度：多种硬度等级
+• 表面处理：根据应用需求定制
+
+成功案例
+
+我们为众多知名企业提供抛光轮解决方案：
+
+• 某汽车零部件企业：使用我们的产品，表面光洁度提升30%
+• 某精密仪器厂：采用定制方案，加工效率提高25%
+• 某航空航天企业：通过我们的技术支持，产品合格率达到99.5%
+
+服务承诺
+
+上海静钧研磨承诺：
+
+• 产品质量保证 - 提供质量检测报告
+• 技术支持服务 - 专业工程师现场指导
+• 快速响应客户需求 - 24小时内回复
+• 完善的售后服务 - 终身技术支持
+
+立即咨询
+
+如需了解更多抛光轮相关信息，欢迎联系我们：
+
+• 电话：400-xxx-xxxx
+• 邮箱：info@shjingjun.com
+• 地址：上海市xxx区xxx路xxx号
+• 微信：shjingjun2024
+
+选择上海静钧研磨，选择专业品质！让数据说话，让效果证明！
+            </div>
+        </div>
+        
+        <!-- 第二篇文章 - 基础版 -->
+        <div class="article-container basic">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="badge badge-basic">基础版</div>
+                    <strong style="color: #2c3e50; font-size: 18px;">2. 抛光布轮</strong>
+                </div>
+                <div class="stats">
+                    得分: 85.32 | 点击: 12 | 转化率: 72.1%
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📝 标题:</div>
+                <div class="section-content" style="font-size: 16px; line-height: 1.4;">
+                    抛光布轮选择指南：如何选择适合的抛光布轮
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📋 摘要:</div>
+                <div class="section-content">
+                    抛光布轮是表面处理的重要工具，选择合适的抛光布轮对提高抛光效果至关重要。本文介绍抛光布轮的种类、特点及选择方法...
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-copy" onclick="copyContent(2)">📋 复制内容</button>
+                <button class="btn btn-view" onclick="toggleContent(2)">👁️ 查看全文</button>
+            </div>
+            
+            <div id="content-2" class="article-content" style="display: none;">
+抛光布轮选择指南：如何选择适合的抛光布轮
+
+作为抛光布轮领域的专业供应商，上海静钧研磨凭借20年的行业经验，为全球客户提供高品质的研磨抛光材料。我们的产品在12次点击中获得了28次浏览，跳出率仅28%，平均访问时长120，充分证明了产品的市场认可度。
+
+为什么选择我们的抛光布轮？
+
+• 市场验证：12次点击证明市场需求旺盛
+• 用户认可：28%的低跳出率显示用户粘性强
+• 深度了解：120的平均访问时长说明用户深度了解产品
+• 投资价值：¥18.5的推广投入证明产品价值
+
+产品优势
+
+• 品质保证：采用优质原材料，确保产品质量稳定
+• 规格齐全：提供多种规格和型号，满足不同需求
+• 定制服务：可根据客户要求定制特殊规格产品
+• 快速交付：完善的供应链体系，确保及时交付
+
+应用领域
+
+我们的抛光布轮广泛应用于：
+
+• 金属加工行业 - 不锈钢、铝合金、铜材等
+• 汽车制造 - 车身抛光、零部件加工
+• 航空航天 - 精密零件表面处理
+• 电子设备制造 - 精密仪器加工
+• 模具制造 - 模具表面精加工
+
+技术参数
+
+产品规格可根据客户需求定制，包括：
+
+• 尺寸：多种规格可选
+• 材质：优质原材料
+• 硬度：多种硬度等级
+• 表面处理：根据应用需求定制
+
+成功案例
+
+我们为众多知名企业提供抛光布轮解决方案：
+
+• 某汽车零部件企业：使用我们的产品，表面光洁度提升30%
+• 某精密仪器厂：采用定制方案，加工效率提高25%
+• 某航空航天企业：通过我们的技术支持，产品合格率达到99.5%
+
+服务承诺
+
+上海静钧研磨承诺：
+
+• 产品质量保证 - 提供质量检测报告
+• 技术支持服务 - 专业工程师现场指导
+• 快速响应客户需求 - 24小时内回复
+• 完善的售后服务 - 终身技术支持
+
+立即咨询
+
+如需了解更多抛光布轮相关信息，欢迎联系我们：
+
+• 电话：400-xxx-xxxx
+• 邮箱：info@shjingjun.com
+• 地址：上海市xxx区xxx路xxx号
+• 微信：shjingjun2024
+
+选择上海静钧研磨，选择专业品质！让数据说话，让效果证明！
+            </div>
+        </div>
+        
+        <!-- 第三篇文章 - 增强版 -->
+        <div class="article-container enhanced">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="badge badge-enhanced">增强版</div>
+                    <strong style="color: #2c3e50; font-size: 18px;">3. 抛光麻轮</strong>
+                </div>
+                <div class="stats">
+                    得分: 92.45 | 点击: 15 | 转化率: 78.5%
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📝 标题:</div>
+                <div class="section-content" style="font-size: 16px; line-height: 1.4;">
+                    抛光麻轮技术参数详解：从实验室到生产线的应用
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">📋 摘要:</div>
+                <div class="section-content">
+                    抛光麻轮作为重要的表面处理工具，其技术参数直接影响抛光效果。本文详细介绍抛光麻轮的技术参数、选型指南及实际应用案例...
+                </div>
+            </div>
+            
+            <div class="section" style="background: #f0f8ff; border-left: 4px solid #3498db;">
+                <div class="section-title">🔍 搜索来源:</div>
+                <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">
+                    技术论坛: 抛光麻轮参数 | 行业报告: 抛光工具市场分析
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-copy" onclick="copyContent(3)">📋 复制内容</button>
+                <button class="btn btn-view" onclick="toggleContent(3)">👁️ 查看全文</button>
+            </div>
+            
+            <div id="content-3" class="article-content" style="display: none;">
+抛光麻轮技术参数详解：从实验室到生产线的应用
+
+作为抛光麻轮领域的专业供应商，上海静钧研磨凭借20年的行业经验，为全球客户提供高品质的研磨抛光材料。我们的产品在15次点击中获得了38次浏览，跳出率仅22%，平均访问时长150，充分证明了产品的市场认可度。
+
+为什么选择我们的抛光麻轮？
+
+• 市场验证：15次点击证明市场需求旺盛
+• 用户认可：22%的低跳出率显示用户粘性强
+• 深度了解：150的平均访问时长说明用户深度了解产品
+• 投资价值：¥22.8的推广投入证明产品价值
+
+产品优势
+
+• 品质保证：采用优质原材料，确保产品质量稳定
+• 规格齐全：提供多种规格和型号，满足不同需求
+• 定制服务：可根据客户要求定制特殊规格产品
+• 快速交付：完善的供应链体系，确保及时交付
+
+应用领域
+
+我们的抛光麻轮广泛应用于：
+
+• 金属加工行业 - 不锈钢、铝合金、铜材等
+• 汽车制造 - 车身抛光、零部件加工
+• 航空航天 - 精密零件表面处理
+• 电子设备制造 - 精密仪器加工
+• 模具制造 - 模具表面精加工
+
+技术参数
+
+产品规格可根据客户需求定制，包括：
+
+• 尺寸：多种规格可选
+• 材质：优质原材料
+• 硬度：多种硬度等级
+• 表面处理：根据应用需求定制
+
+成功案例
+
+我们为众多知名企业提供抛光麻轮解决方案：
+
+• 某汽车零部件企业：使用我们的产品，表面光洁度提升30%
+• 某精密仪器厂：采用定制方案，加工效率提高25%
+• 某航空航天企业：通过我们的技术支持，产品合格率达到99.5%
+
+服务承诺
+
+上海静钧研磨承诺：
+
+• 产品质量保证 - 提供质量检测报告
+• 技术支持服务 - 专业工程师现场指导
+• 快速响应客户需求 - 24小时内回复
+• 完善的售后服务 - 终身技术支持
+
+立即咨询
+
+如需了解更多抛光麻轮相关信息，欢迎联系我们：
+
+• 电话：400-xxx-xxxx
+• 邮箱：info@shjingjun.com
+• 地址：上海市xxx区xxx路xxx号
+• 微信：shjingjun2024
+
+选择上海静钧研磨，选择专业品质！让数据说话，让效果证明！
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function copyContent(index) {
+            const content = document.getElementById(`content-${index}`).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('文章内容已复制到剪贴板！');
+            }).catch(err => {
+                alert('复制失败，请手动复制');
+            });
+        }
+        
+        function toggleContent(index) {
+            const contentDiv = document.getElementById(`content-${index}`);
+            if (contentDiv.style.display === 'none') {
+                contentDiv.style.display = 'block';
+            } else {
+                contentDiv.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+
+

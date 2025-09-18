@@ -1,0 +1,34 @@
+[
+  {
+    "question": "这个人的姓名是什么？",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  },
+  {
+    "question": "他有什么工作经历？",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  },
+  {
+    "question": "他掌握哪些技术技能？",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  },
+  {
+    "question": "他的教育背景如何？",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  },
+  {
+    "question": "总结一下这个人的主要特点",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  },
+  {
+    "question": "他有什么项目经验？",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  },
+  {
+    "question": "他的联系方式是什么？",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  },
+  {
+    "question": "他有什么特殊技能或证书？",
+    "answer": "回答问题时出错: No LightRAG instance available. Please process documents first or provide a pre-initialized LightRAG instance."
+  }
+]

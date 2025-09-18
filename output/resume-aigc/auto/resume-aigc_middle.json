@@ -1,0 +1,4906 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        198,
+                        33,
+                        496,
+                        90
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                214,
+                                32,
+                                493,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        32,
+                                        493,
+                                        48
+                                    ],
+                                    "score": 1.0,
+                                    "content": "General deep understanding in cutting-edge technology",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                47,
+                                381,
+                                61
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        47,
+                                        381,
+                                        61
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Multiple experience in AI start-up",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                62,
+                                478,
+                                77
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        62,
+                                        478,
+                                        77
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Highly-motivated in being exposed to diverse culture",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                77,
+                                497,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        77,
+                                        497,
+                                        90
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep understanding in modern art, literature and movies",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 2.5
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        57,
+                        37,
+                        157,
+                        152
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                57,
+                                37,
+                                157,
+                                152
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        37,
+                                        157,
+                                        152
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                37,
+                                                157,
+                                                152
+                                            ],
+                                            "score": 0.965,
+                                            "type": "image",
+                                            "image_path": "0233a2ce999ac54f49ed2c242893d95af1ee4da24aadd7f28563667594536c10.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3.0,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        37,
+                                        157,
+                                        94.5
+                                    ],
+                                    "spans": [],
+                                    "index": 0
+                                },
+                                {
+                                    "bbox": [
+                                        57,
+                                        94.5,
+                                        157,
+                                        152.0
+                                    ],
+                                    "spans": [],
+                                    "index": 6
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3.0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        216,
+                        102,
+                        331,
+                        117
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                215,
+                                101,
+                                333,
+                                119
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        215,
+                                        101,
+                                        333,
+                                        119
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Working Experience",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        58,
+                        163,
+                        145,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                162,
+                                146,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        162,
+                                        146,
+                                        183
+                                    ],
+                                    "score": 1.0,
+                                    "content": "HU YIFAN",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        39,
+                        191,
+                        118,
+                        203
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                38,
+                                190,
+                                119,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        38,
+                                        190,
+                                        119,
+                                        205
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Personal details",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        31,
+                        214,
+                        153,
+                        291
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                32,
+                                214,
+                                92,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        214,
+                                        92,
+                                        226
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Sex ：female",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                231,
+                                146,
+                                242
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        231,
+                                        146,
+                                        242
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Birth of date：1999/3/16",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                30,
+                                246,
+                                76,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        30,
+                                        246,
+                                        76,
+                                        260
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Age ：25",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                263,
+                                151,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        263,
+                                        151,
+                                        276
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Major ：computer science",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                279,
+                                125,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        279,
+                                        125,
+                                        291
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Minor : Mathematics",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        48,
+                        298,
+                        88,
+                        310
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                47,
+                                296,
+                                91,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        296,
+                                        91,
+                                        312
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Contact",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        31,
+                        323,
+                        157,
+                        353
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                324,
+                                149,
+                                336
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        324,
+                                        149,
+                                        336
+                                    ],
+                                    "score": 1.0,
+                                    "content": "telephone：18918936863",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "bbox": [
+                                31,
+                                339,
+                                156,
+                                353
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        339,
+                                        156,
+                                        353
+                                    ],
+                                    "score": 1.0,
+                                    "content": "email: 595674464@qq.com",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        }
+                    ],
+                    "index": 15.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        45,
+                        374,
+                        131,
+                        386
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                43,
+                                371,
+                                133,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        43,
+                                        371,
+                                        133,
+                                        388
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Personal advantage",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        37,
+                        396,
+                        210,
+                        759
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                42,
+                                396,
+                                190,
+                                415
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        42,
+                                        396,
+                                        190,
+                                        415
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Major in computer science,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                51,
+                                421,
+                                125,
+                                436
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        421,
+                                        125,
+                                        436
+                                    ],
+                                    "score": 1.0,
+                                    "content": "minor in Math",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "bbox": [
+                                47,
+                                442,
+                                210,
+                                461
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        442,
+                                        210,
+                                        461
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep understanding in cutting-",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "bbox": [
+                                50,
+                                465,
+                                138,
+                                486
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        465,
+                                        138,
+                                        486
+                                    ],
+                                    "score": 1.0,
+                                    "content": "edge technology",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                489,
+                                192,
+                                505
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        489,
+                                        192,
+                                        505
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Passionate and interested in",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "bbox": [
+                                51,
+                                513,
+                                197,
+                                529
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        513,
+                                        197,
+                                        529
+                                    ],
+                                    "score": 1.0,
+                                    "content": "multidisciplinary science and",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                51,
+                                537,
+                                120,
+                                551
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        537,
+                                        120,
+                                        551
+                                    ],
+                                    "score": 1.0,
+                                    "content": "mathematics.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                48,
+                                560,
+                                210,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        560,
+                                        210,
+                                        574
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep immersion user of several",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "bbox": [
+                                50,
+                                582,
+                                166,
+                                598
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        582,
+                                        166,
+                                        598
+                                    ],
+                                    "score": 1.0,
+                                    "content": "social media platforms",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "bbox": [
+                                43,
+                                604,
+                                196,
+                                622
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        43,
+                                        604,
+                                        196,
+                                        622
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Experience in editing wechat",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "bbox": [
+                                50,
+                                629,
+                                95,
+                                644
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        629,
+                                        95,
+                                        644
+                                    ],
+                                    "score": 1.0,
+                                    "content": "account",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                651,
+                                196,
+                                667
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        651,
+                                        196,
+                                        667
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Strong oral presentation and",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                675,
+                                166,
+                                691
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        675,
+                                        166,
+                                        691
+                                    ],
+                                    "score": 1.0,
+                                    "content": "writing skills in English",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 34
+                        },
+                        {
+                            "bbox": [
+                                47,
+                                698,
+                                212,
+                                713
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        698,
+                                        212,
+                                        713
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Capable of direct communicatio",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                720,
+                                106,
+                                738
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        720,
+                                        106,
+                                        738
+                                    ],
+                                    "score": 1.0,
+                                    "content": "in English.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 35
+                        },
+                        {
+                            "bbox": [
+                                48,
+                                741,
+                                194,
+                                762
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        741,
+                                        194,
+                                        762
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Basic proficiency in German.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 36
+                        }
+                    ],
+                    "index": 25.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        200,
+                        138,
+                        249,
+                        190
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                138,
+                                237,
+                                149
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        138,
+                                        237,
+                                        149
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2025.1—",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 49
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                152,
+                                229,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        152,
+                                        229,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2025.6",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 37
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                165,
+                                249,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        165,
+                                        249,
+                                        176
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Cofounder",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "bbox": [
+                                200,
+                                179,
+                                232,
+                                191
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        179,
+                                        232,
+                                        191
+                                    ],
+                                    "score": 1.0,
+                                    "content": "& CTO",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 33
+                        }
+                    ],
+                    "index": 35.0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        201,
+                        217,
+                        259,
+                        272
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                201,
+                                217,
+                                259,
+                                228
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        217,
+                                        259,
+                                        228
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2024.10—now",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 38
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                230,
+                                245,
+                                243
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        230,
+                                        245,
+                                        243
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Full time:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 39
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                245,
+                                246,
+                                257
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        245,
+                                        246,
+                                        257
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Full-stack",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 40
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                258,
+                                248,
+                                273
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        258,
+                                        248,
+                                        273
+                                    ],
+                                    "score": 1.0,
+                                    "content": "developer",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 41
+                        }
+                    ],
+                    "index": 39.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        215,
+                        301,
+                        282,
+                        353
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                302,
+                                284,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        302,
+                                        284,
+                                        312
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2020.6—2020.8",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 42
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                313,
+                                260,
+                                327
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        313,
+                                        260,
+                                        327
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Internship:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 43
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                327,
+                                250,
+                                340
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        327,
+                                        250,
+                                        340
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Big data",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 44
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                340,
+                                253,
+                                353
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        340,
+                                        253,
+                                        353
+                                    ],
+                                    "score": 1.0,
+                                    "content": "engineer",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 45
+                        }
+                    ],
+                    "index": 43.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        264,
+                        133,
+                        595,
+                        195
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                264,
+                                134,
+                                591,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        264,
+                                        134,
+                                        591,
+                                        147
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Led an AIGC application project at the intersection of spatial intelligence and 3D",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 50
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                146,
+                                575,
+                                159
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        146,
+                                        575,
+                                        159
+                                    ],
+                                    "score": 1.0,
+                                    "content": "generation. Conducted in-depth research on generative model pathways for",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 47
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                159,
+                                595,
+                                170
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        159,
+                                        595,
+                                        170
+                                    ],
+                                    "score": 1.0,
+                                    "content": "reconstructing interactive 3D scenes from multimodal data. Defined the technical",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                171,
+                                589,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        171,
+                                        589,
+                                        183
+                                    ],
+                                    "score": 1.0,
+                                    "content": "roadmap, selected and fine-tuned model architectures, and oversaw integration",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 48
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                183,
+                                531,
+                                196
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        183,
+                                        531,
+                                        196
+                                    ],
+                                    "score": 1.0,
+                                    "content": "into scalable product pipelines for immersive spatial applications.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 46
+                        }
+                    ],
+                    "index": 47
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        277,
+                        207,
+                        389,
+                        218
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                276,
+                                205,
+                                390,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        205,
+                                        390,
+                                        219
+                                    ],
+                                    "score": 1.0,
+                                    "content": "VV4G Technologies Ltd.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 52
+                        }
+                    ],
+                    "index": 52
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        207,
+                        372,
+                        272,
+                        427
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                372,
+                                274,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        372,
+                                        274,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2019.12—2020.1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 51
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                384,
+                                258,
+                                398
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        384,
+                                        258,
+                                        398
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Internship:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 54
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                399,
+                                271,
+                                414
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        399,
+                                        271,
+                                        414
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep learning",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 55
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                414,
+                                249,
+                                428
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        414,
+                                        249,
+                                        428
+                                    ],
+                                    "score": 1.0,
+                                    "content": "engineer",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 56
+                        }
+                    ],
+                    "index": 54.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        274,
+                        220,
+                        607,
+                        280
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                276,
+                                218,
+                                407,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        218,
+                                        407,
+                                        231
+                                    ],
+                                    "score": 1.0,
+                                    "content": "AI-driven Otome Game start-up",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 53
+                        },
+                        {
+                            "bbox": [
+                                276,
+                                230,
+                                389,
+                                244
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        230,
+                                        389,
+                                        244
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1 full-stack development：",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 57
+                        },
+                        {
+                            "bbox": [
+                                276,
+                                243,
+                                607,
+                                255
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        243,
+                                        607,
+                                        255
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Use tRPC framework to develop(Next.js, TRPC, T3, Typescript, drizzle, Tailwind,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 58
+                        },
+                        {
+                            "bbox": [
+                                275,
+                                255,
+                                544,
+                                268
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        275,
+                                        255,
+                                        544,
+                                        268
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Zod) use cursor to develop a chatbot system / sentiment analysis",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 59
+                        },
+                        {
+                            "bbox": [
+                                275,
+                                267,
+                                494,
+                                280
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        275,
+                                        267,
+                                        494,
+                                        280
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2 get used to the fast pace environment in startup",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 60
+                        }
+                    ],
+                    "index": 58
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        287,
+                        287,
+                        419,
+                        299
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                287,
+                                420,
+                                299
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        287,
+                                        420,
+                                        299
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Yovole Network SHANGHAI",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 61
+                        }
+                    ],
+                    "index": 61
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        285,
+                        304,
+                        569,
+                        364
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                305,
+                                465,
+                                317
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        305,
+                                        465,
+                                        317
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cloud computing, internet data center (IDC)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 62
+                        },
+                        {
+                            "bbox": [
+                                286,
+                                321,
+                                560,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        321,
+                                        560,
+                                        333
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1, cloud platform monitoring: configurated and maintained ELK",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 63
+                        },
+                        {
+                            "bbox": [
+                                285,
+                                336,
+                                504,
+                                349
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        336,
+                                        504,
+                                        349
+                                    ],
+                                    "score": 1.0,
+                                    "content": "framework and collected the user log to analyze data",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 64
+                        },
+                        {
+                            "bbox": [
+                                285,
+                                352,
+                                572,
+                                365
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        352,
+                                        572,
+                                        365
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2, maintain microservices platform: learned and used spring cloud",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 65
+                        }
+                    ],
+                    "index": 63.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        291,
+                        369,
+                        370,
+                        380
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                291,
+                                368,
+                                370,
+                                381
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        291,
+                                        368,
+                                        370,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Wavelet. SUZHOU",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 66
+                        }
+                    ],
+                    "index": 66
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        285,
+                        383,
+                        585,
+                        454
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                290,
+                                383,
+                                585,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        290,
+                                        383,
+                                        585,
+                                        396
+                                    ],
+                                    "score": 1.0,
+                                    "content": "start-up Collected EEG, EMG to develop product based on the designed",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 67
+                        },
+                        {
+                            "bbox": [
+                                286,
+                                398,
+                                366,
+                                411
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        398,
+                                        366,
+                                        411
+                                    ],
+                                    "score": 1.0,
+                                    "content": "chip and algorithm",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 68
+                        },
+                        {
+                            "bbox": [
+                                286,
+                                413,
+                                528,
+                                426
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        413,
+                                        528,
+                                        426
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1，dynamic hand gestures translating algorithm design：",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 69
+                        },
+                        {
+                            "bbox": [
+                                291,
+                                428,
+                                564,
+                                440
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        291,
+                                        428,
+                                        564,
+                                        440
+                                    ],
+                                    "score": 1.0,
+                                    "content": "designed algorithm(like transformer)from the beginning of project.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 70
+                        },
+                        {
+                            "bbox": [
+                                285,
+                                442,
+                                564,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        442,
+                                        564,
+                                        455
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2, Gained experience in AI start-ups with a dynamic atmosphere.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 71
+                        }
+                    ],
+                    "index": 69
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        245,
+                        457,
+                        375,
+                        471
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                245,
+                                455,
+                                376,
+                                474
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        245,
+                                        455,
+                                        376,
+                                        474
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Education background",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 72
+                        }
+                    ],
+                    "index": 72
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        223,
+                        485,
+                        528,
+                        499
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                219,
+                                482,
+                                528,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        482,
+                                        528,
+                                        502
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2020.8 – 2024.6 Bachelor of science University of Sydney",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 73
+                        }
+                    ],
+                    "index": 73
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        240,
+                        503,
+                        524,
+                        515
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                244,
+                                502,
+                                521,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        244,
+                                        502,
+                                        365,
+                                        516
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Major: Computer science",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        458,
+                                        502,
+                                        521,
+                                        515
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Minor: Math",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 74
+                        }
+                    ],
+                    "index": 74
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        217,
+                        526,
+                        272,
+                        544
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                219,
+                                525,
+                                273,
+                                545
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        525,
+                                        237,
+                                        545
+                                    ],
+                                    "score": 0.992,
+                                    "content": "8",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        237,
+                                        526,
+                                        273,
+                                        543
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Skills",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 75
+                        }
+                    ],
+                    "index": 75
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        237,
+                        550,
+                        567,
+                        693
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                237,
+                                551,
+                                410,
+                                564
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        551,
+                                        410,
+                                        564
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Language: mandarin, English, German",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 76
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                566,
+                                396,
+                                580
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        566,
+                                        396,
+                                        580
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Coding Language: Python R java C",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 77
+                        },
+                        {
+                            "bbox": [
+                                238,
+                                583,
+                                392,
+                                596
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        238,
+                                        583,
+                                        392,
+                                        596
+                                    ],
+                                    "score": 1.0,
+                                    "content": "technology stack: fullstack in Trpc",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 78
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                599,
+                                543,
+                                613
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        599,
+                                        543,
+                                        613
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Knowledge: Comprehensive understanding of multifaceted science,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 79
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                615,
+                                490,
+                                629
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        615,
+                                        490,
+                                        629
+                                    ],
+                                    "score": 1.0,
+                                    "content": "technology, modern art, literature movies and business.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 80
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                631,
+                                567,
+                                645
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        631,
+                                        567,
+                                        645
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Advantages: Motivated to apply novel strategies like AI in manufacturing",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 81
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                648,
+                                271,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        648,
+                                        271,
+                                        660
+                                    ],
+                                    "score": 1.0,
+                                    "content": "plants.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 82
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                662,
+                                482,
+                                678
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        662,
+                                        482,
+                                        678
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Experience: promotion experience in trading business",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 83
+                        },
+                        {
+                            "bbox": [
+                                238,
+                                680,
+                                504,
+                                693
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        238,
+                                        680,
+                                        504,
+                                        693
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Certificates: Goethe language course proof in German B1.1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 84
+                        }
+                    ],
+                    "index": 80
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        263,
+                        702,
+                        371,
+                        716
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                263,
+                                700,
+                                372,
+                                719
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        700,
+                                        372,
+                                        719
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Project experience",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 85
+                        }
+                    ],
+                    "index": 85
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        240,
+                        729,
+                        529,
+                        772
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                240,
+                                729,
+                                528,
+                                744
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        240,
+                                        729,
+                                        528,
+                                        744
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2020.12-2021.2 dynamic hand gesture translating using EMG",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 86
+                        },
+                        {
+                            "bbox": [
+                                240,
+                                744,
+                                501,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        240,
+                                        744,
+                                        501,
+                                        758
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2022.3 -2022.6 build database and trading system in c",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 87
+                        },
+                        {
+                            "bbox": [
+                                322,
+                                759,
+                                441,
+                                772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        759,
+                                        441,
+                                        772
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Multi process project in c",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 88
+                        }
+                    ],
+                    "index": 87
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                612,
+                792
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        184,
+                        99,
+                        204,
+                        119
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                189,
+                                104,
+                                201,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        189,
+                                        104,
+                                        201,
+                                        114
+                                    ],
+                                    "score": 0.0,
+                                    "content": "",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        217,
+                        453,
+                        237,
+                        473
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        172,
+                        3,
+                        260,
+                        25
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                180,
+                                3,
+                                263,
+                                27
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        14,
+                                        185,
+                                        16
+                                    ],
+                                    "score": 0.0,
+                                    "content": "",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        193,
+                                        3,
+                                        263,
+                                        27
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Objective",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        239,
+                        702,
+                        253,
+                        716
+                    ],
+                    "lines": []
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        198,
+                        33,
+                        496,
+                        90
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                214,
+                                32,
+                                493,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        32,
+                                        493,
+                                        48
+                                    ],
+                                    "score": 1.0,
+                                    "content": "General deep understanding in cutting-edge technology",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                47,
+                                381,
+                                61
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        47,
+                                        381,
+                                        61
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Multiple experience in AI start-up",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                62,
+                                478,
+                                77
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        62,
+                                        478,
+                                        77
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Highly-motivated in being exposed to diverse culture",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                77,
+                                497,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        77,
+                                        497,
+                                        90
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep understanding in modern art, literature and movies",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 2.5,
+                    "bbox_fs": [
+                        214,
+                        32,
+                        497,
+                        90
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        57,
+                        37,
+                        157,
+                        152
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                57,
+                                37,
+                                157,
+                                152
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        37,
+                                        157,
+                                        152
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                37,
+                                                157,
+                                                152
+                                            ],
+                                            "score": 0.965,
+                                            "type": "image",
+                                            "image_path": "0233a2ce999ac54f49ed2c242893d95af1ee4da24aadd7f28563667594536c10.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3.0,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        37,
+                                        157,
+                                        94.5
+                                    ],
+                                    "spans": [],
+                                    "index": 0
+                                },
+                                {
+                                    "bbox": [
+                                        57,
+                                        94.5,
+                                        157,
+                                        152.0
+                                    ],
+                                    "spans": [],
+                                    "index": 6
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3.0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        216,
+                        102,
+                        331,
+                        117
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                215,
+                                101,
+                                333,
+                                119
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        215,
+                                        101,
+                                        333,
+                                        119
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Working Experience",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        58,
+                        163,
+                        145,
+                        181
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                162,
+                                146,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        162,
+                                        146,
+                                        183
+                                    ],
+                                    "score": 1.0,
+                                    "content": "HU YIFAN",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        39,
+                        191,
+                        118,
+                        203
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                38,
+                                190,
+                                119,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        38,
+                                        190,
+                                        119,
+                                        205
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Personal details",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        31,
+                        214,
+                        153,
+                        291
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                32,
+                                214,
+                                92,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        214,
+                                        92,
+                                        226
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Sex ：female",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                231,
+                                146,
+                                242
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        231,
+                                        146,
+                                        242
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Birth of date：1999/3/16",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                30,
+                                246,
+                                76,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        30,
+                                        246,
+                                        76,
+                                        260
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Age ：25",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                263,
+                                151,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        263,
+                                        151,
+                                        276
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Major ：computer science",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                32,
+                                279,
+                                125,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        279,
+                                        125,
+                                        291
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Minor : Mathematics",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13,
+                            "is_list_start_line": true
+                        }
+                    ],
+                    "index": 11,
+                    "bbox_fs": [
+                        30,
+                        214,
+                        151,
+                        291
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        48,
+                        298,
+                        88,
+                        310
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                47,
+                                296,
+                                91,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        296,
+                                        91,
+                                        312
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Contact",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        31,
+                        323,
+                        157,
+                        353
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                324,
+                                149,
+                                336
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        324,
+                                        149,
+                                        336
+                                    ],
+                                    "score": 1.0,
+                                    "content": "telephone：18918936863",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "bbox": [
+                                31,
+                                339,
+                                156,
+                                353
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        339,
+                                        156,
+                                        353
+                                    ],
+                                    "score": 1.0,
+                                    "content": "email: 595674464@qq.com",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        }
+                    ],
+                    "index": 15.5,
+                    "bbox_fs": [
+                        31,
+                        324,
+                        156,
+                        353
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        45,
+                        374,
+                        131,
+                        386
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                43,
+                                371,
+                                133,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        43,
+                                        371,
+                                        133,
+                                        388
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Personal advantage",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        37,
+                        396,
+                        210,
+                        759
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                42,
+                                396,
+                                190,
+                                415
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        42,
+                                        396,
+                                        190,
+                                        415
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Major in computer science,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                51,
+                                421,
+                                125,
+                                436
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        421,
+                                        125,
+                                        436
+                                    ],
+                                    "score": 1.0,
+                                    "content": "minor in Math",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                47,
+                                442,
+                                210,
+                                461
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        442,
+                                        210,
+                                        461
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep understanding in cutting-",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                50,
+                                465,
+                                138,
+                                486
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        465,
+                                        138,
+                                        486
+                                    ],
+                                    "score": 1.0,
+                                    "content": "edge technology",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                489,
+                                192,
+                                505
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        489,
+                                        192,
+                                        505
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Passionate and interested in",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                51,
+                                513,
+                                197,
+                                529
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        513,
+                                        197,
+                                        529
+                                    ],
+                                    "score": 1.0,
+                                    "content": "multidisciplinary science and",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                51,
+                                537,
+                                120,
+                                551
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        537,
+                                        120,
+                                        551
+                                    ],
+                                    "score": 1.0,
+                                    "content": "mathematics.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                48,
+                                560,
+                                210,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        560,
+                                        210,
+                                        574
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep immersion user of several",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                50,
+                                582,
+                                166,
+                                598
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        582,
+                                        166,
+                                        598
+                                    ],
+                                    "score": 1.0,
+                                    "content": "social media platforms",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                43,
+                                604,
+                                196,
+                                622
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        43,
+                                        604,
+                                        196,
+                                        622
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Experience in editing wechat",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                50,
+                                629,
+                                95,
+                                644
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        629,
+                                        95,
+                                        644
+                                    ],
+                                    "score": 1.0,
+                                    "content": "account",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                651,
+                                196,
+                                667
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        651,
+                                        196,
+                                        667
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Strong oral presentation and",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                675,
+                                166,
+                                691
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        675,
+                                        166,
+                                        691
+                                    ],
+                                    "score": 1.0,
+                                    "content": "writing skills in English",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 34,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                47,
+                                698,
+                                212,
+                                713
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        698,
+                                        212,
+                                        713
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Capable of direct communicatio",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                49,
+                                720,
+                                106,
+                                738
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        720,
+                                        106,
+                                        738
+                                    ],
+                                    "score": 1.0,
+                                    "content": "in English.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 35,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                48,
+                                741,
+                                194,
+                                762
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        741,
+                                        194,
+                                        762
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Basic proficiency in German.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 36,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 25.5,
+                    "bbox_fs": [
+                        42,
+                        396,
+                        212,
+                        762
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        200,
+                        138,
+                        249,
+                        190
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                138,
+                                237,
+                                149
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        138,
+                                        237,
+                                        149
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2025.1—",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 49
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                152,
+                                229,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        152,
+                                        229,
+                                        162
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2025.6",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 37
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                165,
+                                249,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        165,
+                                        249,
+                                        176
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Cofounder",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "bbox": [
+                                200,
+                                179,
+                                232,
+                                191
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        179,
+                                        232,
+                                        191
+                                    ],
+                                    "score": 1.0,
+                                    "content": "& CTO",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 33
+                        }
+                    ],
+                    "index": 35.0,
+                    "bbox_fs": [
+                        200,
+                        138,
+                        249,
+                        191
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        201,
+                        217,
+                        259,
+                        272
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                201,
+                                217,
+                                259,
+                                228
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        217,
+                                        259,
+                                        228
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2024.10—now",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 38
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                230,
+                                245,
+                                243
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        230,
+                                        245,
+                                        243
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Full time:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 39
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                245,
+                                246,
+                                257
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        245,
+                                        246,
+                                        257
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Full-stack",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 40
+                        },
+                        {
+                            "bbox": [
+                                201,
+                                258,
+                                248,
+                                273
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        258,
+                                        248,
+                                        273
+                                    ],
+                                    "score": 1.0,
+                                    "content": "developer",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 41
+                        }
+                    ],
+                    "index": 39.5,
+                    "bbox_fs": [
+                        201,
+                        217,
+                        259,
+                        273
+                    ]
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        215,
+                        301,
+                        282,
+                        353
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                302,
+                                284,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        302,
+                                        284,
+                                        312
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2020.6—2020.8",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 42,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                313,
+                                260,
+                                327
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        313,
+                                        260,
+                                        327
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Internship:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 43,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                327,
+                                250,
+                                340
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        327,
+                                        250,
+                                        340
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Big data",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 44,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                214,
+                                340,
+                                253,
+                                353
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        340,
+                                        253,
+                                        353
+                                    ],
+                                    "score": 1.0,
+                                    "content": "engineer",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 45,
+                            "is_list_start_line": true
+                        }
+                    ],
+                    "index": 43.5,
+                    "bbox_fs": [
+                        214,
+                        302,
+                        284,
+                        353
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        264,
+                        133,
+                        595,
+                        195
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                264,
+                                134,
+                                591,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        264,
+                                        134,
+                                        591,
+                                        147
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Led an AIGC application project at the intersection of spatial intelligence and 3D",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 50
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                146,
+                                575,
+                                159
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        146,
+                                        575,
+                                        159
+                                    ],
+                                    "score": 1.0,
+                                    "content": "generation. Conducted in-depth research on generative model pathways for",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 47
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                159,
+                                595,
+                                170
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        159,
+                                        595,
+                                        170
+                                    ],
+                                    "score": 1.0,
+                                    "content": "reconstructing interactive 3D scenes from multimodal data. Defined the technical",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                171,
+                                589,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        171,
+                                        589,
+                                        183
+                                    ],
+                                    "score": 1.0,
+                                    "content": "roadmap, selected and fine-tuned model architectures, and oversaw integration",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 48
+                        },
+                        {
+                            "bbox": [
+                                263,
+                                183,
+                                531,
+                                196
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        183,
+                                        531,
+                                        196
+                                    ],
+                                    "score": 1.0,
+                                    "content": "into scalable product pipelines for immersive spatial applications.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 46
+                        }
+                    ],
+                    "index": 47,
+                    "bbox_fs": [
+                        263,
+                        134,
+                        595,
+                        196
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        277,
+                        207,
+                        389,
+                        218
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                276,
+                                205,
+                                390,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        205,
+                                        390,
+                                        219
+                                    ],
+                                    "score": 1.0,
+                                    "content": "VV4G Technologies Ltd.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 52
+                        }
+                    ],
+                    "index": 52
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        207,
+                        372,
+                        272,
+                        427
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                372,
+                                274,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        372,
+                                        274,
+                                        384
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2019.12—2020.1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 51
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                384,
+                                258,
+                                398
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        384,
+                                        258,
+                                        398
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Internship:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 54
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                399,
+                                271,
+                                414
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        399,
+                                        271,
+                                        414
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Deep learning",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 55
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                414,
+                                249,
+                                428
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        414,
+                                        249,
+                                        428
+                                    ],
+                                    "score": 1.0,
+                                    "content": "engineer",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 56
+                        }
+                    ],
+                    "index": 54.5,
+                    "bbox_fs": [
+                        207,
+                        372,
+                        274,
+                        428
+                    ]
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        274,
+                        220,
+                        607,
+                        280
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                276,
+                                218,
+                                407,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        218,
+                                        407,
+                                        231
+                                    ],
+                                    "score": 1.0,
+                                    "content": "AI-driven Otome Game start-up",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 53,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                276,
+                                230,
+                                389,
+                                244
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        230,
+                                        389,
+                                        244
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1 full-stack development：",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 57,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                276,
+                                243,
+                                607,
+                                255
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        243,
+                                        607,
+                                        255
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Use tRPC framework to develop(Next.js, TRPC, T3, Typescript, drizzle, Tailwind,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 58,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                275,
+                                255,
+                                544,
+                                268
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        275,
+                                        255,
+                                        544,
+                                        268
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Zod) use cursor to develop a chatbot system / sentiment analysis",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 59,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                275,
+                                267,
+                                494,
+                                280
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        275,
+                                        267,
+                                        494,
+                                        280
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2 get used to the fast pace environment in startup",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 60,
+                            "is_list_start_line": true
+                        }
+                    ],
+                    "index": 58,
+                    "bbox_fs": [
+                        275,
+                        218,
+                        607,
+                        280
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        287,
+                        287,
+                        419,
+                        299
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                287,
+                                420,
+                                299
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        287,
+                                        420,
+                                        299
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Yovole Network SHANGHAI",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 61
+                        }
+                    ],
+                    "index": 61
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        285,
+                        304,
+                        569,
+                        364
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                305,
+                                465,
+                                317
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        305,
+                                        465,
+                                        317
+                                    ],
+                                    "score": 1.0,
+                                    "content": "cloud computing, internet data center (IDC)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 62
+                        },
+                        {
+                            "bbox": [
+                                286,
+                                321,
+                                560,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        321,
+                                        560,
+                                        333
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1, cloud platform monitoring: configurated and maintained ELK",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 63
+                        },
+                        {
+                            "bbox": [
+                                285,
+                                336,
+                                504,
+                                349
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        336,
+                                        504,
+                                        349
+                                    ],
+                                    "score": 1.0,
+                                    "content": "framework and collected the user log to analyze data",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 64
+                        },
+                        {
+                            "bbox": [
+                                285,
+                                352,
+                                572,
+                                365
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        352,
+                                        572,
+                                        365
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2, maintain microservices platform: learned and used spring cloud",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 65
+                        }
+                    ],
+                    "index": 63.5,
+                    "bbox_fs": [
+                        285,
+                        305,
+                        572,
+                        365
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        291,
+                        369,
+                        370,
+                        380
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                291,
+                                368,
+                                370,
+                                381
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        291,
+                                        368,
+                                        370,
+                                        381
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Wavelet. SUZHOU",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 66
+                        }
+                    ],
+                    "index": 66
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        285,
+                        383,
+                        585,
+                        454
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                290,
+                                383,
+                                585,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        290,
+                                        383,
+                                        585,
+                                        396
+                                    ],
+                                    "score": 1.0,
+                                    "content": "start-up Collected EEG, EMG to develop product based on the designed",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 67
+                        },
+                        {
+                            "bbox": [
+                                286,
+                                398,
+                                366,
+                                411
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        398,
+                                        366,
+                                        411
+                                    ],
+                                    "score": 1.0,
+                                    "content": "chip and algorithm",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 68
+                        },
+                        {
+                            "bbox": [
+                                286,
+                                413,
+                                528,
+                                426
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        413,
+                                        528,
+                                        426
+                                    ],
+                                    "score": 1.0,
+                                    "content": "1，dynamic hand gestures translating algorithm design：",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 69
+                        },
+                        {
+                            "bbox": [
+                                291,
+                                428,
+                                564,
+                                440
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        291,
+                                        428,
+                                        564,
+                                        440
+                                    ],
+                                    "score": 1.0,
+                                    "content": "designed algorithm(like transformer)from the beginning of project.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 70
+                        },
+                        {
+                            "bbox": [
+                                285,
+                                442,
+                                564,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        442,
+                                        564,
+                                        455
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2, Gained experience in AI start-ups with a dynamic atmosphere.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 71
+                        }
+                    ],
+                    "index": 69,
+                    "bbox_fs": [
+                        285,
+                        383,
+                        585,
+                        455
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        245,
+                        457,
+                        375,
+                        471
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                245,
+                                455,
+                                376,
+                                474
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        245,
+                                        455,
+                                        376,
+                                        474
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Education background",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 72
+                        }
+                    ],
+                    "index": 72
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        223,
+                        485,
+                        528,
+                        499
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                219,
+                                482,
+                                528,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        482,
+                                        528,
+                                        502
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2020.8 – 2024.6 Bachelor of science University of Sydney",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 73
+                        }
+                    ],
+                    "index": 73
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        240,
+                        503,
+                        524,
+                        515
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                244,
+                                502,
+                                521,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        244,
+                                        502,
+                                        365,
+                                        516
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Major: Computer science",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        458,
+                                        502,
+                                        521,
+                                        515
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Minor: Math",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 74
+                        }
+                    ],
+                    "index": 74,
+                    "bbox_fs": [
+                        244,
+                        502,
+                        521,
+                        516
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        217,
+                        526,
+                        272,
+                        544
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                219,
+                                525,
+                                273,
+                                545
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        525,
+                                        237,
+                                        545
+                                    ],
+                                    "score": 0.992,
+                                    "content": "8",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        237,
+                                        526,
+                                        273,
+                                        543
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Skills",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 75
+                        }
+                    ],
+                    "index": 75
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        237,
+                        550,
+                        567,
+                        693
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                237,
+                                551,
+                                410,
+                                564
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        551,
+                                        410,
+                                        564
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Language: mandarin, English, German",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 76,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                566,
+                                396,
+                                580
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        566,
+                                        396,
+                                        580
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Coding Language: Python R java C",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 77,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                238,
+                                583,
+                                392,
+                                596
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        238,
+                                        583,
+                                        392,
+                                        596
+                                    ],
+                                    "score": 1.0,
+                                    "content": "technology stack: fullstack in Trpc",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 78,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                599,
+                                543,
+                                613
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        599,
+                                        543,
+                                        613
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Knowledge: Comprehensive understanding of multifaceted science,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 79,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                615,
+                                490,
+                                629
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        615,
+                                        490,
+                                        629
+                                    ],
+                                    "score": 1.0,
+                                    "content": "technology, modern art, literature movies and business.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 80,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                631,
+                                567,
+                                645
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        631,
+                                        567,
+                                        645
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Advantages: Motivated to apply novel strategies like AI in manufacturing",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 81,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                648,
+                                271,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        648,
+                                        271,
+                                        660
+                                    ],
+                                    "score": 1.0,
+                                    "content": "plants.",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 82,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                237,
+                                662,
+                                482,
+                                678
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        237,
+                                        662,
+                                        482,
+                                        678
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Experience: promotion experience in trading business",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 83,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                238,
+                                680,
+                                504,
+                                693
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        238,
+                                        680,
+                                        504,
+                                        693
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Certificates: Goethe language course proof in German B1.1",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 84,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 80,
+                    "bbox_fs": [
+                        237,
+                        551,
+                        567,
+                        693
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        263,
+                        702,
+                        371,
+                        716
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                263,
+                                700,
+                                372,
+                                719
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        700,
+                                        372,
+                                        719
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Project experience",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 85
+                        }
+                    ],
+                    "index": 85
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        240,
+                        729,
+                        529,
+                        772
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                240,
+                                729,
+                                528,
+                                744
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        240,
+                                        729,
+                                        528,
+                                        744
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2020.12-2021.2 dynamic hand gesture translating using EMG",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 86
+                        },
+                        {
+                            "bbox": [
+                                240,
+                                744,
+                                501,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        240,
+                                        744,
+                                        501,
+                                        758
+                                    ],
+                                    "score": 1.0,
+                                    "content": "2022.3 -2022.6 build database and trading system in c",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 87
+                        },
+                        {
+                            "bbox": [
+                                322,
+                                759,
+                                441,
+                                772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        759,
+                                        441,
+                                        772
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Multi process project in c",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 88
+                        }
+                    ],
+                    "index": 87,
+                    "bbox_fs": [
+                        240,
+                        729,
+                        528,
+                        772
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.1.11"
+}
